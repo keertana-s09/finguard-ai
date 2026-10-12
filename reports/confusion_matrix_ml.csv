@@ -1,0 +1,10 @@
+,Bills,Education,Entertainment,Food,Healthcare,Other,Rent,Shopping,Transport
+Bills,137,1,38,6,0,7,0,0,14
+Education,0,29,0,5,0,1,4,0,0
+Entertainment,0,0,76,65,0,6,0,0,34
+Food,33,0,0,789,0,62,0,63,14
+Healthcare,18,0,4,18,47,0,0,0,0
+Other,0,0,0,51,0,123,0,0,7
+Rent,0,0,0,0,0,0,57,0,0
+Shopping,0,0,3,58,21,6,0,88,3
+Transport,0,0,0,76,0,0,0,0,479

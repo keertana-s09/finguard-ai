@@ -1,0 +1,26 @@
+Transaction ID,Date,Description,Amount,Type,Category
+S001,2026-07-01,Monthly Salary,42000,Income,Salary
+S002,2026-07-02,House Rent July,12000,Expense,Rent
+S003,03/07/2026,Swiggy Order,₹350,Expense,
+S004,2026-07-04,Uber Ride,220,Debit,
+S005,2026-07-05,Amazon Shopping,"2,100",Expense,
+S006,2026-07-07,Airtel Postpaid bill payment,799,Expense,
+S007,2026-07-09,Apollo Pharmacy medicines,460,Expense,
+S008,2026-07-11,BookMyShow movie tickets,640,Expense,
+S009,2026-07-12,Zomato Order,410,Expense,
+S009,2026-07-12,Zomato Order,410,Expense,
+S010,2026-07-14,Coursera course fee,3200,Expense,
+S011,not a date,Ola cab,180,Expense,
+S012,2026-07-16,Blinkit groceries,abc,Expense,
+S013,2026-07-18,Indian Oil fuel,1500,Expense,
+S014,2026-07-20,Netflix subscription,649,Expense,
+S015,2026-07-22,UPI-DMART-552311@ybl,1830,Expense,
+S016,2026-07-25,Myntra apparel order,1899,Expense,
+S017,2026-07-28,BESCOM Electricity bill,1240,Expense,
+S018,2026-08-01,Monthly Salary,42000,Credit,
+S019,2026-08-02,House Rent August,12000,Expense,Rent
+S020,2026-08-05,Rapido ride,95,Expense,
+S021,2026-08-08,Dominos order,520,Expense,
+S022,2026-08-12,Croma electronics purchase,16999,Expense,
+S023,2026-08-15,Practo consultation,500,Expense,
+S024,2026-08-20,Spotify subscription,119,Expense,

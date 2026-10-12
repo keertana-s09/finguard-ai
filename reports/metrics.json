@@ -1,0 +1,390 @@
+{
+  "data": "SYNTHETIC",
+  "classification": {
+    "train_rows": 7196,
+    "test_rows": 2443,
+    "unseen_test_merchants": 38,
+    "ml": {
+      "accuracy": 0.747,
+      "macro_f1": 0.7146
+    },
+    "keyword_baseline": {
+      "accuracy": 0.659,
+      "macro_f1": 0.6884
+    },
+    "per_class": {
+      "Bills": {
+        "precision": 0.729,
+        "recall": 0.675,
+        "f1-score": 0.701,
+        "support": 203.0
+      },
+      "Education": {
+        "precision": 0.967,
+        "recall": 0.744,
+        "f1-score": 0.841,
+        "support": 39.0
+      },
+      "Entertainment": {
+        "precision": 0.628,
+        "recall": 0.42,
+        "f1-score": 0.503,
+        "support": 181.0
+      },
+      "Food": {
+        "precision": 0.739,
+        "recall": 0.821,
+        "f1-score": 0.778,
+        "support": 961.0
+      },
+      "Healthcare": {
+        "precision": 0.691,
+        "recall": 0.54,
+        "f1-score": 0.606,
+        "support": 87.0
+      },
+      "Other": {
+        "precision": 0.6,
+        "recall": 0.68,
+        "f1-score": 0.637,
+        "support": 181.0
+      },
+      "Rent": {
+        "precision": 0.934,
+        "recall": 1.0,
+        "f1-score": 0.966,
+        "support": 57.0
+      },
+      "Shopping": {
+        "precision": 0.583,
+        "recall": 0.492,
+        "f1-score": 0.533,
+        "support": 179.0
+      },
+      "Transport": {
+        "precision": 0.869,
+        "recall": 0.863,
+        "f1-score": 0.866,
+        "support": 555.0
+      }
+    },
+    "review_threshold": 0.6,
+    "share_flagged_for_review": 0.4748,
+    "accuracy_confident": 0.9525,
+    "accuracy_flagged": 0.5198,
+    "confusion_matrix": {
+      "Bills": {
+        "Bills": 137,
+        "Education": 0,
+        "Entertainment": 0,
+        "Food": 33,
+        "Healthcare": 18,
+        "Other": 0,
+        "Rent": 0,
+        "Shopping": 0,
+        "Transport": 0
+      },
+      "Education": {
+        "Bills": 1,
+        "Education": 29,
+        "Entertainment": 0,
+        "Food": 0,
+        "Healthcare": 0,
+        "Other": 0,
+        "Rent": 0,
+        "Shopping": 0,
+        "Transport": 0
+      },
+      "Entertainment": {
+        "Bills": 38,
+        "Education": 0,
+        "Entertainment": 76,
+        "Food": 0,
+        "Healthcare": 4,
+        "Other": 0,
+        "Rent": 0,
+        "Shopping": 3,
+        "Transport": 0
+      },
+      "Food": {
+        "Bills": 6,
+        "Education": 5,
+        "Entertainment": 65,
+        "Food": 789,
+        "Healthcare": 18,
+        "Other": 51,
+        "Rent": 0,
+        "Shopping": 58,
+        "Transport": 76
+      },
+      "Healthcare": {
+        "Bills": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Food": 0,
+        "Healthcare": 47,
+        "Other": 0,
+        "Rent": 0,
+        "Shopping": 21,
+        "Transport": 0
+      },
+      "Other": {
+        "Bills": 7,
+        "Education": 1,
+        "Entertainment": 6,
+        "Food": 62,
+        "Healthcare": 0,
+        "Other": 123,
+        "Rent": 0,
+        "Shopping": 6,
+        "Transport": 0
+      },
+      "Rent": {
+        "Bills": 0,
+        "Education": 4,
+        "Entertainment": 0,
+        "Food": 0,
+        "Healthcare": 0,
+        "Other": 0,
+        "Rent": 57,
+        "Shopping": 0,
+        "Transport": 0
+      },
+      "Shopping": {
+        "Bills": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Food": 63,
+        "Healthcare": 0,
+        "Other": 0,
+        "Rent": 0,
+        "Shopping": 88,
+        "Transport": 0
+      },
+      "Transport": {
+        "Bills": 14,
+        "Education": 0,
+        "Entertainment": 34,
+        "Food": 14,
+        "Healthcare": 0,
+        "Other": 7,
+        "Rent": 0,
+        "Shopping": 3,
+        "Transport": 479
+      }
+    }
+  },
+  "anomaly": {
+    "contamination_selected_on_validation": 0.01,
+    "validation_search": [
+      {
+        "contamination": 0.005,
+        "val_f1": 0.48
+      },
+      {
+        "contamination": 0.01,
+        "val_f1": 0.5517
+      },
+      {
+        "contamination": 0.02,
+        "val_f1": 0.4762
+      },
+      {
+        "contamination": 0.03,
+        "val_f1": 0.4068
+      },
+      {
+        "contamination": 0.05,
+        "val_f1": 0.2979
+      }
+    ],
+    "test_rows": 3267,
+    "test_true_anomalies": 41,
+    "isolation_forest": {
+      "precision": 0.8125,
+      "recall": 0.6341,
+      "f1": 0.7123,
+      "flagged": 32
+    },
+    "rule_baseline_3x_typical": {
+      "precision": 0.2963,
+      "recall": 0.9756,
+      "f1": 0.4545,
+      "flagged": 135
+    },
+    "top_test_examples": [
+      {
+        "date": "2026-01-20",
+        "description": "UPI-H&M-136085@ybl",
+        "category": "Shopping",
+        "amount": 22124.0,
+        "typical_amount": 1211.5,
+        "anomaly_score": 0.0876,
+        "label": 1,
+        "anomaly_explanation": "Your \u20b922,124 shopping transaction is 18.3x the typical amount (\u20b91,212, median of your previous shopping transactions)."
+      },
+      {
+        "date": "2025-11-10",
+        "description": "Service - UPI Transfer Ramesh",
+        "category": "Other",
+        "amount": 8877.0,
+        "typical_amount": 740.5,
+        "anomaly_score": 0.0732,
+        "label": 1,
+        "anomaly_explanation": "Your \u20b98,877 other transaction is 12.0x the typical amount (\u20b9740, median of your previous other transactions)."
+      },
+      {
+        "date": "2026-02-03",
+        "description": "Lenskart",
+        "category": "Shopping",
+        "amount": 16936.0,
+        "typical_amount": 1482.5,
+        "anomaly_score": 0.0694,
+        "label": 1,
+        "anomaly_explanation": "Your \u20b916,936 shopping transaction is 11.4x the typical amount (\u20b91,482, median of your previous shopping transactions)."
+      },
+      {
+        "date": "2026-09-17",
+        "description": "Lic Premium Autopay",
+        "category": "Bills",
+        "amount": 16823.0,
+        "typical_amount": 1357.5,
+        "anomaly_score": 0.0681,
+        "label": 1,
+        "anomaly_explanation": "Your \u20b916,823 bills transaction is 12.4x the typical amount (\u20b91,358, median of your previous bills transactions)."
+      },
+      {
+        "date": "2025-12-16",
+        "description": "Vi Recharge Autopay",
+        "category": "Bills",
+        "amount": 11638.0,
+        "typical_amount": 901.5,
+        "anomaly_score": 0.0673,
+        "label": 1,
+        "anomaly_explanation": "Your \u20b911,638 bills transaction is 12.9x the typical amount (\u20b9902, median of your previous bills transactions)."
+      }
+    ],
+    "isolation_forest_with_category_onehot": {
+      "precision": 0.6154,
+      "recall": 0.3902,
+      "f1": 0.4776,
+      "flagged": 26
+    }
+  },
+  "forecast": {
+    "target": "regular monthly spending (one-off anomalies excluded)",
+    "train_points": 126,
+    "test_points": 72,
+    "test_period": "2025-10 .. 2026-09",
+    "mean_actual": 50767.62,
+    "ridge": {
+      "MAE": 6538.98,
+      "MAPE_percent": 13.32
+    },
+    "historical_mean_baseline": {
+      "MAE": 6573.71,
+      "MAPE_percent": 13.33
+    },
+    "moving_average_3_baseline": {
+      "MAE": 6810.26,
+      "MAPE_percent": 14.14
+    }
+  },
+  "agent": {
+    "cases": 500,
+    "status_distribution": {
+      "ON_TRACK": 207,
+      "ACHIEVABLE_WITH_CUTS": 99,
+      "INFEASIBLE": 194
+    },
+    "checks_passed": {
+      "feasibility_correct": "500/500",
+      "goal_met_when_feasible": "500/500",
+      "essentials_untouched": "500/500",
+      "caps_respected": "500/500",
+      "no_cuts_when_on_track": "500/500",
+      "correct_alert_action": "500/500",
+      "proposal_saved": "500/500"
+    },
+    "all_passed": true
+  },
+  "demo_scenarios": {
+    "normal": {
+      "title": "1. Normal spending behaviour",
+      "forecast": 41244.99,
+      "method": "ml_ridge",
+      "income": 56126.67,
+      "limit": 46126.67,
+      "status": "ON_TRACK",
+      "unusual_high_value": 0,
+      "cuts": {},
+      "actions": [
+        "CREATE_RECOMMENDATION:ON_TRACK",
+        "SAVE_BUDGET_PROPOSAL:2026-10"
+      ]
+    },
+    "anomaly": {
+      "title": "2. Unusual high-value transactions",
+      "forecast": 41244.99,
+      "method": "ml_ridge",
+      "income": 56126.67,
+      "limit": 46126.67,
+      "status": "ON_TRACK",
+      "unusual_high_value": 2,
+      "cuts": {},
+      "actions": [
+        "CREATE_ALERT:CURRENT_MONTH_OVER_BUDGET",
+        "CREATE_ALERT:UNUSUAL_TRANSACTION",
+        "CREATE_RECOMMENDATION:ON_TRACK",
+        "FLAG_TRANSACTION:511",
+        "FLAG_TRANSACTION:520",
+        "SAVE_BUDGET_PROPOSAL:2026-10"
+      ]
+    },
+    "overspending": {
+      "title": "3. Overspending with an achievable goal",
+      "forecast": 23926.9,
+      "method": "ml_ridge",
+      "income": 30000.0,
+      "limit": 23000.0,
+      "status": "ACHIEVABLE_WITH_CUTS",
+      "unusual_high_value": 2,
+      "cuts": {
+        "Shopping": 926.9
+      },
+      "actions": [
+        "CREATE_ALERT:CURRENT_MONTH_OVER_BUDGET",
+        "CREATE_ALERT:FORECAST_OVERSPEND",
+        "CREATE_RECOMMENDATION:REDUCE",
+        "FLAG_TRANSACTION:606",
+        "FLAG_TRANSACTION:710",
+        "SAVE_BUDGET_PROPOSAL:2026-10"
+      ]
+    },
+    "infeasible": {
+      "title": "4. Same user, unrealistic goal",
+      "forecast": 23926.9,
+      "method": "ml_ridge",
+      "income": 30000.0,
+      "limit": 15000.0,
+      "status": "INFEASIBLE",
+      "unusual_high_value": 2,
+      "cuts": {
+        "Shopping": 2610.87,
+        "Entertainment": 498.23,
+        "Other": 555.89,
+        "Food": 1430.34,
+        "Transport": 220.84
+      },
+      "actions": [
+        "CREATE_ALERT:CURRENT_MONTH_OVER_BUDGET",
+        "CREATE_ALERT:GOAL_INFEASIBLE",
+        "CREATE_RECOMMENDATION:REALISTIC_GOAL",
+        "CREATE_RECOMMENDATION:REDUCE",
+        "FLAG_TRANSACTION:881",
+        "FLAG_TRANSACTION:985",
+        "SAVE_BUDGET_PROPOSAL:2026-10"
+      ]
+    }
+  }
+}

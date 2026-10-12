@@ -1,0 +1,2444 @@
+txn_id,description,category,merchant
+T000002,LIC Premium,Bills,LIC Premium
+T000003,Smaaash Membership,Entertainment,Smaaash
+T000004,Shell Fuel,Transport,Shell Fuel
+T000006,Zee5 Games,Entertainment,Zee5
+T000008,Shell Fuel trip #206986,Transport,Shell Fuel
+T000014,Store - Reliance Digital,Shopping,Reliance Digital
+T000017,Coursera,Education,Coursera
+T000026,ECOM Blue Dart Courier service #953971,Other,Blue Dart Courier
+T000028,ECOM Air India ticket #541635,Transport,Air India
+T000037,UPI-ZOMATO-970757@ybl,Food,Zomato
+T000041,POS Jio Recharge bill payment #843357,Bills,Jio Recharge
+T000046,Lenskart,Shopping,Lenskart
+T000058,Food Delivery - Kirana Store,Food,Kirana Store
+T000063,POS LIC PREMIUM DELHI,Bills,LIC Premium
+T000077,UPI-MAKEMYTRIPFLIGHTS-238099@ybl,Transport,MakeMyTrip Flights
+T000082,ECOM Kirana Store meal #400273,Food,Kirana Store
+T000089,POS PANTALOONS HYDERABAD,Shopping,Pantaloons
+T000092,Fastag Cab,Transport,FASTag
+T000096,Urban Company,Other,Urban Company
+T000101,Order - Pantaloons,Shopping,Pantaloons
+T000104,UPI-SHELLFUEL-922343@ybl,Transport,Shell Fuel
+T000106,Meal - Kirana Store,Food,Kirana Store
+T000107,Cafe - Nature's Basket,Food,Nature's Basket
+T000108,Dry Cleaning,Other,Dry Cleaning
+T000112,Zomato,Food,Zomato
+T000113,Nature's Basket,Food,Nature's Basket
+T000116,NEFT-LIC Premium autopay #938140,Bills,LIC Premium
+T000118,Zomato Order,Food,Zomato
+T000122,POS MAKEMYTRIP FLIGHTS HYDERABAD,Transport,MakeMyTrip Flights
+T000126,POS MAKEMYTRIP FLIGHTS BANGALORE,Transport,MakeMyTrip Flights
+T000127,IMPS/A2B Restaurant food delivery #400016,Food,A2B Restaurant
+T000128,Subway,Food,Subway
+T000131,NEFT-A2B Restaurant food delivery #272221,Food,A2B Restaurant
+T000136,UPI-A2B Restaurant groceries #631287,Food,A2B Restaurant
+T000143,UPI-A2BRESTAURANT-954940@ybl,Food,A2B Restaurant
+T000144,UPI-KIRANASTORE-266661@ybl,Food,Kirana Store
+T000154,POS Jio Recharge monthly bill #687497,Bills,Jio Recharge
+T000162,ECOM Zee5 games #915490,Entertainment,Zee5
+T000165,Bill Payment - ACT Fibernet,Bills,ACT Fibernet
+T000167,A2B Restaurant Cafe,Food,A2B Restaurant
+T000168,UPI-NATURE'SBASKET-598974@ybl,Food,Nature's Basket
+T000170,Travel - Air India,Transport,Air India
+T000176,POS TATA 1MG BANGALORE,Healthcare,Tata 1mg
+T000179,Course Fee - BYJUS,Education,BYJUS
+T000183,NEFT-Shell Fuel booking #887595,Transport,Shell Fuel
+T000187,Zomato,Food,Zomato
+T000193,Sonyliv Movie Tickets,Entertainment,SonyLIV
+T000201,Zepto,Food,Zepto
+T000211,UPI-ZEPTO-123919@ybl,Food,Zepto
+T000212,Rent - Landlord Rent,Rent,Landlord Rent
+T000215,Utility - Jio Recharge,Bills,Jio Recharge
+T000216,Bookmyshow Movie Tickets,Entertainment,BookMyShow
+T000221,MakeMyTrip Flights ticket #626276,Transport,MakeMyTrip Flights
+T000226,Blue Dart Courier Transfer,Other,Blue Dart Courier
+T000229,Exam Registration certification #299090,Education,Exam Registration
+T000235,POS Lenskart online shopping #467802,Shopping,Lenskart
+T000239,Nature'S Basket Meal,Food,Nature's Basket
+T000240,Act Fibernet Utility,Bills,ACT Fibernet
+T000242,Cafe - Kirana Store,Food,Kirana Store
+T000244,UPI-PGRENT-517444@ybl,Rent,PG Rent
+T000251,NEFT-Lenskart apparel #341276,Shopping,Lenskart
+T000257,Food Delivery - Nature's Basket,Food,Nature's Basket
+T000259,Air India Ticket,Transport,Air India
+T000265,UPI-SUBWAY-962835@ybl,Food,Subway
+T000268,POS SONYLIV CHENNAI,Entertainment,SonyLIV
+T000271,Fastag Ticket,Transport,FASTag
+T000272,POS LIFESTYLE BANGALORE,Shopping,Lifestyle
+T000273,UPI-NATURE'SBASKET-589145@ybl,Food,Nature's Basket
+T000278,UPI-NATURE'SBASKET-264527@ybl,Food,Nature's Basket
+T000281,Smaaash,Entertainment,Smaaash
+T000282,UPI-SMAAASH-994669@ybl,Entertainment,Smaaash
+T000283,Zomato,Food,Zomato
+T000294,POS ZOMATO KOLKATA,Food,Zomato
+T000295,Food Delivery - A2B Restaurant,Food,A2B Restaurant
+T000308,Order - Kirana Store,Food,Kirana Store
+T000309,UPI-KIRANASTORE-964562@ybl,Food,Kirana Store
+T000312,Nature's Basket,Food,Nature's Basket
+T000315,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T000316,Bill Payment - Jio Recharge,Bills,Jio Recharge
+T000317,Order - Lifestyle,Shopping,Lifestyle
+T000322,ACT Fibernet,Bills,ACT Fibernet
+T000325,UPI-LICPREMIUM-481668@ybl,Bills,LIC Premium
+T000332,Membership - Zee5,Entertainment,Zee5
+T000337,A2B Restaurant,Food,A2B Restaurant
+T000338,UPI-SUBWAY-734113@ybl,Food,Subway
+T000342,UPI-MAKEMYTRIPFLIGHTS-295224@ybl,Transport,MakeMyTrip Flights
+T000344,UPI-ZEPTO-649301@ybl,Food,Zepto
+T000348,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T000358,Kirana Store Food Delivery,Food,Kirana Store
+T000363,POS AJIO DELHI,Shopping,Ajio
+T000367,UPI-LIFESTYLE-767104@ybl,Shopping,Lifestyle
+T000368,Temple Donation Payment,Other,Temple Donation
+T000372,UPI-Subway dine in #652946,Food,Subway
+T000373,POS RELIANCE DIGITAL HYDERABAD,Shopping,Reliance Digital
+T000378,Vogo Booking,Transport,Vogo
+T000388,POS SHELL FUEL BANGALORE,Transport,Shell Fuel
+T000403,Zomato order #512538,Food,Zomato
+T000407,Zepto,Food,Zepto
+T000416,ECOM Zomato order #655082,Food,Zomato
+T000422,Bookmyshow Membership,Entertainment,BookMyShow
+T000425,Cafe - Zepto,Food,Zepto
+T000428,POS A2B RESTAURANT PUNE,Food,A2B Restaurant
+T000429,Zepto,Food,Zepto
+T000434,UPI-ZOMATO-691599@ybl,Food,Zomato
+T000436,Nature'S Basket Meal,Food,Nature's Basket
+T000440,UPI-SMAAASH-770121@ybl,Entertainment,Smaaash
+T000448,Lenskart Purchase,Shopping,Lenskart
+T000449,Smaaash Membership,Entertainment,Smaaash
+T000455,Zee5 games #624563,Entertainment,Zee5
+T000457,Act Fibernet Monthly Bill,Bills,ACT Fibernet
+T000462,Restaurant - Nature's Basket,Food,Nature's Basket
+T000467,POS NATURE'S BASKET PUNE,Food,Nature's Basket
+T000474,Cab - Air India,Transport,Air India
+T000486,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T000488,Air India Fuel,Transport,Air India
+T000494,POS SUBWAY KOLKATA,Food,Subway
+T000501,Bill Payment - BESCOM Electricity,Bills,BESCOM Electricity
+T000506,POS AIR INDIA BANGALORE,Transport,Air India
+T000516,POS SUBWAY HYDERABAD,Food,Subway
+T000524,Kirana Store Dine In,Food,Kirana Store
+T000533,Pg Rent Monthly Rent,Rent,PG Rent
+T000542,Food Delivery - Zomato,Food,Zomato
+T000543,Nature'S Basket Food Delivery,Food,Nature's Basket
+T000556,Shell Fuel,Transport,Shell Fuel
+T000561,UPI-ZEPTO-796975@ybl,Food,Zepto
+T000563,Shell Fuel,Transport,Shell Fuel
+T000564,UPI-TATA1MG-314174@ybl,Healthcare,Tata 1mg
+T000567,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T000568,Fastag Ticket,Transport,FASTag
+T000569,UPI-KIRANASTORE-655611@ybl,Food,Kirana Store
+T000574,UPI-ZEE5-256793@ybl,Entertainment,Zee5
+T000578,UPI-Jio Recharge monthly bill #163442,Bills,Jio Recharge
+T000584,NEFT-Dry Cleaning misc #368355,Other,Dry Cleaning
+T000588,FASTag,Transport,FASTag
+T000591,POS SUBWAY CHENNAI,Food,Subway
+T000598,UPI-URBANCOMPANY-711199@ybl,Other,Urban Company
+T000602,POS LIC PREMIUM BANGALORE,Bills,LIC Premium
+T000603,FASTag,Transport,FASTag
+T000609,POS SonyLIV streaming #287780,Entertainment,SonyLIV
+T000611,Shell Fuel Trip,Transport,Shell Fuel
+T000612,Shell Fuel Travel,Transport,Shell Fuel
+T000620,Vogo,Transport,Vogo
+T000622,POS AIR INDIA BANGALORE,Transport,Air India
+T000629,Blue Dart Courier Transfer,Other,Blue Dart Courier
+T000630,Monthly Bill - Jio Recharge,Bills,Jio Recharge
+T000633,POS URBAN COMPANY MUMBAI,Other,Urban Company
+T000641,POS ZOMATO KOLKATA,Food,Zomato
+T000649,Air India Trip,Transport,Air India
+T000650,NEFT-Blue Dart Courier payment #230140,Other,Blue Dart Courier
+T000653,Subway Meal,Food,Subway
+T000663,A2B Restaurant food delivery #358151,Food,A2B Restaurant
+T000666,A2B Restaurant Cafe,Food,A2B Restaurant
+T000670,Bill Payment - Jio Recharge,Bills,Jio Recharge
+T000674,UPI-SONYLIV-379002@ybl,Entertainment,SonyLIV
+T000686,UPI-LANDLORDRENT-954641@ybl,Rent,Landlord Rent
+T000699,Dry Cleaning,Other,Dry Cleaning
+T000703,ECOM Zomato food delivery #260032,Food,Zomato
+T000705,UPI-MakeMyTrip Flights cab #172612,Transport,MakeMyTrip Flights
+T000708,UPI-SUBWAY-818483@ybl,Food,Subway
+T000717,A2B Restaurant,Food,A2B Restaurant
+T000718,POS ZOMATO BANGALORE,Food,Zomato
+T000731,Temple Donation,Other,Temple Donation
+T000733,Dine In - Zepto,Food,Zepto
+T000734,Zee5,Entertainment,Zee5
+T000739,Shell Fuel,Transport,Shell Fuel
+T000742,POS MAKEMYTRIP FLIGHTS BANGALORE,Transport,MakeMyTrip Flights
+T000743,Smaaash Movie Tickets,Entertainment,Smaaash
+T000744,Subway Order,Food,Subway
+T000747,NEFT-Kirana Store cafe #185934,Food,Kirana Store
+T000754,Shell Fuel Cab,Transport,Shell Fuel
+T000758,Reliance Digital,Shopping,Reliance Digital
+T000762,POS DRY CLEANING KOLKATA,Other,Dry Cleaning
+T000764,UPI-LANDLORDRENT-688180@ybl,Rent,Landlord Rent
+T000765,Zepto Food Delivery,Food,Zepto
+T000766,IMPS/LIC Premium recharge #190068,Bills,LIC Premium
+T000767,Practo Lab Test,Healthcare,Practo
+T000769,Electronics - Ajio,Shopping,Ajio
+T000770,UPI-SUBWAY-286232@ybl,Food,Subway
+T000775,POS LENSKART PUNE,Shopping,Lenskart
+T000777,Restaurant - A2B Restaurant,Food,A2B Restaurant
+T000785,Act Fibernet Recharge,Bills,ACT Fibernet
+T000786,POS AIR INDIA KOLKATA,Transport,Air India
+T000791,POS AIR INDIA PUNE,Transport,Air India
+T000800,Booking - Vogo,Transport,Vogo
+T000801,Subway groceries #127420,Food,Subway
+T000802,Membership - Smaaash,Entertainment,Smaaash
+T000803,Groceries - Subway,Food,Subway
+T000806,POS A2B Restaurant meal #656265,Food,A2B Restaurant
+T000816,UPI-BESCOMELECTRICITY-135062@ybl,Bills,BESCOM Electricity
+T000819,UPI-SHELLFUEL-921462@ybl,Transport,Shell Fuel
+T000821,NEFT-Kirana Store dine in #675632,Food,Kirana Store
+T000836,POS BOOKMYSHOW HYDERABAD,Entertainment,BookMyShow
+T000837,UPI-MAKEMYTRIPFLIGHTS-365711@ybl,Transport,MakeMyTrip Flights
+T000852,POS ZOMATO DELHI,Food,Zomato
+T000853,UPI-BOOKMYSHOW-490077@ybl,Entertainment,BookMyShow
+T000855,Dine In - Nature's Basket,Food,Nature's Basket
+T000862,Dry Cleaning,Other,Dry Cleaning
+T000864,Subway,Food,Subway
+T000874,Pg Rent Monthly Rent,Rent,PG Rent
+T000877,UPI-AIRINDIA-541166@ybl,Transport,Air India
+T000879,POS A2B Restaurant restaurant #984647,Food,A2B Restaurant
+T000881,ECOM FASTag ticket #271086,Transport,FASTag
+T000884,UPI-FASTAG-389895@ybl,Transport,FASTag
+T000886,A2B Restaurant Cafe,Food,A2B Restaurant
+T000888,POS A2B RESTAURANT MUMBAI,Food,A2B Restaurant
+T000895,POS SAPNA BOOK HOUSE DELHI,Education,Sapna Book House
+T000899,UPI-BOOKMYSHOW-650934@ybl,Entertainment,BookMyShow
+T000900,Lic Premium Bill Payment,Bills,LIC Premium
+T000901,Service - Blue Dart Courier,Other,Blue Dart Courier
+T000903,ECOM Zepto dine in #830692,Food,Zepto
+T000905,Air India Ticket,Transport,Air India
+T000912,UPI-SUBWAY-819337@ybl,Food,Subway
+T000914,Shell Fuel,Transport,Shell Fuel
+T000922,POS MAKEMYTRIP FLIGHTS DELHI,Transport,MakeMyTrip Flights
+T000932,UPI-Zomato dine in #919886,Food,Zomato
+T000939,POS ZEPTO DELHI,Food,Zepto
+T000942,POS PANTALOONS MUMBAI,Shopping,Pantaloons
+T000947,Groceries - Nature's Basket,Food,Nature's Basket
+T000954,UPI-SUBWAY-719052@ybl,Food,Subway
+T000956,Kirana Store,Food,Kirana Store
+T000961,UPI-SUBWAY-283769@ybl,Food,Subway
+T000962,Fuel - Vogo,Transport,Vogo
+T000963,Movie Tickets - BookMyShow,Entertainment,BookMyShow
+T000964,POS ZOMATO DELHI,Food,Zomato
+T000965,A2B Restaurant,Food,A2B Restaurant
+T000969,Trip - FASTag,Transport,FASTag
+T000970,POS AJIO MUMBAI,Shopping,Ajio
+T000972,ACT Fibernet recharge #507956,Bills,ACT Fibernet
+T000978,Kirana Store Restaurant,Food,Kirana Store
+T000999,MakeMyTrip Flights fuel #787047,Transport,MakeMyTrip Flights
+T001004,Zepto,Food,Zepto
+T001008,Kirana Store Dine In,Food,Kirana Store
+T001009,ECOM Lenskart online shopping #240311,Shopping,Lenskart
+T001010,Kirana Store Meal,Food,Kirana Store
+T001015,Apparel - Reliance Digital,Shopping,Reliance Digital
+T001022,IMPS/Air India ticket #913475,Transport,Air India
+T001028,POS SMAAASH MUMBAI,Entertainment,Smaaash
+T001030,Landlord Rent Monthly Rent,Rent,Landlord Rent
+T001033,Zepto,Food,Zepto
+T001045,Order - Zomato,Food,Zomato
+T001048,ECOM SonyLIV streaming #219633,Entertainment,SonyLIV
+T001051,Zepto,Food,Zepto
+T001052,Trip - Shell Fuel,Transport,Shell Fuel
+T001054,ECOM Pantaloons online shopping #581900,Shopping,Pantaloons
+T001059,POS TEMPLE DONATION MUMBAI,Other,Temple Donation
+T001065,Games - Smaaash,Entertainment,Smaaash
+T001070,Zomato,Food,Zomato
+T001071,POS ZEPTO MUMBAI,Food,Zepto
+T001080,A2B Restaurant Groceries,Food,A2B Restaurant
+T001082,UPI-ZEPTO-806371@ybl,Food,Zepto
+T001091,Zomato,Food,Zomato
+T001093,POS KIRANA STORE BANGALORE,Food,Kirana Store
+T001096,Tata 1mg,Healthcare,Tata 1mg
+T001098,Zomato Order,Food,Zomato
+T001099,Vogo,Transport,Vogo
+T001106,Ticket - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T001107,Cafe - Subway,Food,Subway
+T001110,UPI-NATURE'SBASKET-846451@ybl,Food,Nature's Basket
+T001115,POS A2B RESTAURANT KOLKATA,Food,A2B Restaurant
+T001117,POS FASTAG BANGALORE,Transport,FASTag
+T001121,Sapna Book House,Education,Sapna Book House
+T001124,Fuel - Air India,Transport,Air India
+T001128,UPI-ZEPTO-222591@ybl,Food,Zepto
+T001132,Smaaash,Entertainment,Smaaash
+T001141,Dine In - Kirana Store,Food,Kirana Store
+T001145,IMPS/Air India booking #103892,Transport,Air India
+T001147,BESCOM Electricity bill payment #284056,Bills,BESCOM Electricity
+T001148,Byjus Books,Education,BYJUS
+T001151,UPI-TEMPLEDONATION-802972@ybl,Other,Temple Donation
+T001158,POS SUBWAY DELHI,Food,Subway
+T001160,UPI-AIRINDIA-412904@ybl,Transport,Air India
+T001166,POS NATURE'S BASKET BANGALORE,Food,Nature's Basket
+T001168,POS BLUE DART COURIER BANGALORE,Other,Blue Dart Courier
+T001169,UPI-FASTAG-856517@ybl,Transport,FASTag
+T001180,IMPS/Shell Fuel ticket #591023,Transport,Shell Fuel
+T001181,Zee5 Streaming,Entertainment,Zee5
+T001186,UPI-ZOMATO-686245@ybl,Food,Zomato
+T001198,POS KIRANA STORE CHENNAI,Food,Kirana Store
+T001199,UPI-JIORECHARGE-676758@ybl,Bills,Jio Recharge
+T001202,POS THYROCARE MUMBAI,Healthcare,Thyrocare
+T001206,Ride - FASTag,Transport,FASTag
+T001213,Vogo,Transport,Vogo
+T001214,Bookmyshow Subscription,Entertainment,BookMyShow
+T001216,POS MAKEMYTRIP FLIGHTS PUNE,Transport,MakeMyTrip Flights
+T001217,Food Delivery - Zomato,Food,Zomato
+T001224,IMPS/Kirana Store meal #340348,Food,Kirana Store
+T001225,ECOM A2B Restaurant meal #929302,Food,A2B Restaurant
+T001230,POS ZOMATO HYDERABAD,Food,Zomato
+T001232,Air India,Transport,Air India
+T001233,Vogo,Transport,Vogo
+T001237,MakeMyTrip Flights booking #838639,Transport,MakeMyTrip Flights
+T001239,IMPS/Zepto meal #610622,Food,Zepto
+T001240,UPI-SUBWAY-700015@ybl,Food,Subway
+T001244,UPI-NATURE'SBASKET-424047@ybl,Food,Nature's Basket
+T001247,Blue Dart Courier Transfer,Other,Blue Dart Courier
+T001248,A2B Restaurant,Food,A2B Restaurant
+T001249,PG Rent,Rent,PG Rent
+T001256,Blue Dart Courier Service,Other,Blue Dart Courier
+T001257,Meal - Nature's Basket,Food,Nature's Basket
+T001264,UPI-ZOMATO-232600@ybl,Food,Zomato
+T001266,UPI-AIRINDIA-746138@ybl,Transport,Air India
+T001269,POS SUBWAY KOLKATA,Food,Subway
+T001290,UPI-MAKEMYTRIPFLIGHTS-332967@ybl,Transport,MakeMyTrip Flights
+T001298,Kirana Store,Food,Kirana Store
+T001305,Autopay - Jio Recharge,Bills,Jio Recharge
+T001309,UPI-Vogo booking #769397,Transport,Vogo
+T001311,Temple Donation Payment,Other,Temple Donation
+T001312,Zomato groceries #215682,Food,Zomato
+T001313,UPI-RELIANCEDIGITAL-840379@ybl,Shopping,Reliance Digital
+T001315,POS JIO RECHARGE DELHI,Bills,Jio Recharge
+T001318,Zepto restaurant #743942,Food,Zepto
+T001321,POS KIRANA STORE KOLKATA,Food,Kirana Store
+T001323,Exam Registration,Education,Exam Registration
+T001324,Subway Order,Food,Subway
+T001330,POS SONYLIV BANGALORE,Entertainment,SonyLIV
+T001331,BESCOM Electricity,Bills,BESCOM Electricity
+T001333,Urban Company,Other,Urban Company
+T001336,POS MAKEMYTRIP FLIGHTS DELHI,Transport,MakeMyTrip Flights
+T001338,POS KIRANA STORE DELHI,Food,Kirana Store
+T001341,Kirana Store,Food,Kirana Store
+T001343,FASTag,Transport,FASTag
+T001347,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T001352,Landlord Rent maintenance #651585,Rent,Landlord Rent
+T001360,UPI-VOGO-141159@ybl,Transport,Vogo
+T001361,Zepto Cafe,Food,Zepto
+T001363,POS BYJUS MUMBAI,Education,BYJUS
+T001365,UPI-SHELLFUEL-886274@ybl,Transport,Shell Fuel
+T001366,Shell Fuel Travel,Transport,Shell Fuel
+T001369,POS ACT FIBERNET HYDERABAD,Bills,ACT Fibernet
+T001373,Nature'S Basket Food Delivery,Food,Nature's Basket
+T001375,Practo Hospital Bill,Healthcare,Practo
+T001378,Urban Company Transfer,Other,Urban Company
+T001379,UPI-BookMyShow streaming #403599,Entertainment,BookMyShow
+T001380,Air India,Transport,Air India
+T001383,Nature'S Basket Groceries,Food,Nature's Basket
+T001386,POS LENSKART BANGALORE,Shopping,Lenskart
+T001388,POS Kirana Store groceries #606896,Food,Kirana Store
+T001396,POS ZEPTO HYDERABAD,Food,Zepto
+T001405,Blue Dart Courier Payment,Other,Blue Dart Courier
+T001406,Cafe - Subway,Food,Subway
+T001408,Vogo Fuel,Transport,Vogo
+T001409,Nature's Basket,Food,Nature's Basket
+T001412,Air India,Transport,Air India
+T001413,Food Delivery - Zomato,Food,Zomato
+T001414,Nature's Basket groceries #116523,Food,Nature's Basket
+T001415,UPI-NATURE'SBASKET-123379@ybl,Food,Nature's Basket
+T001422,Transfer - Dry Cleaning,Other,Dry Cleaning
+T001425,Restaurant - Subway,Food,Subway
+T001430,Kirana Store Dine In,Food,Kirana Store
+T001438,Zomato,Food,Zomato
+T001441,Maintenance - Landlord Rent,Rent,Landlord Rent
+T001446,Store - Reliance Digital,Shopping,Reliance Digital
+T001448,Zee5 Movie Tickets,Entertainment,Zee5
+T001450,UPI-NATURE'SBASKET-452142@ybl,Food,Nature's Basket
+T001453,Zee5 Streaming,Entertainment,Zee5
+T001455,Booking - Vogo,Transport,Vogo
+T001456,Payment - Blue Dart Courier,Other,Blue Dart Courier
+T001457,POS VOGO MUMBAI,Transport,Vogo
+T001461,A2B Restaurant Restaurant,Food,A2B Restaurant
+T001466,Subway,Food,Subway
+T001476,UPI-AIRINDIA-876712@ybl,Transport,Air India
+T001477,UPI-SHELLFUEL-863190@ybl,Transport,Shell Fuel
+T001480,A2B Restaurant Groceries,Food,A2B Restaurant
+T001489,Fastag Ride,Transport,FASTag
+T001490,UPI-SHELLFUEL-134217@ybl,Transport,Shell Fuel
+T001491,Vogo,Transport,Vogo
+T001492,Zepto,Food,Zepto
+T001493,POS AIR INDIA DELHI,Transport,Air India
+T001496,Fastag Cab,Transport,FASTag
+T001498,Store - Lifestyle,Shopping,Lifestyle
+T001500,POS KIRANA STORE KOLKATA,Food,Kirana Store
+T001502,POS SUBWAY BANGALORE,Food,Subway
+T001504,Misc - Dry Cleaning,Other,Dry Cleaning
+T001508,Reliance Digital,Shopping,Reliance Digital
+T001509,Exam Registration Tuition,Education,Exam Registration
+T001512,Kirana Store Dine In,Food,Kirana Store
+T001515,Zomato,Food,Zomato
+T001518,Restaurant - A2B Restaurant,Food,A2B Restaurant
+T001524,Trip - FASTag,Transport,FASTag
+T001526,POS KIRANA STORE HYDERABAD,Food,Kirana Store
+T001527,POS SUBWAY CHENNAI,Food,Subway
+T001528,Landlord Rent Maintenance,Rent,Landlord Rent
+T001530,Books - Coursera,Education,Coursera
+T001539,Zepto,Food,Zepto
+T001547,UPI-NATURE'SBASKET-719931@ybl,Food,Nature's Basket
+T001549,UPI-ZEPTO-296556@ybl,Food,Zepto
+T001554,Ajio Order,Shopping,Ajio
+T001560,Trip - Air India,Transport,Air India
+T001562,POS PRACTO CHENNAI,Healthcare,Practo
+T001565,Zepto,Food,Zepto
+T001567,POS SONYLIV HYDERABAD,Entertainment,SonyLIV
+T001569,UPI-PGRENT-444336@ybl,Rent,PG Rent
+T001572,UPI-VOGO-935407@ybl,Transport,Vogo
+T001590,Nature'S Basket Food Delivery,Food,Nature's Basket
+T001593,UPI-LICPREMIUM-205282@ybl,Bills,LIC Premium
+T001597,Shell Fuel,Transport,Shell Fuel
+T001602,Vogo Fuel,Transport,Vogo
+T001609,UPI-FASTAG-338327@ybl,Transport,FASTag
+T001610,POS NATURE'S BASKET PUNE,Food,Nature's Basket
+T001615,Shell Fuel Trip,Transport,Shell Fuel
+T001616,POS FASTag cab #885245,Transport,FASTag
+T001617,Food Delivery - Kirana Store,Food,Kirana Store
+T001618,Subway,Food,Subway
+T001624,UPI-SHELLFUEL-713664@ybl,Transport,Shell Fuel
+T001625,FASTag,Transport,FASTag
+T001628,PG Rent,Rent,PG Rent
+T001633,Shell Fuel,Transport,Shell Fuel
+T001634,POS VOGO MUMBAI,Transport,Vogo
+T001635,Zomato order #640787,Food,Zomato
+T001640,Lifestyle,Shopping,Lifestyle
+T001641,UPI-Zomato food delivery #803508,Food,Zomato
+T001646,UPI-PANTALOONS-743504@ybl,Shopping,Pantaloons
+T001647,POS KIRANA STORE CHENNAI,Food,Kirana Store
+T001659,POS A2B RESTAURANT KOLKATA,Food,A2B Restaurant
+T001662,Apparel - Lenskart,Shopping,Lenskart
+T001663,POS DRY CLEANING BANGALORE,Other,Dry Cleaning
+T001665,UPI-ZOMATO-104786@ybl,Food,Zomato
+T001667,UPI-Zomato food delivery #204366,Food,Zomato
+T001668,Vogo ride #214915,Transport,Vogo
+T001670,Subway order #733064,Food,Subway
+T001671,Subway restaurant #442728,Food,Subway
+T001675,Shell Fuel,Transport,Shell Fuel
+T001684,Vogo travel #971824,Transport,Vogo
+T001687,Subway Restaurant,Food,Subway
+T001689,UPI-ZOMATO-868712@ybl,Food,Zomato
+T001691,Restaurant - Nature's Basket,Food,Nature's Basket
+T001698,Order - Nature's Basket,Food,Nature's Basket
+T001701,LIC Premium,Bills,LIC Premium
+T001702,Vogo Fuel,Transport,Vogo
+T001703,POS LENSKART CHENNAI,Shopping,Lenskart
+T001707,Kirana Store Order,Food,Kirana Store
+T001709,UPI-AIRINDIA-557655@ybl,Transport,Air India
+T001711,POS SUBWAY MUMBAI,Food,Subway
+T001717,POS AIR INDIA HYDERABAD,Transport,Air India
+T001718,A2B Restaurant,Food,A2B Restaurant
+T001719,BESCOM Electricity,Bills,BESCOM Electricity
+T001723,Nature's Basket,Food,Nature's Basket
+T001725,Trip - Shell Fuel,Transport,Shell Fuel
+T001726,UPI-ZEPTO-449576@ybl,Food,Zepto
+T001727,UPI-A2BRESTAURANT-609186@ybl,Food,A2B Restaurant
+T001728,Air India,Transport,Air India
+T001733,Zomato Food Delivery,Food,Zomato
+T001737,UPI-Blue Dart Courier transfer #248812,Other,Blue Dart Courier
+T001743,Groceries - A2B Restaurant,Food,A2B Restaurant
+T001746,UPI-DRYCLEANING-541903@ybl,Other,Dry Cleaning
+T001750,ECOM Subway groceries #320218,Food,Subway
+T001760,POS LENSKART BANGALORE,Shopping,Lenskart
+T001761,BookMyShow membership #657509,Entertainment,BookMyShow
+T001764,POS LENSKART BANGALORE,Shopping,Lenskart
+T001776,POS Kirana Store food delivery #246241,Food,Kirana Store
+T001779,ACT Fibernet,Bills,ACT Fibernet
+T001788,POS KIRANA STORE CHENNAI,Food,Kirana Store
+T001789,Fuel - Shell Fuel,Transport,Shell Fuel
+T001790,POS JIO RECHARGE DELHI,Bills,Jio Recharge
+T001792,Nature'S Basket Cafe,Food,Nature's Basket
+T001797,Kirana Store,Food,Kirana Store
+T001800,POS SHELL FUEL PUNE,Transport,Shell Fuel
+T001803,Kirana Store,Food,Kirana Store
+T001815,Landlord Rent Monthly Rent,Rent,Landlord Rent
+T001821,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T001825,UPI-SHELLFUEL-840968@ybl,Transport,Shell Fuel
+T001831,Zepto Restaurant,Food,Zepto
+T001833,Travel - Air India,Transport,Air India
+T001834,Dine In - Zomato,Food,Zomato
+T001843,UPI-ZEPTO-273829@ybl,Food,Zepto
+T001844,Meal - Zomato,Food,Zomato
+T001846,Air India,Transport,Air India
+T001847,Ticket - Air India,Transport,Air India
+T001863,NEFT-BESCOM Electricity bill payment #572369,Bills,BESCOM Electricity
+T001864,Subway food delivery #298117,Food,Subway
+T001869,IMPS/Air India trip #178178,Transport,Air India
+T001879,FASTag,Transport,FASTag
+T001885,POS SHELL FUEL PUNE,Transport,Shell Fuel
+T001902,UPI-ZOMATO-363810@ybl,Food,Zomato
+T001904,Games - BookMyShow,Entertainment,BookMyShow
+T001905,Booking - FASTag,Transport,FASTag
+T001913,Movie Tickets - BookMyShow,Entertainment,BookMyShow
+T001914,Cafe - Nature's Basket,Food,Nature's Basket
+T001918,Zomato Food Delivery,Food,Zomato
+T001920,NEFT-Practo consultation #817075,Healthcare,Practo
+T001922,Urban Company Service,Other,Urban Company
+T001924,ECOM Reliance Digital purchase #500570,Shopping,Reliance Digital
+T001927,UPI-NATURE'SBASKET-293162@ybl,Food,Nature's Basket
+T001933,IMPS/Shell Fuel ride #449776,Transport,Shell Fuel
+T001942,POS MAKEMYTRIP FLIGHTS MUMBAI,Transport,MakeMyTrip Flights
+T001947,Lifestyle,Shopping,Lifestyle
+T001949,PG Rent,Rent,PG Rent
+T001955,POS LIC PREMIUM BANGALORE,Bills,LIC Premium
+T001956,IMPS/ACT Fibernet bill payment #181452,Bills,ACT Fibernet
+T001962,UPI-Smaaash subscription #897263,Entertainment,Smaaash
+T001965,Temple Donation,Other,Temple Donation
+T001968,UPI-MAKEMYTRIPFLIGHTS-530955@ybl,Transport,MakeMyTrip Flights
+T001975,Autopay - LIC Premium,Bills,LIC Premium
+T001976,Nature's Basket,Food,Nature's Basket
+T001983,Cafe - Subway,Food,Subway
+T001984,ECOM Shell Fuel travel #276060,Transport,Shell Fuel
+T001985,POS A2B RESTAURANT MUMBAI,Food,A2B Restaurant
+T001990,Booking - Shell Fuel,Transport,Shell Fuel
+T001992,Dry Cleaning,Other,Dry Cleaning
+T001997,Zomato Order,Food,Zomato
+T001998,IMPS/Kirana Store food delivery #863966,Food,Kirana Store
+T002000,MakeMyTrip Flights fuel #136358,Transport,MakeMyTrip Flights
+T002002,Groceries - Kirana Store,Food,Kirana Store
+T002004,Jio Recharge Utility,Bills,Jio Recharge
+T002006,Fastag Trip,Transport,FASTag
+T002012,UPI-MAKEMYTRIPFLIGHTS-249742@ybl,Transport,MakeMyTrip Flights
+T002017,Movie Tickets - SonyLIV,Entertainment,SonyLIV
+T002025,POS LIC Premium autopay #172720,Bills,LIC Premium
+T002026,UPI-THYROCARE-624649@ybl,Healthcare,Thyrocare
+T002029,POS MAKEMYTRIP FLIGHTS BANGALORE,Transport,MakeMyTrip Flights
+T002030,POS VOGO PUNE,Transport,Vogo
+T002032,Ride - Vogo,Transport,Vogo
+T002044,POS SUBWAY KOLKATA,Food,Subway
+T002051,Payment - Dry Cleaning,Other,Dry Cleaning
+T002057,NEFT-Vogo ticket #676141,Transport,Vogo
+T002060,Transfer - Temple Donation,Other,Temple Donation
+T002061,Trip - Air India,Transport,Air India
+T002068,UPI-BESCOMELECTRICITY-215573@ybl,Bills,BESCOM Electricity
+T002074,Zepto,Food,Zepto
+T002075,POS ZEPTO DELHI,Food,Zepto
+T002091,UPI-ZOMATO-730157@ybl,Food,Zomato
+T002094,UPI-NATURE'SBASKET-520300@ybl,Food,Nature's Basket
+T002097,Cafe - Zomato,Food,Zomato
+T002101,POS BESCOM ELECTRICITY DELHI,Bills,BESCOM Electricity
+T002102,UPI-ZOMATO-674860@ybl,Food,Zomato
+T002105,Autopay - ACT Fibernet,Bills,ACT Fibernet
+T002112,POS FASTAG PUNE,Transport,FASTag
+T002113,Booking - FASTag,Transport,FASTag
+T002116,NEFT-MakeMyTrip Flights cab #429447,Transport,MakeMyTrip Flights
+T002134,UPI-Subway food delivery #223051,Food,Subway
+T002138,Fuel - FASTag,Transport,FASTag
+T002139,POS JIO RECHARGE HYDERABAD,Bills,Jio Recharge
+T002146,UPI-FASTAG-583679@ybl,Transport,FASTag
+T002148,POS FASTAG DELHI,Transport,FASTag
+T002150,Order - Kirana Store,Food,Kirana Store
+T002154,UPI-Zomato restaurant #301913,Food,Zomato
+T002158,Order - Kirana Store,Food,Kirana Store
+T002173,POS A2B RESTAURANT DELHI,Food,A2B Restaurant
+T002181,POS A2B RESTAURANT BANGALORE,Food,A2B Restaurant
+T002183,POS VOGO KOLKATA,Transport,Vogo
+T002192,Booking - FASTag,Transport,FASTag
+T002200,A2B Restaurant,Food,A2B Restaurant
+T002201,POS URBAN COMPANY CHENNAI,Other,Urban Company
+T002208,Smaaash,Entertainment,Smaaash
+T002220,POS AJIO KOLKATA,Shopping,Ajio
+T002221,Purchase - Lenskart,Shopping,Lenskart
+T002223,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T002227,Kirana Store Food Delivery,Food,Kirana Store
+T002234,BESCOM Electricity,Bills,BESCOM Electricity
+T002239,POS A2B RESTAURANT PUNE,Food,A2B Restaurant
+T002240,POS SUBWAY BANGALORE,Food,Subway
+T002242,Air India,Transport,Air India
+T002245,POS ZEPTO HYDERABAD,Food,Zepto
+T002246,Kirana Store Order,Food,Kirana Store
+T002247,UPI-KIRANASTORE-429759@ybl,Food,Kirana Store
+T002248,POS ZEPTO HYDERABAD,Food,Zepto
+T002259,POS ZEPTO MUMBAI,Food,Zepto
+T002264,UPI-MAKEMYTRIPFLIGHTS-390744@ybl,Transport,MakeMyTrip Flights
+T002265,Zepto Order,Food,Zepto
+T002266,SonyLIV,Entertainment,SonyLIV
+T002271,UPI-BESCOMELECTRICITY-125962@ybl,Bills,BESCOM Electricity
+T002274,Pantaloons,Shopping,Pantaloons
+T002281,UPI-MAKEMYTRIPFLIGHTS-455621@ybl,Transport,MakeMyTrip Flights
+T002282,Food Delivery - Zomato,Food,Zomato
+T002289,Subway,Food,Subway
+T002291,UPI-NATURE'SBASKET-132043@ybl,Food,Nature's Basket
+T002294,POS FORTIS HOSPITAL HYDERABAD,Healthcare,Fortis Hospital
+T002302,Practo pharmacy #275667,Healthcare,Practo
+T002316,UPI-AJIO-650581@ybl,Shopping,Ajio
+T002322,POS DRY CLEANING BANGALORE,Other,Dry Cleaning
+T002326,POS SONYLIV MUMBAI,Entertainment,SonyLIV
+T002333,Urban Company Payment,Other,Urban Company
+T002338,UPI-ACT Fibernet recharge #349667,Bills,ACT Fibernet
+T002340,Dine In - A2B Restaurant,Food,A2B Restaurant
+T002341,Kirana Store Meal,Food,Kirana Store
+T002347,UPI-SHELLFUEL-826974@ybl,Transport,Shell Fuel
+T002364,Zomato Order,Food,Zomato
+T002365,Dine In - Kirana Store,Food,Kirana Store
+T002366,Shell Fuel,Transport,Shell Fuel
+T002367,Kirana Store,Food,Kirana Store
+T002374,Zepto Restaurant,Food,Zepto
+T002382,Subway,Food,Subway
+T002399,Zomato restaurant #689465,Food,Zomato
+T002404,ECOM Nature's Basket order #470044,Food,Nature's Basket
+T002405,UPI-LICPREMIUM-434031@ybl,Bills,LIC Premium
+T002410,UPI-BookMyShow subscription #273379,Entertainment,BookMyShow
+T002412,IMPS/MakeMyTrip Flights fuel #604084,Transport,MakeMyTrip Flights
+T002416,UPI-SONYLIV-912109@ybl,Entertainment,SonyLIV
+T002417,Order - Subway,Food,Subway
+T002428,UPI-ACTFIBERNET-665452@ybl,Bills,ACT Fibernet
+T002433,Food Delivery - A2B Restaurant,Food,A2B Restaurant
+T002434,POS TEMPLE DONATION MUMBAI,Other,Temple Donation
+T002446,Lic Premium Autopay,Bills,LIC Premium
+T002450,UPI-BLUEDARTCOURIER-363573@ybl,Other,Blue Dart Courier
+T002452,Nature's Basket,Food,Nature's Basket
+T002459,Cab - Air India,Transport,Air India
+T002461,Cab - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T002464,POS SUBWAY HYDERABAD,Food,Subway
+T002465,POS Temple Donation transfer #546765,Other,Temple Donation
+T002467,UPI-ZEE5-380011@ybl,Entertainment,Zee5
+T002468,POS ZOMATO DELHI,Food,Zomato
+T002470,Nature's Basket,Food,Nature's Basket
+T002474,POS AIR INDIA BANGALORE,Transport,Air India
+T002478,POS A2B Restaurant order #434745,Food,A2B Restaurant
+T002480,Makemytrip Flights Fuel,Transport,MakeMyTrip Flights
+T002481,Recharge - LIC Premium,Bills,LIC Premium
+T002484,Zepto Food Delivery,Food,Zepto
+T002485,UPI-SUBWAY-707128@ybl,Food,Subway
+T002487,POS MAKEMYTRIP FLIGHTS BANGALORE,Transport,MakeMyTrip Flights
+T002493,Lifestyle,Shopping,Lifestyle
+T002501,Air India Booking,Transport,Air India
+T002502,UPI-NATURE'SBASKET-819848@ybl,Food,Nature's Basket
+T002504,UPI-LIFESTYLE-923622@ybl,Shopping,Lifestyle
+T002505,Cafe - Zomato,Food,Zomato
+T002506,Fastag Travel,Transport,FASTag
+T002514,POS SUBWAY MUMBAI,Food,Subway
+T002524,POS A2B RESTAURANT KOLKATA,Food,A2B Restaurant
+T002525,UPI-KIRANASTORE-915328@ybl,Food,Kirana Store
+T002527,Ride - Air India,Transport,Air India
+T002537,POS Shell Fuel booking #485279,Transport,Shell Fuel
+T002541,ECOM A2B Restaurant order #781788,Food,A2B Restaurant
+T002546,Air India,Transport,Air India
+T002547,Urban Company transfer #941749,Other,Urban Company
+T002555,Dry Cleaning service #270661,Other,Dry Cleaning
+T002558,POS BLUE DART COURIER HYDERABAD,Other,Blue Dart Courier
+T002567,A2B Restaurant,Food,A2B Restaurant
+T002580,Bill Payment - BESCOM Electricity,Bills,BESCOM Electricity
+T002582,Travel - Air India,Transport,Air India
+T002583,UPI-PANTALOONS-690959@ybl,Shopping,Pantaloons
+T002584,UPI-NATURE'SBASKET-128954@ybl,Food,Nature's Basket
+T002585,POS PRACTO PUNE,Healthcare,Practo
+T002587,POS BESCOM ELECTRICITY PUNE,Bills,BESCOM Electricity
+T002598,Service - Dry Cleaning,Other,Dry Cleaning
+T002602,POS A2B RESTAURANT PUNE,Food,A2B Restaurant
+T002606,POS NATURE'S BASKET DELHI,Food,Nature's Basket
+T002607,POS A2B RESTAURANT PUNE,Food,A2B Restaurant
+T002613,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T002622,UPI-Zepto groceries #399980,Food,Zepto
+T002626,UPI-ZOMATO-419749@ybl,Food,Zomato
+T002627,POS SUBWAY PUNE,Food,Subway
+T002629,NEFT-Zomato cafe #349564,Food,Zomato
+T002630,UPI-DRYCLEANING-864493@ybl,Other,Dry Cleaning
+T002635,Temple Donation,Other,Temple Donation
+T002637,A2B Restaurant restaurant #368071,Food,A2B Restaurant
+T002645,Shell Fuel Booking,Transport,Shell Fuel
+T002653,UPI-SMAAASH-807514@ybl,Entertainment,Smaaash
+T002661,POS AIR INDIA PUNE,Transport,Air India
+T002662,UPI-KIRANASTORE-302323@ybl,Food,Kirana Store
+T002666,Temple Donation Transfer,Other,Temple Donation
+T002667,UPI-MAKEMYTRIPFLIGHTS-669507@ybl,Transport,MakeMyTrip Flights
+T002678,POS SHELL FUEL PUNE,Transport,Shell Fuel
+T002679,POS THYROCARE CHENNAI,Healthcare,Thyrocare
+T002683,BookMyShow subscription #622161,Entertainment,BookMyShow
+T002684,POS MAKEMYTRIP FLIGHTS MUMBAI,Transport,MakeMyTrip Flights
+T002685,ECOM PG Rent rent payment #950372,Rent,PG Rent
+T002686,ECOM Vogo fuel #515451,Transport,Vogo
+T002687,FASTag,Transport,FASTag
+T002690,UPI-SUBWAY-902660@ybl,Food,Subway
+T002692,Lifestyle,Shopping,Lifestyle
+T002703,Zomato,Food,Zomato
+T002704,UPI-ZEPTO-235343@ybl,Food,Zepto
+T002705,Byjus Course Fee,Education,BYJUS
+T002706,POS SHELL FUEL DELHI,Transport,Shell Fuel
+T002707,ECOM Kirana Store food delivery #338633,Food,Kirana Store
+T002713,Reliance Digital,Shopping,Reliance Digital
+T002715,Subway,Food,Subway
+T002720,Reliance Digital Electronics,Shopping,Reliance Digital
+T002722,POS URBAN COMPANY KOLKATA,Other,Urban Company
+T002729,POS SHELL FUEL PUNE,Transport,Shell Fuel
+T002736,POS ZEPTO BANGALORE,Food,Zepto
+T002739,IMPS/Pantaloons order #656389,Shopping,Pantaloons
+T002743,Thyrocare Hospital Bill,Healthcare,Thyrocare
+T002747,Groceries - Zepto,Food,Zepto
+T002749,UPI-A2BRESTAURANT-726058@ybl,Food,A2B Restaurant
+T002753,POS VOGO PUNE,Transport,Vogo
+T002756,NEFT-Air India fuel #547101,Transport,Air India
+T002757,Order - Kirana Store,Food,Kirana Store
+T002763,Transfer - Blue Dart Courier,Other,Blue Dart Courier
+T002766,POS A2B RESTAURANT DELHI,Food,A2B Restaurant
+T002767,Vogo,Transport,Vogo
+T002768,Monthly Bill - ACT Fibernet,Bills,ACT Fibernet
+T002769,NEFT-Shell Fuel ticket #102843,Transport,Shell Fuel
+T002776,Subway,Food,Subway
+T002779,Order - Kirana Store,Food,Kirana Store
+T002788,LIC Premium,Bills,LIC Premium
+T002798,UPI-SHELLFUEL-179980@ybl,Transport,Shell Fuel
+T002806,Zomato Dine In,Food,Zomato
+T002807,Booking - Shell Fuel,Transport,Shell Fuel
+T002814,UPI-AIRINDIA-988527@ybl,Transport,Air India
+T002815,Kirana Store Food Delivery,Food,Kirana Store
+T002835,Fuel - Shell Fuel,Transport,Shell Fuel
+T002836,Vogo Travel,Transport,Vogo
+T002838,Nature's Basket,Food,Nature's Basket
+T002839,Subway restaurant #289079,Food,Subway
+T002841,Cafe - Nature's Basket,Food,Nature's Basket
+T002849,POS Pantaloons apparel #451723,Shopping,Pantaloons
+T002853,UPI-Nature's Basket restaurant #742808,Food,Nature's Basket
+T002855,UPI-MAKEMYTRIPFLIGHTS-954450@ybl,Transport,MakeMyTrip Flights
+T002858,ACT Fibernet,Bills,ACT Fibernet
+T002865,Medicines - Fortis Hospital,Healthcare,Fortis Hospital
+T002870,UPI-ZOMATO-178591@ybl,Food,Zomato
+T002877,UPI-AJIO-178608@ybl,Shopping,Ajio
+T002887,Blue Dart Courier,Other,Blue Dart Courier
+T002888,Zepto Groceries,Food,Zepto
+T002889,Order - Nature's Basket,Food,Nature's Basket
+T002895,POS Zomato restaurant #731148,Food,Zomato
+T002897,Shell Fuel travel #662795,Transport,Shell Fuel
+T002900,POS NATURE'S BASKET CHENNAI,Food,Nature's Basket
+T002903,Practo,Healthcare,Practo
+T002904,Pg Rent Rent Payment,Rent,PG Rent
+T002908,Lic Premium Bill Payment,Bills,LIC Premium
+T002909,UPI-SHELLFUEL-332061@ybl,Transport,Shell Fuel
+T002911,UPI-ZEPTO-799195@ybl,Food,Zepto
+T002916,POS SMAAASH MUMBAI,Entertainment,Smaaash
+T002918,UPI-ZEPTO-657837@ybl,Food,Zepto
+T002930,UPI-MAKEMYTRIPFLIGHTS-934662@ybl,Transport,MakeMyTrip Flights
+T002936,Monthly Bill - LIC Premium,Bills,LIC Premium
+T002939,UPI-KIRANASTORE-814230@ybl,Food,Kirana Store
+T002947,NEFT-Kirana Store groceries #593220,Food,Kirana Store
+T002948,Kirana Store Restaurant,Food,Kirana Store
+T002951,Dine In - Kirana Store,Food,Kirana Store
+T002952,UPI-JIORECHARGE-789958@ybl,Bills,Jio Recharge
+T002954,UPI-MAKEMYTRIPFLIGHTS-764758@ybl,Transport,MakeMyTrip Flights
+T002956,Booking - FASTag,Transport,FASTag
+T002966,UPI-NATURE'SBASKET-530713@ybl,Food,Nature's Basket
+T002968,UPI-Vogo booking #717053,Transport,Vogo
+T002976,POS ZEPTO MUMBAI,Food,Zepto
+T002977,IMPS/Nature's Basket restaurant #242667,Food,Nature's Basket
+T002985,Rent - Landlord Rent,Rent,Landlord Rent
+T002994,POS A2B RESTAURANT PUNE,Food,A2B Restaurant
+T002999,Smaaash streaming #984414,Entertainment,Smaaash
+T003002,Trip - Shell Fuel,Transport,Shell Fuel
+T003007,POS PANTALOONS HYDERABAD,Shopping,Pantaloons
+T003012,Cafe - Zomato,Food,Zomato
+T003016,A2B Restaurant restaurant #886298,Food,A2B Restaurant
+T003023,Cab - FASTag,Transport,FASTag
+T003024,Air India Fuel,Transport,Air India
+T003026,Smaaash,Entertainment,Smaaash
+T003036,Kirana Store,Food,Kirana Store
+T003041,IMPS/A2B Restaurant dine in #755643,Food,A2B Restaurant
+T003043,Temple Donation Misc,Other,Temple Donation
+T003046,NEFT-FASTag trip #282309,Transport,FASTag
+T003053,POS SUBWAY PUNE,Food,Subway
+T003056,POS AIR INDIA HYDERABAD,Transport,Air India
+T003060,Zepto,Food,Zepto
+T003061,UPI-RELIANCEDIGITAL-938414@ybl,Shopping,Reliance Digital
+T003063,IMPS/Vogo ride #386697,Transport,Vogo
+T003068,UPI-MAKEMYTRIPFLIGHTS-252107@ybl,Transport,MakeMyTrip Flights
+T003070,Nature's Basket groceries #384336,Food,Nature's Basket
+T003074,POS AIR INDIA PUNE,Transport,Air India
+T003077,UPI-Vogo trip #491305,Transport,Vogo
+T003088,UPI-A2BRESTAURANT-787189@ybl,Food,A2B Restaurant
+T003093,UPI-KIRANASTORE-142365@ybl,Food,Kirana Store
+T003099,POS NATURE'S BASKET MUMBAI,Food,Nature's Basket
+T003102,Temple Donation Misc,Other,Temple Donation
+T003103,Temple Donation,Other,Temple Donation
+T003110,Misc - Blue Dart Courier,Other,Blue Dart Courier
+T003111,POS ZOMATO HYDERABAD,Food,Zomato
+T003114,POS TEMPLE DONATION PUNE,Other,Temple Donation
+T003116,Order - Zepto,Food,Zepto
+T003119,NEFT-FASTag travel #432503,Transport,FASTag
+T003120,UPI-URBANCOMPANY-203149@ybl,Other,Urban Company
+T003122,PG Rent,Rent,PG Rent
+T003128,Shell Fuel Fuel,Transport,Shell Fuel
+T003131,UPI-BYJUS-183110@ybl,Education,BYJUS
+T003151,UPI-NATURE'SBASKET-516933@ybl,Food,Nature's Basket
+T003152,Zee5,Entertainment,Zee5
+T003155,POS ZOMATO CHENNAI,Food,Zomato
+T003157,POS Zomato dine in #961159,Food,Zomato
+T003163,UPI-BLUEDARTCOURIER-178369@ybl,Other,Blue Dart Courier
+T003164,UPI-BESCOMELECTRICITY-536607@ybl,Bills,BESCOM Electricity
+T003166,Smaaash,Entertainment,Smaaash
+T003174,IMPS/Subway restaurant #667874,Food,Subway
+T003176,Store - Pantaloons,Shopping,Pantaloons
+T003179,UPI-BESCOMELECTRICITY-605868@ybl,Bills,BESCOM Electricity
+T003183,POS SMAAASH CHENNAI,Entertainment,Smaaash
+T003189,Groceries - A2B Restaurant,Food,A2B Restaurant
+T003194,Travel - Air India,Transport,Air India
+T003202,MakeMyTrip Flights fuel #245382,Transport,MakeMyTrip Flights
+T003203,Hospital Bill - Thyrocare,Healthcare,Thyrocare
+T003205,UPI-NATURE'SBASKET-887324@ybl,Food,Nature's Basket
+T003206,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T003217,SonyLIV,Entertainment,SonyLIV
+T003221,NEFT-Reliance Digital online shopping #138312,Shopping,Reliance Digital
+T003227,Dine In - A2B Restaurant,Food,A2B Restaurant
+T003228,Meal - Kirana Store,Food,Kirana Store
+T003230,UPI-LICPREMIUM-328480@ybl,Bills,LIC Premium
+T003232,Pantaloons Order,Shopping,Pantaloons
+T003233,UPI-URBANCOMPANY-412892@ybl,Other,Urban Company
+T003236,UPI-AIRINDIA-841573@ybl,Transport,Air India
+T003247,POS SHELL FUEL CHENNAI,Transport,Shell Fuel
+T003253,POS SUBWAY HYDERABAD,Food,Subway
+T003272,Restaurant - A2B Restaurant,Food,A2B Restaurant
+T003275,UPI-A2BRESTAURANT-376253@ybl,Food,A2B Restaurant
+T003277,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T003283,POS TEMPLE DONATION HYDERABAD,Other,Temple Donation
+T003284,POS ZOMATO HYDERABAD,Food,Zomato
+T003285,Zomato,Food,Zomato
+T003286,Cafe - Zomato,Food,Zomato
+T003289,UPI-RELIANCEDIGITAL-290223@ybl,Shopping,Reliance Digital
+T003292,UPI-AIRINDIA-339718@ybl,Transport,Air India
+T003293,UPI-Landlord Rent maintenance #606698,Rent,Landlord Rent
+T003296,POS Zepto order #425435,Food,Zepto
+T003302,POS TEMPLE DONATION KOLKATA,Other,Temple Donation
+T003303,IMPS/Tata 1mg consultation #970898,Healthcare,Tata 1mg
+T003306,Groceries - Subway,Food,Subway
+T003310,POS Subway groceries #818961,Food,Subway
+T003312,POS ZEE5 KOLKATA,Entertainment,Zee5
+T003324,Lic Premium Bill Payment,Bills,LIC Premium
+T003330,Air India,Transport,Air India
+T003332,Urban Company Service,Other,Urban Company
+T003336,Meal - Kirana Store,Food,Kirana Store
+T003337,NEFT-Practo hospital bill #244467,Healthcare,Practo
+T003346,UPI-URBANCOMPANY-738562@ybl,Other,Urban Company
+T003352,Makemytrip Flights Fuel,Transport,MakeMyTrip Flights
+T003353,MakeMyTrip Flights trip #624017,Transport,MakeMyTrip Flights
+T003362,LIC Premium,Bills,LIC Premium
+T003366,Shell Fuel Trip,Transport,Shell Fuel
+T003371,Dine In - A2B Restaurant,Food,A2B Restaurant
+T003376,POS NATURE'S BASKET CHENNAI,Food,Nature's Basket
+T003385,Food Delivery - Subway,Food,Subway
+T003390,POS A2B Restaurant restaurant #679109,Food,A2B Restaurant
+T003392,Travel - FASTag,Transport,FASTag
+T003393,Smaaash,Entertainment,Smaaash
+T003395,POS RELIANCE DIGITAL CHENNAI,Shopping,Reliance Digital
+T003397,UPI-Air India booking #732580,Transport,Air India
+T003402,UPI-AIRINDIA-549622@ybl,Transport,Air India
+T003403,POS BOOKMYSHOW KOLKATA,Entertainment,BookMyShow
+T003408,Zomato Groceries,Food,Zomato
+T003411,ECOM Shell Fuel trip #611991,Transport,Shell Fuel
+T003419,POS SONYLIV PUNE,Entertainment,SonyLIV
+T003420,Shell Fuel Travel,Transport,Shell Fuel
+T003421,Temple Donation transfer #362431,Other,Temple Donation
+T003422,Zepto food delivery #308577,Food,Zepto
+T003425,UPI-SUBWAY-269288@ybl,Food,Subway
+T003426,Pantaloons Order,Shopping,Pantaloons
+T003433,UPI-Nature's Basket order #535598,Food,Nature's Basket
+T003434,NEFT-MakeMyTrip Flights ride #883518,Transport,MakeMyTrip Flights
+T003437,UPI-Nature's Basket restaurant #670088,Food,Nature's Basket
+T003441,Subway,Food,Subway
+T003445,Fortis Hospital Hospital Bill,Healthcare,Fortis Hospital
+T003447,POS LIC PREMIUM HYDERABAD,Bills,LIC Premium
+T003453,IMPS/Shell Fuel fuel #505307,Transport,Shell Fuel
+T003455,Order - Nature's Basket,Food,Nature's Basket
+T003456,NEFT-A2B Restaurant dine in #665027,Food,A2B Restaurant
+T003461,IMPS/Vogo cab #321394,Transport,Vogo
+T003463,POS Air India travel #698631,Transport,Air India
+T003465,Landlord Rent,Rent,Landlord Rent
+T003466,NEFT-A2B Restaurant food delivery #652602,Food,A2B Restaurant
+T003467,UPI-MakeMyTrip Flights ticket #822272,Transport,MakeMyTrip Flights
+T003469,Kirana Store order #645997,Food,Kirana Store
+T003471,UPI-ZEE5-364803@ybl,Entertainment,Zee5
+T003474,POS SUBWAY PUNE,Food,Subway
+T003483,UPI-Tata 1mg pharmacy #219370,Healthcare,Tata 1mg
+T003492,Groceries - Nature's Basket,Food,Nature's Basket
+T003502,Reliance Digital Purchase,Shopping,Reliance Digital
+T003513,POS MAKEMYTRIP FLIGHTS BANGALORE,Transport,MakeMyTrip Flights
+T003519,Pharmacy - Fortis Hospital,Healthcare,Fortis Hospital
+T003521,Booking - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T003527,Restaurant - A2B Restaurant,Food,A2B Restaurant
+T003528,Shell Fuel,Transport,Shell Fuel
+T003531,UPI-MAKEMYTRIPFLIGHTS-701149@ybl,Transport,MakeMyTrip Flights
+T003536,UPI-AIRINDIA-973230@ybl,Transport,Air India
+T003539,UPI-DRYCLEANING-497467@ybl,Other,Dry Cleaning
+T003540,NEFT-A2B Restaurant meal #425828,Food,A2B Restaurant
+T003546,Shell Fuel,Transport,Shell Fuel
+T003549,ECOM Smaaash subscription #447711,Entertainment,Smaaash
+T003552,UPI-SHELLFUEL-157118@ybl,Transport,Shell Fuel
+T003556,UPI-JIORECHARGE-781806@ybl,Bills,Jio Recharge
+T003558,POS AJIO KOLKATA,Shopping,Ajio
+T003572,Shell Fuel,Transport,Shell Fuel
+T003579,Fortis Hospital Lab Test,Healthcare,Fortis Hospital
+T003582,Streaming - Smaaash,Entertainment,Smaaash
+T003585,POS Urban Company transfer #244186,Other,Urban Company
+T003587,Zomato Food Delivery,Food,Zomato
+T003588,Pg Rent Monthly Rent,Rent,PG Rent
+T003592,Meal - Kirana Store,Food,Kirana Store
+T003594,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T003600,Online Shopping - Ajio,Shopping,Ajio
+T003606,UPI-FASTAG-867376@ybl,Transport,FASTag
+T003608,Urban Company misc #935546,Other,Urban Company
+T003610,Shell Fuel,Transport,Shell Fuel
+T003614,Food Delivery - A2B Restaurant,Food,A2B Restaurant
+T003620,UPI-LENSKART-120367@ybl,Shopping,Lenskart
+T003622,ECOM Smaaash streaming #985598,Entertainment,Smaaash
+T003626,UPI-VOGO-389756@ybl,Transport,Vogo
+T003630,PG Rent,Rent,PG Rent
+T003632,POS A2B RESTAURANT HYDERABAD,Food,A2B Restaurant
+T003635,Dine In - Zepto,Food,Zepto
+T003636,Membership - Zee5,Entertainment,Zee5
+T003643,UPI-SHELLFUEL-637271@ybl,Transport,Shell Fuel
+T003646,UPI-Air India fuel #281977,Transport,Air India
+T003647,Cab - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T003650,Fortis Hospital Hospital Bill,Healthcare,Fortis Hospital
+T003651,UPI-BESCOMELECTRICITY-124229@ybl,Bills,BESCOM Electricity
+T003656,Nature'S Basket Cafe,Food,Nature's Basket
+T003657,Kirana Store Cafe,Food,Kirana Store
+T003659,Vogo,Transport,Vogo
+T003661,Urban Company Misc,Other,Urban Company
+T003663,NEFT-Zepto food delivery #593786,Food,Zepto
+T003667,NEFT-Vogo fuel #826997,Transport,Vogo
+T003669,UPI-BESCOM Electricity utility #563507,Bills,BESCOM Electricity
+T003670,Store - Lenskart,Shopping,Lenskart
+T003674,UPI-MAKEMYTRIPFLIGHTS-442537@ybl,Transport,MakeMyTrip Flights
+T003683,Landlord Rent Rent,Rent,Landlord Rent
+T003684,Kirana Store order #644830,Food,Kirana Store
+T003685,UPI-LENSKART-370035@ybl,Shopping,Lenskart
+T003692,Food Delivery - Kirana Store,Food,Kirana Store
+T003694,Zepto meal #720442,Food,Zepto
+T003702,POS A2B RESTAURANT BANGALORE,Food,A2B Restaurant
+T003705,Kirana Store Order,Food,Kirana Store
+T003707,POS Subway cafe #679414,Food,Subway
+T003716,POS SMAAASH DELHI,Entertainment,Smaaash
+T003726,UPI-DRYCLEANING-167280@ybl,Other,Dry Cleaning
+T003729,Order - Zepto,Food,Zepto
+T003737,ACT Fibernet monthly bill #283899,Bills,ACT Fibernet
+T003745,Nature's Basket,Food,Nature's Basket
+T003753,Food Delivery - Subway,Food,Subway
+T003754,Nature'S Basket Dine In,Food,Nature's Basket
+T003757,UPI-LIFESTYLE-449688@ybl,Shopping,Lifestyle
+T003765,IMPS/A2B Restaurant cafe #472674,Food,A2B Restaurant
+T003769,Nature'S Basket Groceries,Food,Nature's Basket
+T003771,Kirana Store,Food,Kirana Store
+T003774,POS RELIANCE DIGITAL HYDERABAD,Shopping,Reliance Digital
+T003775,Purchase - Pantaloons,Shopping,Pantaloons
+T003786,Lenskart Online Shopping,Shopping,Lenskart
+T003787,POS LANDLORD RENT PUNE,Rent,Landlord Rent
+T003789,POS BOOKMYSHOW MUMBAI,Entertainment,BookMyShow
+T003790,Meal - Nature's Basket,Food,Nature's Basket
+T003791,UPI-VOGO-778384@ybl,Transport,Vogo
+T003797,UPI-MAKEMYTRIPFLIGHTS-497559@ybl,Transport,MakeMyTrip Flights
+T003800,BESCOM Electricity bill payment #293542,Bills,BESCOM Electricity
+T003801,Air India,Transport,Air India
+T003802,UPI-AJIO-508224@ybl,Shopping,Ajio
+T003803,Zee5 Games,Entertainment,Zee5
+T003805,Nature's Basket,Food,Nature's Basket
+T003806,Lenskart electronics #457465,Shopping,Lenskart
+T003807,UPI-LENSKART-784956@ybl,Shopping,Lenskart
+T003808,UPI-LIFESTYLE-667543@ybl,Shopping,Lifestyle
+T003827,Pantaloons Online Shopping,Shopping,Pantaloons
+T003832,Pantaloons,Shopping,Pantaloons
+T003834,Landlord Rent,Rent,Landlord Rent
+T003843,Subway,Food,Subway
+T003844,Bescom Electricity Recharge,Bills,BESCOM Electricity
+T003851,Lenskart Apparel,Shopping,Lenskart
+T003858,Restaurant - Zepto,Food,Zepto
+T003859,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T003866,FASTag,Transport,FASTag
+T003867,UPI-Air India cab #192820,Transport,Air India
+T003870,Tata 1mg,Healthcare,Tata 1mg
+T003872,Order - Zepto,Food,Zepto
+T003882,POS LIC PREMIUM KOLKATA,Bills,LIC Premium
+T003886,POS SHELL FUEL PUNE,Transport,Shell Fuel
+T003889,POS BOOKMYSHOW MUMBAI,Entertainment,BookMyShow
+T003892,Zepto,Food,Zepto
+T003893,Subway Groceries,Food,Subway
+T003894,Blue Dart Courier Payment,Other,Blue Dart Courier
+T003898,UPI-Zomato order #266450,Food,Zomato
+T003900,UPI-AJIO-649578@ybl,Shopping,Ajio
+T003903,UPI-SUBWAY-124583@ybl,Food,Subway
+T003910,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T003911,UPI-SUBWAY-954765@ybl,Food,Subway
+T003926,Shell Fuel,Transport,Shell Fuel
+T003930,POS BESCOM ELECTRICITY MUMBAI,Bills,BESCOM Electricity
+T003932,UPI-Lifestyle store #653747,Shopping,Lifestyle
+T003934,POS URBAN COMPANY HYDERABAD,Other,Urban Company
+T003955,Smaaash,Entertainment,Smaaash
+T003960,UPI-Smaaash subscription #645581,Entertainment,Smaaash
+T003962,Air India Fuel,Transport,Air India
+T003970,Subway meal #580175,Food,Subway
+T003979,POS ZOMATO PUNE,Food,Zomato
+T003981,UPI-TATA1MG-345700@ybl,Healthcare,Tata 1mg
+T003983,UPI-Vogo travel #293623,Transport,Vogo
+T003993,NEFT-Reliance Digital online shopping #139662,Shopping,Reliance Digital
+T003997,Meal - Zomato,Food,Zomato
+T003998,Zepto meal #379648,Food,Zepto
+T004005,UPI-VOGO-573586@ybl,Transport,Vogo
+T004008,Dine In - Subway,Food,Subway
+T004015,POS DRY CLEANING CHENNAI,Other,Dry Cleaning
+T004027,UPI-VOGO-534761@ybl,Transport,Vogo
+T004032,UPI-ZEE5-198445@ybl,Entertainment,Zee5
+T004033,Makemytrip Flights Ride,Transport,MakeMyTrip Flights
+T004043,POS FASTAG MUMBAI,Transport,FASTag
+T004046,POS NATURE'S BASKET PUNE,Food,Nature's Basket
+T004053,POS PG RENT HYDERABAD,Rent,PG Rent
+T004056,Lifestyle,Shopping,Lifestyle
+T004059,Shell Fuel cab #624423,Transport,Shell Fuel
+T004062,POS TEMPLE DONATION HYDERABAD,Other,Temple Donation
+T004064,POS ZOMATO CHENNAI,Food,Zomato
+T004071,POS Zomato dine in #283102,Food,Zomato
+T004076,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T004079,Zomato Dine In,Food,Zomato
+T004082,SonyLIV,Entertainment,SonyLIV
+T004091,Lenskart,Shopping,Lenskart
+T004094,Zepto,Food,Zepto
+T004098,Order - Zepto,Food,Zepto
+T004102,Streaming - Smaaash,Entertainment,Smaaash
+T004108,Subway restaurant #549549,Food,Subway
+T004115,Zepto,Food,Zepto
+T004116,POS JIO RECHARGE BANGALORE,Bills,Jio Recharge
+T004119,IMPS/Subway food delivery #181288,Food,Subway
+T004123,POS PANTALOONS CHENNAI,Shopping,Pantaloons
+T004127,IMPS/Vogo cab #174439,Transport,Vogo
+T004135,FASTag,Transport,FASTag
+T004141,Air India,Transport,Air India
+T004143,Nature's Basket,Food,Nature's Basket
+T004147,POS A2B RESTAURANT KOLKATA,Food,A2B Restaurant
+T004157,Makemytrip Flights Fuel,Transport,MakeMyTrip Flights
+T004164,Air India Trip,Transport,Air India
+T004172,Transfer - Urban Company,Other,Urban Company
+T004173,POS BLUE DART COURIER CHENNAI,Other,Blue Dart Courier
+T004174,Temple Donation Transfer,Other,Temple Donation
+T004176,Transfer - Temple Donation,Other,Temple Donation
+T004199,Booking - Vogo,Transport,Vogo
+T004200,POS NATURE'S BASKET BANGALORE,Food,Nature's Basket
+T004211,A2B Restaurant,Food,A2B Restaurant
+T004219,A2B Restaurant restaurant #751821,Food,A2B Restaurant
+T004234,Dry Cleaning Payment,Other,Dry Cleaning
+T004237,UPI-KIRANASTORE-929030@ybl,Food,Kirana Store
+T004242,UPI-AIRINDIA-846971@ybl,Transport,Air India
+T004248,POS BOOKMYSHOW KOLKATA,Entertainment,BookMyShow
+T004258,Nature's Basket,Food,Nature's Basket
+T004262,FASTag ride #610738,Transport,FASTag
+T004267,UPI-SUBWAY-203667@ybl,Food,Subway
+T004271,MakeMyTrip Flights ride #487462,Transport,MakeMyTrip Flights
+T004273,UPI-BESCOMELECTRICITY-620080@ybl,Bills,BESCOM Electricity
+T004277,A2B Restaurant Meal,Food,A2B Restaurant
+T004279,UPI-FASTAG-393018@ybl,Transport,FASTag
+T004281,Bill Payment - BESCOM Electricity,Bills,BESCOM Electricity
+T004286,NEFT-Lifestyle online shopping #959654,Shopping,Lifestyle
+T004289,Membership - SonyLIV,Entertainment,SonyLIV
+T004290,Jio Recharge monthly bill #309573,Bills,Jio Recharge
+T004297,UPI-LIFESTYLE-458958@ybl,Shopping,Lifestyle
+T004306,Landlord Rent Monthly Rent,Rent,Landlord Rent
+T004320,Nature'S Basket Restaurant,Food,Nature's Basket
+T004322,UPI-KIRANASTORE-321663@ybl,Food,Kirana Store
+T004325,POS PRACTO HYDERABAD,Healthcare,Practo
+T004329,POS SMAAASH DELHI,Entertainment,Smaaash
+T004350,Smaaash Subscription,Entertainment,Smaaash
+T004351,ECOM Air India ticket #506626,Transport,Air India
+T004354,Zepto,Food,Zepto
+T004364,POS KIRANA STORE BANGALORE,Food,Kirana Store
+T004366,Zomato,Food,Zomato
+T004369,Zomato Dine In,Food,Zomato
+T004372,Zomato,Food,Zomato
+T004373,UPI-SUBWAY-160006@ybl,Food,Subway
+T004381,UPI-A2BRESTAURANT-171031@ybl,Food,A2B Restaurant
+T004382,POS ZEPTO MUMBAI,Food,Zepto
+T004383,Lenskart,Shopping,Lenskart
+T004393,Smaaash,Entertainment,Smaaash
+T004394,Dine In - Nature's Basket,Food,Nature's Basket
+T004395,UPI-PGRENT-834741@ybl,Rent,PG Rent
+T004400,UPI-AIRINDIA-826099@ybl,Transport,Air India
+T004404,UPI-VOGO-536071@ybl,Transport,Vogo
+T004406,Zepto Food Delivery,Food,Zepto
+T004409,Lenskart,Shopping,Lenskart
+T004410,UPI-ZOMATO-783498@ybl,Food,Zomato
+T004411,Fastag Trip,Transport,FASTag
+T004417,Travel - Air India,Transport,Air India
+T004423,UPI-FORTISHOSPITAL-781977@ybl,Healthcare,Fortis Hospital
+T004426,Travel - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T004431,POS SHELL FUEL BANGALORE,Transport,Shell Fuel
+T004438,Utility - Jio Recharge,Bills,Jio Recharge
+T004442,FASTag,Transport,FASTag
+T004446,NEFT-Kirana Store cafe #576186,Food,Kirana Store
+T004447,Vogo Trip,Transport,Vogo
+T004452,Cafe - Subway,Food,Subway
+T004455,Smaaash,Entertainment,Smaaash
+T004480,Bescom Electricity Monthly Bill,Bills,BESCOM Electricity
+T004486,Order - A2B Restaurant,Food,A2B Restaurant
+T004494,Nature's Basket cafe #811747,Food,Nature's Basket
+T004497,POS A2B RESTAURANT MUMBAI,Food,A2B Restaurant
+T004501,Jio Recharge Recharge,Bills,Jio Recharge
+T004503,UPI-KIRANASTORE-584924@ybl,Food,Kirana Store
+T004516,POS SUBWAY BANGALORE,Food,Subway
+T004531,Tata 1Mg Hospital Bill,Healthcare,Tata 1mg
+T004532,Kirana Store Dine In,Food,Kirana Store
+T004534,Kirana Store,Food,Kirana Store
+T004535,Zee5,Entertainment,Zee5
+T004536,UPI-SUBWAY-449128@ybl,Food,Subway
+T004538,Misc - Blue Dart Courier,Other,Blue Dart Courier
+T004542,UPI-NATURE'SBASKET-206603@ybl,Food,Nature's Basket
+T004545,Ticket - Air India,Transport,Air India
+T004561,Lifestyle,Shopping,Lifestyle
+T004565,Air India,Transport,Air India
+T004566,Zepto food delivery #651342,Food,Zepto
+T004582,Zomato,Food,Zomato
+T004584,UPI-LICPREMIUM-797780@ybl,Bills,LIC Premium
+T004585,SonyLIV,Entertainment,SonyLIV
+T004597,Fuel - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T004606,POS JIO RECHARGE BANGALORE,Bills,Jio Recharge
+T004610,UPI-RELIANCEDIGITAL-711625@ybl,Shopping,Reliance Digital
+T004615,POS KIRANA STORE PUNE,Food,Kirana Store
+T004617,Shell Fuel Cab,Transport,Shell Fuel
+T004622,Lenskart Electronics,Shopping,Lenskart
+T004637,Payment - Blue Dart Courier,Other,Blue Dart Courier
+T004638,Makemytrip Flights Ride,Transport,MakeMyTrip Flights
+T004643,ECOM Zomato dine in #593269,Food,Zomato
+T004647,UPI-LENSKART-733545@ybl,Shopping,Lenskart
+T004650,Ajio online shopping #214463,Shopping,Ajio
+T004653,Zee5 Membership,Entertainment,Zee5
+T004654,Restaurant - A2B Restaurant,Food,A2B Restaurant
+T004656,Lenskart,Shopping,Lenskart
+T004658,Nature'S Basket Dine In,Food,Nature's Basket
+T004668,UPI-KIRANASTORE-797211@ybl,Food,Kirana Store
+T004672,Tata 1Mg Consultation,Healthcare,Tata 1mg
+T004675,Pantaloons,Shopping,Pantaloons
+T004676,UPI-SHELLFUEL-382965@ybl,Transport,Shell Fuel
+T004677,Subway,Food,Subway
+T004678,Electronics - Lifestyle,Shopping,Lifestyle
+T004682,NEFT-Air India travel #152161,Transport,Air India
+T004691,POS Nature's Basket food delivery #766728,Food,Nature's Basket
+T004692,Zepto Meal,Food,Zepto
+T004696,POS Subway restaurant #567618,Food,Subway
+T004712,POS BOOKMYSHOW MUMBAI,Entertainment,BookMyShow
+T004713,NEFT-SonyLIV games #611380,Entertainment,SonyLIV
+T004718,A2B Restaurant Restaurant,Food,A2B Restaurant
+T004723,Recharge - BESCOM Electricity,Bills,BESCOM Electricity
+T004726,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T004727,UPI-PANTALOONS-454029@ybl,Shopping,Pantaloons
+T004729,Monthly Rent - PG Rent,Rent,PG Rent
+T004745,NEFT-Nature's Basket groceries #215195,Food,Nature's Basket
+T004755,A2B Restaurant,Food,A2B Restaurant
+T004770,UPI-VOGO-939556@ybl,Transport,Vogo
+T004771,POS PG RENT CHENNAI,Rent,PG Rent
+T004772,IMPS/Lenskart purchase #295061,Shopping,Lenskart
+T004773,Membership - Zee5,Entertainment,Zee5
+T004780,Subway dine in #917254,Food,Subway
+T004781,POS SHELL FUEL CHENNAI,Transport,Shell Fuel
+T004783,Blue Dart Courier,Other,Blue Dart Courier
+T004785,POS KIRANA STORE DELHI,Food,Kirana Store
+T004792,NEFT-FASTag fuel #114965,Transport,FASTag
+T004795,Blue Dart Courier Transfer,Other,Blue Dart Courier
+T004799,UPI-BESCOMELECTRICITY-880268@ybl,Bills,BESCOM Electricity
+T004802,POS KIRANA STORE HYDERABAD,Food,Kirana Store
+T004814,Landlord Rent,Rent,Landlord Rent
+T004816,POS MAKEMYTRIP FLIGHTS CHENNAI,Transport,MakeMyTrip Flights
+T004818,Booking - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T004821,POS ZEPTO CHENNAI,Food,Zepto
+T004823,Cab - Shell Fuel,Transport,Shell Fuel
+T004826,UPI-AIRINDIA-496483@ybl,Transport,Air India
+T004827,UPI-SONYLIV-212765@ybl,Entertainment,SonyLIV
+T004841,Fastag Booking,Transport,FASTag
+T004846,Meal - Kirana Store,Food,Kirana Store
+T004850,UPI-NATURE'SBASKET-332592@ybl,Food,Nature's Basket
+T004857,POS KIRANA STORE PUNE,Food,Kirana Store
+T004861,POS ZEPTO MUMBAI,Food,Zepto
+T004863,Shell Fuel,Transport,Shell Fuel
+T004864,Blue Dart Courier,Other,Blue Dart Courier
+T004868,UPI-LANDLORDRENT-516419@ybl,Rent,Landlord Rent
+T004871,Practo Hospital Bill,Healthcare,Practo
+T004872,Utility - BESCOM Electricity,Bills,BESCOM Electricity
+T004873,Subway Restaurant,Food,Subway
+T004878,IMPS/Pantaloons purchase #795284,Shopping,Pantaloons
+T004880,ECOM Nature's Basket dine in #917986,Food,Nature's Basket
+T004882,POS AIR INDIA DELHI,Transport,Air India
+T004891,POS SHELL FUEL CHENNAI,Transport,Shell Fuel
+T004895,UPI-AIRINDIA-382832@ybl,Transport,Air India
+T004906,ACT Fibernet,Bills,ACT Fibernet
+T004909,Online Shopping - Lenskart,Shopping,Lenskart
+T004915,Urban Company Payment,Other,Urban Company
+T004919,Zee5,Entertainment,Zee5
+T004926,A2B Restaurant restaurant #863011,Food,A2B Restaurant
+T004932,Lenskart Apparel,Shopping,Lenskart
+T004933,UPI-ZEPTO-812156@ybl,Food,Zepto
+T004936,A2B Restaurant,Food,A2B Restaurant
+T004942,NEFT-FASTag travel #734999,Transport,FASTag
+T004943,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T004952,Subway Dine In,Food,Subway
+T004958,UPI-ZOMATO-638847@ybl,Food,Zomato
+T004959,POS SMAAASH PUNE,Entertainment,Smaaash
+T004961,IMPS/Lenskart online shopping #537641,Shopping,Lenskart
+T004964,Payment - Blue Dart Courier,Other,Blue Dart Courier
+T004965,UPI-BOOKMYSHOW-325409@ybl,Entertainment,BookMyShow
+T004966,PG Rent,Rent,PG Rent
+T004967,POS BESCOM ELECTRICITY BANGALORE,Bills,BESCOM Electricity
+T004981,UPI-ZEPTO-346314@ybl,Food,Zepto
+T004982,UPI-SMAAASH-777287@ybl,Entertainment,Smaaash
+T004986,POS BESCOM ELECTRICITY MUMBAI,Bills,BESCOM Electricity
+T004988,Zepto,Food,Zepto
+T004990,BESCOM Electricity,Bills,BESCOM Electricity
+T004991,IMPS/Zomato meal #461739,Food,Zomato
+T004999,POS SonyLIV games #914970,Entertainment,SonyLIV
+T005015,UPI-ZOMATO-900326@ybl,Food,Zomato
+T005016,Transfer - Blue Dart Courier,Other,Blue Dart Courier
+T005018,Membership - BookMyShow,Entertainment,BookMyShow
+T005022,NEFT-Reliance Digital apparel #881027,Shopping,Reliance Digital
+T005024,Misc - Blue Dart Courier,Other,Blue Dart Courier
+T005025,Act Fibernet Monthly Bill,Bills,ACT Fibernet
+T005029,Transfer - Dry Cleaning,Other,Dry Cleaning
+T005030,UPI-ZEPTO-975287@ybl,Food,Zepto
+T005032,Lic Premium Monthly Bill,Bills,LIC Premium
+T005033,UPI-SHELLFUEL-496417@ybl,Transport,Shell Fuel
+T005045,Order - Kirana Store,Food,Kirana Store
+T005051,POS AIR INDIA PUNE,Transport,Air India
+T005057,NEFT-Coursera exam fee #300564,Education,Coursera
+T005061,A2B Restaurant Restaurant,Food,A2B Restaurant
+T005066,Subway Cafe,Food,Subway
+T005068,Shell Fuel,Transport,Shell Fuel
+T005074,UPI-KIRANASTORE-671522@ybl,Food,Kirana Store
+T005076,Zomato Meal,Food,Zomato
+T005077,Kirana Store meal #874835,Food,Kirana Store
+T005085,Kirana Store,Food,Kirana Store
+T005086,Urban Company Transfer,Other,Urban Company
+T005087,POS JIO RECHARGE KOLKATA,Bills,Jio Recharge
+T005092,ECOM Kirana Store cafe #298327,Food,Kirana Store
+T005096,POS ZEE5 DELHI,Entertainment,Zee5
+T005102,Restaurant - Kirana Store,Food,Kirana Store
+T005106,Zomato,Food,Zomato
+T005110,UPI-ACTFIBERNET-870507@ybl,Bills,ACT Fibernet
+T005111,Travel - FASTag,Transport,FASTag
+T005116,POS A2B Restaurant food delivery #635090,Food,A2B Restaurant
+T005132,POS SHELL FUEL BANGALORE,Transport,Shell Fuel
+T005134,Cafe - A2B Restaurant,Food,A2B Restaurant
+T005141,Restaurant - A2B Restaurant,Food,A2B Restaurant
+T005143,POS VOGO HYDERABAD,Transport,Vogo
+T005150,Practo lab test #181313,Healthcare,Practo
+T005155,Kirana Store Order,Food,Kirana Store
+T005157,A2B Restaurant Restaurant,Food,A2B Restaurant
+T005158,ECOM Kirana Store cafe #557319,Food,Kirana Store
+T005161,SonyLIV,Entertainment,SonyLIV
+T005163,Ajio electronics #712925,Shopping,Ajio
+T005164,Fortis Hospital Hospital Bill,Healthcare,Fortis Hospital
+T005170,IMPS/Sapna Book House course fee #992577,Education,Sapna Book House
+T005173,UPI-A2BRESTAURANT-147602@ybl,Food,A2B Restaurant
+T005176,Landlord Rent Rent Payment,Rent,Landlord Rent
+T005184,UPI-ZOMATO-292819@ybl,Food,Zomato
+T005190,Zepto Groceries,Food,Zepto
+T005201,Byjus Tuition,Education,BYJUS
+T005203,Nature's Basket,Food,Nature's Basket
+T005210,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T005214,UPI-VOGO-995998@ybl,Transport,Vogo
+T005229,POS Nature's Basket dine in #635163,Food,Nature's Basket
+T005232,POS NATURE'S BASKET MUMBAI,Food,Nature's Basket
+T005242,POS MAKEMYTRIP FLIGHTS BANGALORE,Transport,MakeMyTrip Flights
+T005243,A2B Restaurant,Food,A2B Restaurant
+T005248,ECOM Shell Fuel ticket #688492,Transport,Shell Fuel
+T005249,UPI-ZEPTO-207966@ybl,Food,Zepto
+T005252,UPI-MAKEMYTRIPFLIGHTS-671245@ybl,Transport,MakeMyTrip Flights
+T005258,UPI-Shell Fuel fuel #520811,Transport,Shell Fuel
+T005265,Travel - Shell Fuel,Transport,Shell Fuel
+T005268,Subway Restaurant,Food,Subway
+T005271,Cab - Air India,Transport,Air India
+T005273,POS SMAAASH HYDERABAD,Entertainment,Smaaash
+T005278,A2B Restaurant,Food,A2B Restaurant
+T005281,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T005283,Apparel - Reliance Digital,Shopping,Reliance Digital
+T005284,Vogo,Transport,Vogo
+T005288,Vogo Travel,Transport,Vogo
+T005289,Meal - Zomato,Food,Zomato
+T005291,UPI-BESCOMELECTRICITY-893643@ybl,Bills,BESCOM Electricity
+T005294,POS SHELL FUEL BANGALORE,Transport,Shell Fuel
+T005295,UPI-SHELLFUEL-929616@ybl,Transport,Shell Fuel
+T005296,POS URBAN COMPANY PUNE,Other,Urban Company
+T005297,POS KIRANA STORE CHENNAI,Food,Kirana Store
+T005298,Cafe - A2B Restaurant,Food,A2B Restaurant
+T005300,Tata 1mg,Healthcare,Tata 1mg
+T005304,Restaurant - Nature's Basket,Food,Nature's Basket
+T005307,POS SHELL FUEL HYDERABAD,Transport,Shell Fuel
+T005311,Utility - Jio Recharge,Bills,Jio Recharge
+T005312,Shell Fuel Fuel,Transport,Shell Fuel
+T005316,IMPS/MakeMyTrip Flights ride #124127,Transport,MakeMyTrip Flights
+T005319,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T005328,POS BOOKMYSHOW BANGALORE,Entertainment,BookMyShow
+T005330,POS AIR INDIA CHENNAI,Transport,Air India
+T005332,Air India,Transport,Air India
+T005333,FASTag travel #867678,Transport,FASTag
+T005334,POS TEMPLE DONATION HYDERABAD,Other,Temple Donation
+T005337,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T005347,Makemytrip Flights Booking,Transport,MakeMyTrip Flights
+T005350,Bill Payment - LIC Premium,Bills,LIC Premium
+T005353,UPI-MakeMyTrip Flights booking #121556,Transport,MakeMyTrip Flights
+T005354,Booking - Shell Fuel,Transport,Shell Fuel
+T005356,UPI-BESCOMELECTRICITY-372195@ybl,Bills,BESCOM Electricity
+T005357,Travel - Air India,Transport,Air India
+T005361,POS SMAAASH HYDERABAD,Entertainment,Smaaash
+T005365,Nature's Basket cafe #517308,Food,Nature's Basket
+T005366,Meal - Nature's Basket,Food,Nature's Basket
+T005373,IMPS/FASTag fuel #670359,Transport,FASTag
+T005374,UPI-VOGO-807277@ybl,Transport,Vogo
+T005378,UPI-BESCOMELECTRICITY-972151@ybl,Bills,BESCOM Electricity
+T005381,A2B Restaurant cafe #396520,Food,A2B Restaurant
+T005389,Urban Company service #265380,Other,Urban Company
+T005390,Booking - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T005391,UPI-SHELLFUEL-936018@ybl,Transport,Shell Fuel
+T005397,UPI-ACTFIBERNET-945733@ybl,Bills,ACT Fibernet
+T005400,Nature's Basket,Food,Nature's Basket
+T005403,POS TATA 1MG MUMBAI,Healthcare,Tata 1mg
+T005410,NEFT-Zee5 membership #239833,Entertainment,Zee5
+T005412,UPI-SUBWAY-614671@ybl,Food,Subway
+T005413,POS SHELL FUEL MUMBAI,Transport,Shell Fuel
+T005419,Restaurant - Zepto,Food,Zepto
+T005425,POS RELIANCE DIGITAL HYDERABAD,Shopping,Reliance Digital
+T005428,Nature's Basket,Food,Nature's Basket
+T005431,Dry Cleaning,Other,Dry Cleaning
+T005432,Air India,Transport,Air India
+T005434,IMPS/Kirana Store order #729604,Food,Kirana Store
+T005437,UPI-LICPREMIUM-292195@ybl,Bills,LIC Premium
+T005443,Cafe - Subway,Food,Subway
+T005445,Movie Tickets - BookMyShow,Entertainment,BookMyShow
+T005449,UPI-DRYCLEANING-817532@ybl,Other,Dry Cleaning
+T005455,UPI-ZEPTO-685059@ybl,Food,Zepto
+T005462,POS KIRANA STORE BANGALORE,Food,Kirana Store
+T005468,A2B Restaurant,Food,A2B Restaurant
+T005471,POS COURSERA PUNE,Education,Coursera
+T005475,POS AIR INDIA DELHI,Transport,Air India
+T005479,UPI-COURSERA-193221@ybl,Education,Coursera
+T005480,POS MAKEMYTRIP FLIGHTS DELHI,Transport,MakeMyTrip Flights
+T005484,POS FASTAG HYDERABAD,Transport,FASTag
+T005485,Fuel - Air India,Transport,Air India
+T005489,UPI-URBANCOMPANY-397548@ybl,Other,Urban Company
+T005492,Subway restaurant #818475,Food,Subway
+T005497,Smaaash,Entertainment,Smaaash
+T005498,Bescom Electricity Bill Payment,Bills,BESCOM Electricity
+T005499,ACT Fibernet,Bills,ACT Fibernet
+T005500,UPI-BLUEDARTCOURIER-365880@ybl,Other,Blue Dart Courier
+T005508,Air India Ticket,Transport,Air India
+T005516,POS ZOMATO DELHI,Food,Zomato
+T005522,Dine In - Zomato,Food,Zomato
+T005533,Lifestyle,Shopping,Lifestyle
+T005535,Ticket - Vogo,Transport,Vogo
+T005537,Fuel - Shell Fuel,Transport,Shell Fuel
+T005538,Jio Recharge monthly bill #420582,Bills,Jio Recharge
+T005539,Zee5 Streaming,Entertainment,Zee5
+T005540,Food Delivery - Kirana Store,Food,Kirana Store
+T005544,Lenskart store #463160,Shopping,Lenskart
+T005547,POS Zepto order #947106,Food,Zepto
+T005548,Cab - FASTag,Transport,FASTag
+T005552,POS SHELL FUEL PUNE,Transport,Shell Fuel
+T005553,Exam Registration,Education,Exam Registration
+T005558,NEFT-Subway groceries #486491,Food,Subway
+T005563,UPI-PRACTO-591311@ybl,Healthcare,Practo
+T005564,Cafe - Kirana Store,Food,Kirana Store
+T005566,Fuel - FASTag,Transport,FASTag
+T005573,A2B Restaurant Meal,Food,A2B Restaurant
+T005575,Meal - A2B Restaurant,Food,A2B Restaurant
+T005576,Lifestyle Apparel,Shopping,Lifestyle
+T005582,Nature'S Basket Meal,Food,Nature's Basket
+T005584,Booking - Vogo,Transport,Vogo
+T005587,ECOM Shell Fuel ride #161645,Transport,Shell Fuel
+T005589,POS LANDLORD RENT CHENNAI,Rent,Landlord Rent
+T005597,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T005598,UPI-DRYCLEANING-250196@ybl,Other,Dry Cleaning
+T005603,Subway Groceries,Food,Subway
+T005605,Lab Test - Tata 1mg,Healthcare,Tata 1mg
+T005611,Subway Groceries,Food,Subway
+T005618,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T005622,UPI-ZOMATO-777659@ybl,Food,Zomato
+T005628,POS ZEPTO MUMBAI,Food,Zepto
+T005636,UPI-PRACTO-416421@ybl,Healthcare,Practo
+T005645,POS BLUE DART COURIER PUNE,Other,Blue Dart Courier
+T005648,Subway,Food,Subway
+T005649,Misc - Temple Donation,Other,Temple Donation
+T005669,Store - Pantaloons,Shopping,Pantaloons
+T005677,Tuition - BYJUS,Education,BYJUS
+T005682,UPI-AIRINDIA-339594@ybl,Transport,Air India
+T005683,POS NATURE'S BASKET MUMBAI,Food,Nature's Basket
+T005687,Kirana Store,Food,Kirana Store
+T005688,ECOM Air India booking #465274,Transport,Air India
+T005690,POS VOGO BANGALORE,Transport,Vogo
+T005691,Subway,Food,Subway
+T005695,Subway Food Delivery,Food,Subway
+T005696,POS VOGO MUMBAI,Transport,Vogo
+T005702,UPI-SHELLFUEL-910646@ybl,Transport,Shell Fuel
+T005703,NEFT-Coursera books #139158,Education,Coursera
+T005704,Reliance Digital,Shopping,Reliance Digital
+T005707,UPI-SUBWAY-293224@ybl,Food,Subway
+T005710,UPI-MakeMyTrip Flights travel #738113,Transport,MakeMyTrip Flights
+T005714,Zomato,Food,Zomato
+T005717,UPI-SUBWAY-690939@ybl,Food,Subway
+T005727,Shell Fuel,Transport,Shell Fuel
+T005728,UPI-AIRINDIA-227675@ybl,Transport,Air India
+T005731,Cab - FASTag,Transport,FASTag
+T005732,Nature's Basket groceries #361216,Food,Nature's Basket
+T005736,A2B Restaurant,Food,A2B Restaurant
+T005743,A2B Restaurant Groceries,Food,A2B Restaurant
+T005746,POS AIR INDIA MUMBAI,Transport,Air India
+T005749,Zomato,Food,Zomato
+T005750,UPI-LIFESTYLE-158691@ybl,Shopping,Lifestyle
+T005758,IMPS/Shell Fuel travel #396822,Transport,Shell Fuel
+T005761,A2B Restaurant Cafe,Food,A2B Restaurant
+T005768,UPI-BOOKMYSHOW-227016@ybl,Entertainment,BookMyShow
+T005770,UPI-KIRANASTORE-321229@ybl,Food,Kirana Store
+T005777,Smaaash movie tickets #874909,Entertainment,Smaaash
+T005780,Travel - Shell Fuel,Transport,Shell Fuel
+T005784,POS ZEPTO MUMBAI,Food,Zepto
+T005786,Cab - Air India,Transport,Air India
+T005790,Lenskart online shopping #343542,Shopping,Lenskart
+T005792,UPI-Kirana Store groceries #448873,Food,Kirana Store
+T005793,SonyLIV,Entertainment,SonyLIV
+T005796,Order - Ajio,Shopping,Ajio
+T005801,UPI-SUBWAY-872808@ybl,Food,Subway
+T005808,Kirana Store,Food,Kirana Store
+T005809,Temple Donation payment #204759,Other,Temple Donation
+T005811,UPI-PGRENT-252240@ybl,Rent,PG Rent
+T005812,Kirana Store cafe #535199,Food,Kirana Store
+T005819,UPI-ACT Fibernet utility #275109,Bills,ACT Fibernet
+T005822,Blue Dart Courier Payment,Other,Blue Dart Courier
+T005825,Subway Restaurant,Food,Subway
+T005827,Zomato restaurant #993440,Food,Zomato
+T005829,POS VOGO BANGALORE,Transport,Vogo
+T005833,Makemytrip Flights Cab,Transport,MakeMyTrip Flights
+T005834,Blue Dart Courier Service,Other,Blue Dart Courier
+T005841,UPI-VOGO-105590@ybl,Transport,Vogo
+T005842,UPI-ZEPTO-656136@ybl,Food,Zepto
+T005843,UPI-SUBWAY-752677@ybl,Food,Subway
+T005845,FASTag,Transport,FASTag
+T005854,UPI-A2BRESTAURANT-598274@ybl,Food,A2B Restaurant
+T005855,Act Fibernet Utility,Bills,ACT Fibernet
+T005865,NEFT-Ajio apparel #982738,Shopping,Ajio
+T005872,A2B Restaurant Order,Food,A2B Restaurant
+T005877,Cafe - Nature's Basket,Food,Nature's Basket
+T005880,BESCOM Electricity monthly bill #556071,Bills,BESCOM Electricity
+T005882,Nature's Basket restaurant #271936,Food,Nature's Basket
+T005886,Meal - Subway,Food,Subway
+T005891,POS VOGO BANGALORE,Transport,Vogo
+T005893,POS FASTag trip #298048,Transport,FASTag
+T005894,POS Landlord Rent monthly rent #616504,Rent,Landlord Rent
+T005899,Urban Company,Other,Urban Company
+T005901,BESCOM Electricity,Bills,BESCOM Electricity
+T005905,Groceries - Subway,Food,Subway
+T005908,UPI-LICPREMIUM-653770@ybl,Bills,LIC Premium
+T005909,Payment - Temple Donation,Other,Temple Donation
+T005910,Air India,Transport,Air India
+T005911,Makemytrip Flights Booking,Transport,MakeMyTrip Flights
+T005913,Sonyliv Subscription,Entertainment,SonyLIV
+T005918,Meal - Subway,Food,Subway
+T005921,Reliance Digital,Shopping,Reliance Digital
+T005923,Lifestyle,Shopping,Lifestyle
+T005926,POS LENSKART CHENNAI,Shopping,Lenskart
+T005931,Membership - SonyLIV,Entertainment,SonyLIV
+T005933,Zee5,Entertainment,Zee5
+T005941,FASTag,Transport,FASTag
+T005942,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T005944,Air India,Transport,Air India
+T005945,Blue Dart Courier Payment,Other,Blue Dart Courier
+T005950,NEFT-Smaaash subscription #116261,Entertainment,Smaaash
+T005952,Order - Subway,Food,Subway
+T005956,Air India,Transport,Air India
+T005959,Act Fibernet Bill Payment,Bills,ACT Fibernet
+T005962,Zomato cafe #405488,Food,Zomato
+T005963,POS VOGO MUMBAI,Transport,Vogo
+T005964,UPI-VOGO-348879@ybl,Transport,Vogo
+T005968,POS KIRANA STORE DELHI,Food,Kirana Store
+T005969,POS AIR INDIA BANGALORE,Transport,Air India
+T005970,FASTag,Transport,FASTag
+T005976,Nature's Basket,Food,Nature's Basket
+T005978,UPI-NATURE'SBASKET-653317@ybl,Food,Nature's Basket
+T005983,UPI-VOGO-227535@ybl,Transport,Vogo
+T005986,Jio Recharge Bill Payment,Bills,Jio Recharge
+T005994,Shell Fuel,Transport,Shell Fuel
+T005998,Pantaloons purchase #171983,Shopping,Pantaloons
+T005999,POS MAKEMYTRIP FLIGHTS MUMBAI,Transport,MakeMyTrip Flights
+T006003,UPI-JIORECHARGE-361650@ybl,Bills,Jio Recharge
+T006015,A2B Restaurant dine in #559457,Food,A2B Restaurant
+T006048,ECOM Zepto dine in #997507,Food,Zepto
+T006052,UPI-ZOMATO-931915@ybl,Food,Zomato
+T006055,POS MAKEMYTRIP FLIGHTS BANGALORE,Transport,MakeMyTrip Flights
+T006063,POS BOOKMYSHOW BANGALORE,Entertainment,BookMyShow
+T006068,Kirana Store Order,Food,Kirana Store
+T006073,POS TATA 1MG PUNE,Healthcare,Tata 1mg
+T006075,UPI-SHELLFUEL-886545@ybl,Transport,Shell Fuel
+T006083,Air India booking #797903,Transport,Air India
+T006088,POS LENSKART KOLKATA,Shopping,Lenskart
+T006090,Kirana Store dine in #835387,Food,Kirana Store
+T006095,Kirana Store Groceries,Food,Kirana Store
+T006096,UPI-NATURE'SBASKET-327071@ybl,Food,Nature's Basket
+T006097,UPI-ZEPTO-727392@ybl,Food,Zepto
+T006099,UPI-DRYCLEANING-441969@ybl,Other,Dry Cleaning
+T006100,A2B Restaurant,Food,A2B Restaurant
+T006110,UPI-SUBWAY-173165@ybl,Food,Subway
+T006112,IMPS/Subway order #750502,Food,Subway
+T006118,UPI-BOOKMYSHOW-741591@ybl,Entertainment,BookMyShow
+T006119,Order - Pantaloons,Shopping,Pantaloons
+T006120,Store - Ajio,Shopping,Ajio
+T006122,Lenskart Order,Shopping,Lenskart
+T006125,Maintenance - Landlord Rent,Rent,Landlord Rent
+T006126,UPI-ZEPTO-721502@ybl,Food,Zepto
+T006128,Shell Fuel Cab,Transport,Shell Fuel
+T006129,NEFT-Subway restaurant #203257,Food,Subway
+T006130,POS KIRANA STORE CHENNAI,Food,Kirana Store
+T006134,Vogo,Transport,Vogo
+T006141,Subway,Food,Subway
+T006142,UPI-AIRINDIA-861942@ybl,Transport,Air India
+T006149,ECOM Pantaloons purchase #930643,Shopping,Pantaloons
+T006150,Jio Recharge Recharge,Bills,Jio Recharge
+T006153,UPI-THYROCARE-649329@ybl,Healthcare,Thyrocare
+T006157,UPI-ZEPTO-128047@ybl,Food,Zepto
+T006174,UPI-RELIANCEDIGITAL-705022@ybl,Shopping,Reliance Digital
+T006180,Landlord Rent Rent Payment,Rent,Landlord Rent
+T006185,UPI-ZEPTO-827898@ybl,Food,Zepto
+T006186,Nature's Basket dine in #628259,Food,Nature's Basket
+T006190,POS ZEE5 BANGALORE,Entertainment,Zee5
+T006192,UPI-Subway groceries #132055,Food,Subway
+T006193,UPI-ZOMATO-711430@ybl,Food,Zomato
+T006194,UPI-ZOMATO-491267@ybl,Food,Zomato
+T006200,Blue Dart Courier,Other,Blue Dart Courier
+T006203,Vogo,Transport,Vogo
+T006204,UPI-BESCOMELECTRICITY-293294@ybl,Bills,BESCOM Electricity
+T006212,ECOM Subway order #339762,Food,Subway
+T006215,PG Rent,Rent,PG Rent
+T006227,Urban Company transfer #776363,Other,Urban Company
+T006233,IMPS/Nature's Basket meal #183577,Food,Nature's Basket
+T006235,FASTag,Transport,FASTag
+T006243,UPI-SMAAASH-786042@ybl,Entertainment,Smaaash
+T006247,UPI-VOGO-955500@ybl,Transport,Vogo
+T006254,A2B Restaurant,Food,A2B Restaurant
+T006259,FASTag,Transport,FASTag
+T006278,POS JIO RECHARGE HYDERABAD,Bills,Jio Recharge
+T006279,Vogo Cab,Transport,Vogo
+T006282,POS ZEPTO KOLKATA,Food,Zepto
+T006286,POS VOGO BANGALORE,Transport,Vogo
+T006293,Zepto,Food,Zepto
+T006299,Dry Cleaning Misc,Other,Dry Cleaning
+T006300,Tata 1Mg Lab Test,Healthcare,Tata 1mg
+T006303,Makemytrip Flights Fuel,Transport,MakeMyTrip Flights
+T006309,Cafe - A2B Restaurant,Food,A2B Restaurant
+T006311,Zepto,Food,Zepto
+T006318,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T006322,UPI-SMAAASH-229046@ybl,Entertainment,Smaaash
+T006333,UPI-SHELLFUEL-661908@ybl,Transport,Shell Fuel
+T006335,Subway Cafe,Food,Subway
+T006337,Zepto,Food,Zepto
+T006339,Exam Fee - BYJUS,Education,BYJUS
+T006343,Shell Fuel Booking,Transport,Shell Fuel
+T006344,A2B Restaurant,Food,A2B Restaurant
+T006363,PG Rent,Rent,PG Rent
+T006365,POS SMAAASH BANGALORE,Entertainment,Smaaash
+T006367,A2B Restaurant Order,Food,A2B Restaurant
+T006371,Dine In - A2B Restaurant,Food,A2B Restaurant
+T006372,IMPS/Kirana Store restaurant #671638,Food,Kirana Store
+T006373,UPI-LICPREMIUM-369873@ybl,Bills,LIC Premium
+T006377,Groceries - Zomato,Food,Zomato
+T006384,Fuel - Vogo,Transport,Vogo
+T006385,Food Delivery - A2B Restaurant,Food,A2B Restaurant
+T006387,POS ZOMATO HYDERABAD,Food,Zomato
+T006388,Ajio,Shopping,Ajio
+T006391,POS AIR INDIA DELHI,Transport,Air India
+T006393,Byjus Course Fee,Education,BYJUS
+T006394,Service - Urban Company,Other,Urban Company
+T006397,NEFT-Kirana Store restaurant #408129,Food,Kirana Store
+T006400,UPI-A2BRESTAURANT-184543@ybl,Food,A2B Restaurant
+T006401,Nature's Basket order #914739,Food,Nature's Basket
+T006408,Subway Cafe,Food,Subway
+T006409,Blue Dart Courier Transfer,Other,Blue Dart Courier
+T006412,NEFT-Smaaash streaming #671849,Entertainment,Smaaash
+T006414,POS NATURE'S BASKET CHENNAI,Food,Nature's Basket
+T006416,LIC Premium,Bills,LIC Premium
+T006417,UPI-ZEPTO-510466@ybl,Food,Zepto
+T006418,Zee5,Entertainment,Zee5
+T006421,Zepto,Food,Zepto
+T006427,IMPS/Blue Dart Courier payment #359689,Other,Blue Dart Courier
+T006430,Shell Fuel,Transport,Shell Fuel
+T006439,Subway Meal,Food,Subway
+T006440,POS FASTAG BANGALORE,Transport,FASTag
+T006444,POS RELIANCE DIGITAL DELHI,Shopping,Reliance Digital
+T006452,Zomato,Food,Zomato
+T006459,Zomato Order,Food,Zomato
+T006460,ECOM LIC Premium bill payment #638446,Bills,LIC Premium
+T006461,UPI-Nature's Basket groceries #191105,Food,Nature's Basket
+T006464,Booking - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T006469,Air India Cab,Transport,Air India
+T006472,Kirana Store Groceries,Food,Kirana Store
+T006473,Exam Registration,Education,Exam Registration
+T006480,UPI-A2BRESTAURANT-358449@ybl,Food,A2B Restaurant
+T006488,POS THYROCARE BANGALORE,Healthcare,Thyrocare
+T006498,POS NATURE'S BASKET BANGALORE,Food,Nature's Basket
+T006504,Lenskart Order,Shopping,Lenskart
+T006505,ACT Fibernet,Bills,ACT Fibernet
+T006506,Bescom Electricity Autopay,Bills,BESCOM Electricity
+T006512,UPI-URBANCOMPANY-880588@ybl,Other,Urban Company
+T006513,Temple Donation,Other,Temple Donation
+T006520,Restaurant - Zepto,Food,Zepto
+T006525,Electronics - Lifestyle,Shopping,Lifestyle
+T006528,UPI-BLUEDARTCOURIER-273234@ybl,Other,Blue Dart Courier
+T006530,SonyLIV streaming #528680,Entertainment,SonyLIV
+T006531,POS TATA 1MG BANGALORE,Healthcare,Tata 1mg
+T006539,Lic Premium Autopay,Bills,LIC Premium
+T006545,Lenskart purchase #653266,Shopping,Lenskart
+T006547,POS FASTAG DELHI,Transport,FASTag
+T006549,NEFT-Zepto restaurant #916871,Food,Zepto
+T006553,POS LIFESTYLE HYDERABAD,Shopping,Lifestyle
+T006556,Zepto Food Delivery,Food,Zepto
+T006561,UPI-SHELLFUEL-551333@ybl,Transport,Shell Fuel
+T006572,POS PRACTO HYDERABAD,Healthcare,Practo
+T006573,ECOM A2B Restaurant cafe #676957,Food,A2B Restaurant
+T006574,UPI-Ajio purchase #339501,Shopping,Ajio
+T006575,Subscription - SonyLIV,Entertainment,SonyLIV
+T006584,UPI-FASTag trip #890991,Transport,FASTag
+T006587,POS THYROCARE DELHI,Healthcare,Thyrocare
+T006595,Membership - Smaaash,Entertainment,Smaaash
+T006596,Subway Food Delivery,Food,Subway
+T006600,Dine In - Subway,Food,Subway
+T006603,Cafe - Zomato,Food,Zomato
+T006608,Dine In - Zomato,Food,Zomato
+T006612,UPI-LENSKART-605664@ybl,Shopping,Lenskart
+T006617,Food Delivery - Subway,Food,Subway
+T006622,Zomato,Food,Zomato
+T006624,Air India,Transport,Air India
+T006625,Cafe - Nature's Basket,Food,Nature's Basket
+T006629,UPI-AIRINDIA-976014@ybl,Transport,Air India
+T006630,Subway Cafe,Food,Subway
+T006633,Subway,Food,Subway
+T006635,Fastag Booking,Transport,FASTag
+T006641,POS ZEE5 HYDERABAD,Entertainment,Zee5
+T006643,UPI-SONYLIV-845189@ybl,Entertainment,SonyLIV
+T006645,POS AIR INDIA DELHI,Transport,Air India
+T006647,FASTag trip #566256,Transport,FASTag
+T006653,NEFT-Temple Donation misc #635432,Other,Temple Donation
+T006662,Tuition - Exam Registration,Education,Exam Registration
+T006669,Course Fee - Exam Registration,Education,Exam Registration
+T006671,Urban Company Service,Other,Urban Company
+T006679,UPI-NATURE'SBASKET-992146@ybl,Food,Nature's Basket
+T006681,Meal - Subway,Food,Subway
+T006685,NEFT-Sapna Book House certification #576246,Education,Sapna Book House
+T006690,UPI-ZOMATO-420644@ybl,Food,Zomato
+T006699,UPI-JIORECHARGE-274712@ybl,Bills,Jio Recharge
+T006706,UPI-AJIO-592212@ybl,Shopping,Ajio
+T006712,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T006721,Fuel - Shell Fuel,Transport,Shell Fuel
+T006723,UPI-ZOMATO-840793@ybl,Food,Zomato
+T006725,POS ZEE5 PUNE,Entertainment,Zee5
+T006729,POS ACT FIBERNET CHENNAI,Bills,ACT Fibernet
+T006730,Trip - Air India,Transport,Air India
+T006731,UPI-JIORECHARGE-593852@ybl,Bills,Jio Recharge
+T006735,NEFT-Fortis Hospital lab test #224062,Healthcare,Fortis Hospital
+T006738,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T006741,Bookmyshow Membership,Entertainment,BookMyShow
+T006745,UPI-ZEE5-791147@ybl,Entertainment,Zee5
+T006746,Pg Rent Rent Payment,Rent,PG Rent
+T006751,Lab Test - Thyrocare,Healthcare,Thyrocare
+T006754,Food Delivery - Subway,Food,Subway
+T006755,Food Delivery - Zomato,Food,Zomato
+T006761,POS SUBWAY PUNE,Food,Subway
+T006763,POS Nature's Basket dine in #609420,Food,Nature's Basket
+T006764,Travel - Vogo,Transport,Vogo
+T006768,POS FASTAG CHENNAI,Transport,FASTag
+T006775,IMPS/Kirana Store dine in #445939,Food,Kirana Store
+T006778,POS FASTAG DELHI,Transport,FASTag
+T006790,Ticket - Air India,Transport,Air India
+T006792,LIC Premium,Bills,LIC Premium
+T006793,UPI-FASTAG-875299@ybl,Transport,FASTag
+T006795,Tata 1mg,Healthcare,Tata 1mg
+T006803,UPI-BOOKMYSHOW-218995@ybl,Entertainment,BookMyShow
+T006804,Cafe - Zomato,Food,Zomato
+T006811,UPI-ZEPTO-649950@ybl,Food,Zepto
+T006812,POS Nature's Basket dine in #718593,Food,Nature's Basket
+T006821,Games - Smaaash,Entertainment,Smaaash
+T006824,Fuel - Vogo,Transport,Vogo
+T006826,UPI-ZOMATO-555067@ybl,Food,Zomato
+T006828,Kirana Store dine in #852509,Food,Kirana Store
+T006830,UPI-Zepto food delivery #125097,Food,Zepto
+T006831,Blue Dart Courier,Other,Blue Dart Courier
+T006836,POS ZEPTO MUMBAI,Food,Zepto
+T006842,Payment - Dry Cleaning,Other,Dry Cleaning
+T006850,Consultation - Tata 1mg,Healthcare,Tata 1mg
+T006852,Cab - Air India,Transport,Air India
+T006854,POS URBAN COMPANY KOLKATA,Other,Urban Company
+T006855,Service - Blue Dart Courier,Other,Blue Dart Courier
+T006857,UPI-KIRANASTORE-848575@ybl,Food,Kirana Store
+T006858,Dry Cleaning,Other,Dry Cleaning
+T006859,Tata 1mg,Healthcare,Tata 1mg
+T006861,Nature's Basket,Food,Nature's Basket
+T006864,POS LIFESTYLE BANGALORE,Shopping,Lifestyle
+T006865,Booking - Air India,Transport,Air India
+T006869,BookMyShow,Entertainment,BookMyShow
+T006871,UPI-BOOKMYSHOW-517393@ybl,Entertainment,BookMyShow
+T006875,Fastag Fuel,Transport,FASTag
+T006878,Coursera,Education,Coursera
+T006887,UPI-NATURE'SBASKET-695556@ybl,Food,Nature's Basket
+T006890,UPI-Fortis Hospital lab test #972512,Healthcare,Fortis Hospital
+T006894,Zepto Groceries,Food,Zepto
+T006895,POS RELIANCE DIGITAL MUMBAI,Shopping,Reliance Digital
+T006896,POS MAKEMYTRIP FLIGHTS MUMBAI,Transport,MakeMyTrip Flights
+T006897,UPI-SUBWAY-500659@ybl,Food,Subway
+T006902,Subway,Food,Subway
+T006904,Nature's Basket,Food,Nature's Basket
+T006905,Vogo,Transport,Vogo
+T006908,Dine In - Subway,Food,Subway
+T006912,Order - Zepto,Food,Zepto
+T006914,Zepto,Food,Zepto
+T006916,Air India,Transport,Air India
+T006918,Vogo cab #200043,Transport,Vogo
+T006919,UPI-Nature's Basket restaurant #359936,Food,Nature's Basket
+T006922,Subway Meal,Food,Subway
+T006923,PG Rent,Rent,PG Rent
+T006926,Thyrocare Consultation,Healthcare,Thyrocare
+T006929,POS A2B RESTAURANT DELHI,Food,A2B Restaurant
+T006935,Fuel - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T006938,UPI-ZOMATO-776890@ybl,Food,Zomato
+T006939,Subway,Food,Subway
+T006940,POS Jio Recharge bill payment #995806,Bills,Jio Recharge
+T006949,UPI-SHELLFUEL-537861@ybl,Transport,Shell Fuel
+T006953,IMPS/Zomato restaurant #668805,Food,Zomato
+T006954,POS KIRANA STORE BANGALORE,Food,Kirana Store
+T006955,UPI-LIFESTYLE-302589@ybl,Shopping,Lifestyle
+T006959,Dry Cleaning Misc,Other,Dry Cleaning
+T006974,UPI-NATURE'SBASKET-188791@ybl,Food,Nature's Basket
+T006977,ACT Fibernet,Bills,ACT Fibernet
+T006978,Meal - Zomato,Food,Zomato
+T006979,Act Fibernet Monthly Bill,Bills,ACT Fibernet
+T006985,POS ZEE5 DELHI,Entertainment,Zee5
+T006986,UPI-FASTAG-893833@ybl,Transport,FASTag
+T006988,Air India Fuel,Transport,Air India
+T006994,Fortis Hospital,Healthcare,Fortis Hospital
+T006996,Fastag Cab,Transport,FASTag
+T007015,Dry Cleaning Service,Other,Dry Cleaning
+T007017,ECOM Nature's Basket order #589903,Food,Nature's Basket
+T007026,POS MAKEMYTRIP FLIGHTS HYDERABAD,Transport,MakeMyTrip Flights
+T007028,ACT Fibernet,Bills,ACT Fibernet
+T007033,UPI-SUBWAY-316893@ybl,Food,Subway
+T007037,Utility - LIC Premium,Bills,LIC Premium
+T007042,ECOM FASTag booking #269985,Transport,FASTag
+T007045,UPI-SHELLFUEL-983647@ybl,Transport,Shell Fuel
+T007052,POS KIRANA STORE CHENNAI,Food,Kirana Store
+T007054,UPI-A2BRESTAURANT-688378@ybl,Food,A2B Restaurant
+T007056,Exam Registration Exam Fee,Education,Exam Registration
+T007058,ECOM Subway cafe #663953,Food,Subway
+T007065,Food Delivery - Subway,Food,Subway
+T007066,Subway,Food,Subway
+T007071,UPI-BESCOMELECTRICITY-553071@ybl,Bills,BESCOM Electricity
+T007075,Sonyliv Streaming,Entertainment,SonyLIV
+T007076,Dine In - Kirana Store,Food,Kirana Store
+T007077,Act Fibernet Monthly Bill,Bills,ACT Fibernet
+T007079,UPI-NATURE'SBASKET-854856@ybl,Food,Nature's Basket
+T007083,UPI-FASTag trip #594912,Transport,FASTag
+T007093,Zepto meal #612661,Food,Zepto
+T007106,UPI-LICPREMIUM-200455@ybl,Bills,LIC Premium
+T007107,UPI-MakeMyTrip Flights cab #762954,Transport,MakeMyTrip Flights
+T007112,ECOM Zepto order #305138,Food,Zepto
+T007116,NEFT-Thyrocare lab test #633214,Healthcare,Thyrocare
+T007118,Zomato,Food,Zomato
+T007120,Tata 1mg,Healthcare,Tata 1mg
+T007128,Zomato Restaurant,Food,Zomato
+T007132,Zee5,Entertainment,Zee5
+T007133,Zepto,Food,Zepto
+T007139,POS ZEPTO HYDERABAD,Food,Zepto
+T007141,POS COURSERA MUMBAI,Education,Coursera
+T007147,Byjus Certification,Education,BYJUS
+T007148,Restaurant - Nature's Basket,Food,Nature's Basket
+T007149,POS KIRANA STORE PUNE,Food,Kirana Store
+T007150,Air India,Transport,Air India
+T007153,Jio Recharge,Bills,Jio Recharge
+T007159,Groceries - Kirana Store,Food,Kirana Store
+T007160,Subway,Food,Subway
+T007167,Groceries - A2B Restaurant,Food,A2B Restaurant
+T007170,Nature'S Basket Order,Food,Nature's Basket
+T007172,POS ZOMATO KOLKATA,Food,Zomato
+T007174,ECOM Zomato order #164028,Food,Zomato
+T007175,IMPS/Tata 1mg medicines #874867,Healthcare,Tata 1mg
+T007176,IMPS/Shell Fuel ticket #737428,Transport,Shell Fuel
+T007177,Lab Test - Practo,Healthcare,Practo
+T007178,Jio Recharge Bill Payment,Bills,Jio Recharge
+T007183,POS A2B Restaurant food delivery #677061,Food,A2B Restaurant
+T007184,POS AJIO BANGALORE,Shopping,Ajio
+T007192,POS Air India cab #713161,Transport,Air India
+T007200,ECOM A2B Restaurant order #899844,Food,A2B Restaurant
+T007202,Fortis Hospital lab test #426607,Healthcare,Fortis Hospital
+T007203,POS SONYLIV BANGALORE,Entertainment,SonyLIV
+T007204,A2B Restaurant,Food,A2B Restaurant
+T007207,Service - Blue Dart Courier,Other,Blue Dart Courier
+T007220,POS Nature's Basket order #636968,Food,Nature's Basket
+T007225,Lenskart,Shopping,Lenskart
+T007232,Kirana Store Order,Food,Kirana Store
+T007240,POS KIRANA STORE KOLKATA,Food,Kirana Store
+T007242,Nature'S Basket Dine In,Food,Nature's Basket
+T007243,Store - Pantaloons,Shopping,Pantaloons
+T007255,POS MAKEMYTRIP FLIGHTS HYDERABAD,Transport,MakeMyTrip Flights
+T007260,UPI-ZEPTO-258051@ybl,Food,Zepto
+T007261,Meal - Nature's Basket,Food,Nature's Basket
+T007262,POS EXAM REGISTRATION MUMBAI,Education,Exam Registration
+T007274,Groceries - Nature's Basket,Food,Nature's Basket
+T007275,UPI-KIRANASTORE-657848@ybl,Food,Kirana Store
+T007276,Nature'S Basket Cafe,Food,Nature's Basket
+T007278,UPI-Nature's Basket groceries #787918,Food,Nature's Basket
+T007283,Kirana Store Cafe,Food,Kirana Store
+T007291,UPI-TATA1MG-763457@ybl,Healthcare,Tata 1mg
+T007292,Zomato,Food,Zomato
+T007293,Dry Cleaning Transfer,Other,Dry Cleaning
+T007296,NEFT-A2B Restaurant cafe #983864,Food,A2B Restaurant
+T007298,Fastag Travel,Transport,FASTag
+T007299,Consultation - Fortis Hospital,Healthcare,Fortis Hospital
+T007307,UPI-MAKEMYTRIPFLIGHTS-854748@ybl,Transport,MakeMyTrip Flights
+T007309,POS LIFESTYLE KOLKATA,Shopping,Lifestyle
+T007310,Lab Test - Tata 1mg,Healthcare,Tata 1mg
+T007311,Misc - Temple Donation,Other,Temple Donation
+T007314,BESCOM Electricity,Bills,BESCOM Electricity
+T007315,POS ACT FIBERNET KOLKATA,Bills,ACT Fibernet
+T007317,POS ZEPTO CHENNAI,Food,Zepto
+T007327,UPI-NATURE'SBASKET-114864@ybl,Food,Nature's Basket
+T007328,UPI-NATURE'SBASKET-560510@ybl,Food,Nature's Basket
+T007330,Ticket - FASTag,Transport,FASTag
+T007331,POS LIC Premium utility #207832,Bills,LIC Premium
+T007332,Utility - BESCOM Electricity,Bills,BESCOM Electricity
+T007336,Jio Recharge,Bills,Jio Recharge
+T007338,Groceries - Kirana Store,Food,Kirana Store
+T007340,POS BookMyShow movie tickets #155820,Entertainment,BookMyShow
+T007343,UPI-SUBWAY-517973@ybl,Food,Subway
+T007345,POS Air India trip #339001,Transport,Air India
+T007349,Tata 1mg,Healthcare,Tata 1mg
+T007351,Fortis Hospital Pharmacy,Healthcare,Fortis Hospital
+T007354,FASTag,Transport,FASTag
+T007359,Air India Fuel,Transport,Air India
+T007363,Transfer - Blue Dart Courier,Other,Blue Dart Courier
+T007364,Zomato Dine In,Food,Zomato
+T007365,UPI-KIRANASTORE-119871@ybl,Food,Kirana Store
+T007367,Zomato Order,Food,Zomato
+T007374,Autopay - Jio Recharge,Bills,Jio Recharge
+T007381,ECOM Practo lab test #934614,Healthcare,Practo
+T007382,ECOM A2B Restaurant cafe #120487,Food,A2B Restaurant
+T007384,Temple Donation Service,Other,Temple Donation
+T007388,A2B Restaurant Order,Food,A2B Restaurant
+T007391,Cafe - Nature's Basket,Food,Nature's Basket
+T007402,ECOM Nature's Basket dine in #241372,Food,Nature's Basket
+T007406,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T007411,Order - Zepto,Food,Zepto
+T007415,Nature'S Basket Groceries,Food,Nature's Basket
+T007416,POS ZOMATO HYDERABAD,Food,Zomato
+T007422,POS MAKEMYTRIP FLIGHTS MUMBAI,Transport,MakeMyTrip Flights
+T007424,UPI-FASTAG-430045@ybl,Transport,FASTag
+T007430,Zee5,Entertainment,Zee5
+T007434,Dine In - Kirana Store,Food,Kirana Store
+T007436,Bill Payment - Jio Recharge,Bills,Jio Recharge
+T007437,UPI-FASTAG-957121@ybl,Transport,FASTag
+T007438,POS KIRANA STORE PUNE,Food,Kirana Store
+T007441,Subway groceries #118660,Food,Subway
+T007442,POS NATURE'S BASKET CHENNAI,Food,Nature's Basket
+T007444,Air India,Transport,Air India
+T007445,Blue Dart Courier misc #347313,Other,Blue Dart Courier
+T007446,ECOM Landlord Rent monthly rent #455720,Rent,Landlord Rent
+T007456,BESCOM Electricity,Bills,BESCOM Electricity
+T007462,Zomato order #912413,Food,Zomato
+T007463,Nature's Basket food delivery #440525,Food,Nature's Basket
+T007472,UPI-FASTAG-532401@ybl,Transport,FASTag
+T007475,Subway,Food,Subway
+T007479,Store - Ajio,Shopping,Ajio
+T007483,Blue Dart Courier,Other,Blue Dart Courier
+T007488,Zee5 Streaming,Entertainment,Zee5
+T007489,POS AIR INDIA BANGALORE,Transport,Air India
+T007494,Cafe - Zomato,Food,Zomato
+T007497,Landlord Rent Rent,Rent,Landlord Rent
+T007507,POS LIC PREMIUM BANGALORE,Bills,LIC Premium
+T007508,Service - Blue Dart Courier,Other,Blue Dart Courier
+T007510,UPI-MAKEMYTRIPFLIGHTS-792698@ybl,Transport,MakeMyTrip Flights
+T007511,Meal - Subway,Food,Subway
+T007512,Practo,Healthcare,Practo
+T007515,Dry Cleaning Payment,Other,Dry Cleaning
+T007517,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T007518,Blue Dart Courier misc #131200,Other,Blue Dart Courier
+T007519,UPI-MakeMyTrip Flights fuel #564117,Transport,MakeMyTrip Flights
+T007521,UPI-Zepto dine in #951610,Food,Zepto
+T007525,Trip - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T007526,Zepto,Food,Zepto
+T007529,A2B Restaurant Restaurant,Food,A2B Restaurant
+T007535,UPI-ZOMATO-723930@ybl,Food,Zomato
+T007541,NEFT-Jio Recharge utility #620484,Bills,Jio Recharge
+T007545,Vogo,Transport,Vogo
+T007547,PG Rent,Rent,PG Rent
+T007559,IMPS/Nature's Basket groceries #242749,Food,Nature's Basket
+T007562,POS MAKEMYTRIP FLIGHTS MUMBAI,Transport,MakeMyTrip Flights
+T007564,Dry Cleaning,Other,Dry Cleaning
+T007570,POS BOOKMYSHOW CHENNAI,Entertainment,BookMyShow
+T007583,UPI-LENSKART-985379@ybl,Shopping,Lenskart
+T007585,IMPS/A2B Restaurant food delivery #700397,Food,A2B Restaurant
+T007587,NEFT-Subway order #515721,Food,Subway
+T007591,POS BOOKMYSHOW BANGALORE,Entertainment,BookMyShow
+T007605,Sapna Book House,Education,Sapna Book House
+T007607,UPI-LICPREMIUM-586096@ybl,Bills,LIC Premium
+T007611,Blue Dart Courier,Other,Blue Dart Courier
+T007619,Blue Dart Courier,Other,Blue Dart Courier
+T007620,Zepto groceries #159882,Food,Zepto
+T007626,POS VOGO PUNE,Transport,Vogo
+T007630,Misc - Dry Cleaning,Other,Dry Cleaning
+T007639,UPI-BYJUS-795494@ybl,Education,BYJUS
+T007643,IMPS/Kirana Store dine in #865505,Food,Kirana Store
+T007648,POS ZOMATO DELHI,Food,Zomato
+T007651,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T007653,POS NATURE'S BASKET MUMBAI,Food,Nature's Basket
+T007654,POS BOOKMYSHOW DELHI,Entertainment,BookMyShow
+T007655,POS ZEPTO DELHI,Food,Zepto
+T007659,Bill Payment - Jio Recharge,Bills,Jio Recharge
+T007663,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T007667,POS SUBWAY DELHI,Food,Subway
+T007677,UPI-Dry Cleaning service #735029,Other,Dry Cleaning
+T007679,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T007681,UPI-Nature's Basket groceries #391518,Food,Nature's Basket
+T007684,UPI-ZEPTO-373693@ybl,Food,Zepto
+T007685,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T007689,Books - Exam Registration,Education,Exam Registration
+T007690,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T007691,Vogo Cab,Transport,Vogo
+T007698,Restaurant - A2B Restaurant,Food,A2B Restaurant
+T007702,UPI-ZOMATO-782723@ybl,Food,Zomato
+T007705,FASTag,Transport,FASTag
+T007710,POS VOGO PUNE,Transport,Vogo
+T007713,Subway,Food,Subway
+T007720,POS KIRANA STORE MUMBAI,Food,Kirana Store
+T007721,Zomato,Food,Zomato
+T007727,UPI-SHELLFUEL-900476@ybl,Transport,Shell Fuel
+T007728,A2B Restaurant Meal,Food,A2B Restaurant
+T007731,POS ZEPTO KOLKATA,Food,Zepto
+T007734,POS BESCOM ELECTRICITY MUMBAI,Bills,BESCOM Electricity
+T007738,Blue Dart Courier Service,Other,Blue Dart Courier
+T007739,Store - Lenskart,Shopping,Lenskart
+T007741,ECOM Subway cafe #319367,Food,Subway
+T007746,NEFT-FASTag ticket #983811,Transport,FASTag
+T007747,UPI-TATA1MG-833418@ybl,Healthcare,Tata 1mg
+T007748,UPI-LICPREMIUM-212174@ybl,Bills,LIC Premium
+T007750,Bill Payment - LIC Premium,Bills,LIC Premium
+T007753,A2B Restaurant,Food,A2B Restaurant
+T007756,Subway,Food,Subway
+T007758,POS SUBWAY PUNE,Food,Subway
+T007779,A2B Restaurant,Food,A2B Restaurant
+T007789,UPI-FORTISHOSPITAL-627222@ybl,Healthcare,Fortis Hospital
+T007791,Service - Urban Company,Other,Urban Company
+T007793,Kirana Store,Food,Kirana Store
+T007797,Landlord Rent,Rent,Landlord Rent
+T007807,Nature'S Basket Meal,Food,Nature's Basket
+T007810,Pantaloons,Shopping,Pantaloons
+T007816,Kirana Store Food Delivery,Food,Kirana Store
+T007823,POS ZOMATO BANGALORE,Food,Zomato
+T007824,Nature's Basket food delivery #904425,Food,Nature's Basket
+T007826,IMPS/Shell Fuel cab #597051,Transport,Shell Fuel
+T007828,Lenskart,Shopping,Lenskart
+T007830,Practo,Healthcare,Practo
+T007832,Zomato Cafe,Food,Zomato
+T007835,Smaaash,Entertainment,Smaaash
+T007841,IMPS/Vogo ticket #612210,Transport,Vogo
+T007847,Fortis Hospital,Healthcare,Fortis Hospital
+T007850,Pg Rent Rent,Rent,PG Rent
+T007851,UPI-AIRINDIA-523824@ybl,Transport,Air India
+T007854,ECOM BESCOM Electricity autopay #558940,Bills,BESCOM Electricity
+T007855,Dry Cleaning Service,Other,Dry Cleaning
+T007859,Kirana Store,Food,Kirana Store
+T007860,Subway,Food,Subway
+T007861,Lic Premium Recharge,Bills,LIC Premium
+T007870,Nature'S Basket Restaurant,Food,Nature's Basket
+T007871,FASTag,Transport,FASTag
+T007873,POS SONYLIV KOLKATA,Entertainment,SonyLIV
+T007875,POS URBAN COMPANY KOLKATA,Other,Urban Company
+T007879,NEFT-Air India ride #794116,Transport,Air India
+T007887,POS AIR INDIA BANGALORE,Transport,Air India
+T007888,Subway Food Delivery,Food,Subway
+T007889,Nature'S Basket Groceries,Food,Nature's Basket
+T007893,Ticket - FASTag,Transport,FASTag
+T007897,Rent - Landlord Rent,Rent,Landlord Rent
+T007898,FASTag,Transport,FASTag
+T007901,POS AIR INDIA CHENNAI,Transport,Air India
+T007903,UPI-ZEPTO-632857@ybl,Food,Zepto
+T007905,Subway Restaurant,Food,Subway
+T007909,Fortis Hospital Hospital Bill,Healthcare,Fortis Hospital
+T007910,Cafe - A2B Restaurant,Food,A2B Restaurant
+T007918,POS A2B RESTAURANT MUMBAI,Food,A2B Restaurant
+T007922,UPI-ZEPTO-609951@ybl,Food,Zepto
+T007923,UPI-Kirana Store food delivery #128223,Food,Kirana Store
+T007925,IMPS/Blue Dart Courier misc #638864,Other,Blue Dart Courier
+T007930,POS NATURE'S BASKET CHENNAI,Food,Nature's Basket
+T007937,UPI-RELIANCEDIGITAL-980491@ybl,Shopping,Reliance Digital
+T007942,POS TATA 1MG CHENNAI,Healthcare,Tata 1mg
+T007943,Fastag Ride,Transport,FASTag
+T007952,Cab - Air India,Transport,Air India
+T007953,UPI-THYROCARE-102947@ybl,Healthcare,Thyrocare
+T007959,Dry Cleaning,Other,Dry Cleaning
+T007962,Zomato,Food,Zomato
+T007972,UPI-BESCOMELECTRICITY-253172@ybl,Bills,BESCOM Electricity
+T007974,Pg Rent Monthly Rent,Rent,PG Rent
+T007975,UPI-SUBWAY-357797@ybl,Food,Subway
+T007982,IMPS/Vogo trip #755895,Transport,Vogo
+T007983,POS LIFESTYLE DELHI,Shopping,Lifestyle
+T007989,Blue Dart Courier,Other,Blue Dart Courier
+T007994,Lenskart,Shopping,Lenskart
+T007997,Meal - Nature's Basket,Food,Nature's Basket
+T008007,Booking - Shell Fuel,Transport,Shell Fuel
+T008010,UPI-SUBWAY-785129@ybl,Food,Subway
+T008020,UPI-THYROCARE-493264@ybl,Healthcare,Thyrocare
+T008029,A2B Restaurant order #566694,Food,A2B Restaurant
+T008032,UPI-SHELLFUEL-572021@ybl,Transport,Shell Fuel
+T008045,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T008048,Groceries - Nature's Basket,Food,Nature's Basket
+T008051,Zee5,Entertainment,Zee5
+T008058,Smaaash subscription #188697,Entertainment,Smaaash
+T008060,UPI-PRACTO-299235@ybl,Healthcare,Practo
+T008064,IMPS/Blue Dart Courier service #519001,Other,Blue Dart Courier
+T008066,POS THYROCARE CHENNAI,Healthcare,Thyrocare
+T008077,POS ACT FIBERNET MUMBAI,Bills,ACT Fibernet
+T008078,UPI-KIRANASTORE-474514@ybl,Food,Kirana Store
+T008079,UPI-Zepto food delivery #564133,Food,Zepto
+T008083,Act Fibernet Autopay,Bills,ACT Fibernet
+T008092,SonyLIV,Entertainment,SonyLIV
+T008095,POS SHELL FUEL BANGALORE,Transport,Shell Fuel
+T008101,Subway groceries #486387,Food,Subway
+T008105,POS VOGO MUMBAI,Transport,Vogo
+T008110,UPI-MAKEMYTRIPFLIGHTS-446367@ybl,Transport,MakeMyTrip Flights
+T008114,POS ACT FIBERNET BANGALORE,Bills,ACT Fibernet
+T008115,A2B Restaurant,Food,A2B Restaurant
+T008130,Zee5,Entertainment,Zee5
+T008132,Shell Fuel fuel #123020,Transport,Shell Fuel
+T008133,UPI-ACTFIBERNET-279215@ybl,Bills,ACT Fibernet
+T008138,Fortis Hospital,Healthcare,Fortis Hospital
+T008141,UPI-PANTALOONS-996789@ybl,Shopping,Pantaloons
+T008142,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T008146,Course Fee - Coursera,Education,Coursera
+T008151,POS FASTag travel #495658,Transport,FASTag
+T008163,Groceries - Zepto,Food,Zepto
+T008166,NEFT-Nature's Basket dine in #820513,Food,Nature's Basket
+T008169,Blue Dart Courier Misc,Other,Blue Dart Courier
+T008174,POS ZOMATO DELHI,Food,Zomato
+T008175,UPI-LICPREMIUM-458030@ybl,Bills,LIC Premium
+T008178,POS ACT FIBERNET PUNE,Bills,ACT Fibernet
+T008179,Groceries - Nature's Basket,Food,Nature's Basket
+T008180,Zepto Restaurant,Food,Zepto
+T008181,Payment - Urban Company,Other,Urban Company
+T008187,UPI-TATA1MG-973275@ybl,Healthcare,Tata 1mg
+T008188,A2B Restaurant Groceries,Food,A2B Restaurant
+T008189,POS JIO RECHARGE MUMBAI,Bills,Jio Recharge
+T008193,Kirana Store Order,Food,Kirana Store
+T008195,POS ZOMATO DELHI,Food,Zomato
+T008196,Dine In - Kirana Store,Food,Kirana Store
+T008198,Shell Fuel,Transport,Shell Fuel
+T008206,Rent Payment - Landlord Rent,Rent,Landlord Rent
+T008212,Urban Company payment #377058,Other,Urban Company
+T008217,Subscription - SonyLIV,Entertainment,SonyLIV
+T008219,Kirana Store Restaurant,Food,Kirana Store
+T008226,POS SUBWAY PUNE,Food,Subway
+T008230,Zepto Meal,Food,Zepto
+T008233,Cab - Shell Fuel,Transport,Shell Fuel
+T008237,Vogo Booking,Transport,Vogo
+T008238,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T008244,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T008255,UPI-SONYLIV-330316@ybl,Entertainment,SonyLIV
+T008257,Kirana Store,Food,Kirana Store
+T008261,Meal - Nature's Basket,Food,Nature's Basket
+T008267,Vogo cab #526243,Transport,Vogo
+T008271,UPI-Tata 1mg consultation #761326,Healthcare,Tata 1mg
+T008272,Vogo cab #941475,Transport,Vogo
+T008275,Subway,Food,Subway
+T008277,POS SUBWAY HYDERABAD,Food,Subway
+T008279,POS FORTIS HOSPITAL CHENNAI,Healthcare,Fortis Hospital
+T008280,Ticket - Air India,Transport,Air India
+T008284,Subway,Food,Subway
+T008287,POS JIO RECHARGE DELHI,Bills,Jio Recharge
+T008288,POS KIRANA STORE HYDERABAD,Food,Kirana Store
+T008291,Zomato Order,Food,Zomato
+T008294,FASTag ticket #883022,Transport,FASTag
+T008299,A2B Restaurant,Food,A2B Restaurant
+T008302,ACT Fibernet utility #222810,Bills,ACT Fibernet
+T008303,BESCOM Electricity,Bills,BESCOM Electricity
+T008305,Kirana Store Food Delivery,Food,Kirana Store
+T008306,POS PANTALOONS KOLKATA,Shopping,Pantaloons
+T008314,POS SONYLIV HYDERABAD,Entertainment,SonyLIV
+T008315,Pg Rent Maintenance,Rent,PG Rent
+T008323,UPI-THYROCARE-708289@ybl,Healthcare,Thyrocare
+T008324,Cafe - A2B Restaurant,Food,A2B Restaurant
+T008326,UPI-FORTISHOSPITAL-981068@ybl,Healthcare,Fortis Hospital
+T008328,Games - BookMyShow,Entertainment,BookMyShow
+T008331,POS PANTALOONS HYDERABAD,Shopping,Pantaloons
+T008333,Apparel - Ajio,Shopping,Ajio
+T008334,POS AIR INDIA PUNE,Transport,Air India
+T008340,NEFT-Urban Company service #225112,Other,Urban Company
+T008342,Smaaash Subscription,Entertainment,Smaaash
+T008344,Groceries - Subway,Food,Subway
+T008345,UPI-KIRANASTORE-803114@ybl,Food,Kirana Store
+T008346,Air India ticket #437407,Transport,Air India
+T008354,Food Delivery - Zomato,Food,Zomato
+T008355,UPI-MAKEMYTRIPFLIGHTS-791391@ybl,Transport,MakeMyTrip Flights
+T008358,Reliance Digital,Shopping,Reliance Digital
+T008360,UPI-JIORECHARGE-976251@ybl,Bills,Jio Recharge
+T008361,UPI-A2BRESTAURANT-471020@ybl,Food,A2B Restaurant
+T008364,Zomato cafe #715459,Food,Zomato
+T008365,UPI-DRYCLEANING-559089@ybl,Other,Dry Cleaning
+T008371,Streaming - Zee5,Entertainment,Zee5
+T008379,NEFT-Kirana Store groceries #922095,Food,Kirana Store
+T008381,POS KIRANA STORE HYDERABAD,Food,Kirana Store
+T008382,Kirana Store groceries #601643,Food,Kirana Store
+T008383,A2B Restaurant,Food,A2B Restaurant
+T008384,POS A2B RESTAURANT DELHI,Food,A2B Restaurant
+T008387,Utility - BESCOM Electricity,Bills,BESCOM Electricity
+T008388,Kirana Store Food Delivery,Food,Kirana Store
+T008390,Zepto,Food,Zepto
+T008394,Act Fibernet Utility,Bills,ACT Fibernet
+T008399,Nature'S Basket Order,Food,Nature's Basket
+T008405,POS BLUE DART COURIER BANGALORE,Other,Blue Dart Courier
+T008409,UPI-AJIO-706553@ybl,Shopping,Ajio
+T008411,Kirana Store food delivery #221334,Food,Kirana Store
+T008413,POS BOOKMYSHOW DELHI,Entertainment,BookMyShow
+T008414,Sapna Book House,Education,Sapna Book House
+T008419,POS FASTAG PUNE,Transport,FASTag
+T008432,Subway,Food,Subway
+T008438,UPI-ZOMATO-648453@ybl,Food,Zomato
+T008441,Zepto,Food,Zepto
+T008442,Ajio online shopping #505477,Shopping,Ajio
+T008446,Zepto,Food,Zepto
+T008449,Air India Fuel,Transport,Air India
+T008452,Autopay - ACT Fibernet,Bills,ACT Fibernet
+T008458,UPI-BookMyShow membership #509831,Entertainment,BookMyShow
+T008459,NEFT-BookMyShow streaming #788397,Entertainment,BookMyShow
+T008460,Trip - Air India,Transport,Air India
+T008462,UPI-TEMPLEDONATION-983424@ybl,Other,Temple Donation
+T008465,UPI-ACTFIBERNET-477897@ybl,Bills,ACT Fibernet
+T008477,Shell Fuel Booking,Transport,Shell Fuel
+T008481,Cafe - Subway,Food,Subway
+T008484,UPI-Shell Fuel ticket #874553,Transport,Shell Fuel
+T008493,POS ZEPTO HYDERABAD,Food,Zepto
+T008494,ACT Fibernet,Bills,ACT Fibernet
+T008496,UPI-Subway food delivery #708885,Food,Subway
+T008500,Dry Cleaning,Other,Dry Cleaning
+T008506,Misc - Blue Dart Courier,Other,Blue Dart Courier
+T008514,Trip - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T008516,Zepto Cafe,Food,Zepto
+T008519,Travel - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T008522,Vogo cab #159525,Transport,Vogo
+T008524,POS AJIO HYDERABAD,Shopping,Ajio
+T008526,POS ZOMATO HYDERABAD,Food,Zomato
+T008527,POS Dry Cleaning service #980964,Other,Dry Cleaning
+T008531,Air India Travel,Transport,Air India
+T008535,Monthly Bill - BESCOM Electricity,Bills,BESCOM Electricity
+T008552,Zomato Order,Food,Zomato
+T008553,NEFT-Temple Donation payment #974258,Other,Temple Donation
+T008554,Ajio Electronics,Shopping,Ajio
+T008555,UPI-ACTFIBERNET-378855@ybl,Bills,ACT Fibernet
+T008559,POS BOOKMYSHOW DELHI,Entertainment,BookMyShow
+T008560,Nature'S Basket Meal,Food,Nature's Basket
+T008561,Trip - FASTag,Transport,FASTag
+T008563,Ticket - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T008568,Cafe - Kirana Store,Food,Kirana Store
+T008573,Makemytrip Flights Travel,Transport,MakeMyTrip Flights
+T008574,UPI-ZEPTO-358191@ybl,Food,Zepto
+T008587,POS ZOMATO DELHI,Food,Zomato
+T008590,Urban Company Transfer,Other,Urban Company
+T008592,A2B Restaurant Food Delivery,Food,A2B Restaurant
+T008593,Zepto Food Delivery,Food,Zepto
+T008595,NEFT-FASTag fuel #475432,Transport,FASTag
+T008598,UPI-AIRINDIA-700029@ybl,Transport,Air India
+T008599,A2B Restaurant,Food,A2B Restaurant
+T008600,POS SONYLIV HYDERABAD,Entertainment,SonyLIV
+T008605,Food Delivery - Subway,Food,Subway
+T008606,IMPS/Zomato groceries #959267,Food,Zomato
+T008607,Zepto Order,Food,Zepto
+T008609,POS SHELL FUEL DELHI,Transport,Shell Fuel
+T008617,POS SMAAASH KOLKATA,Entertainment,Smaaash
+T008619,Fastag Ticket,Transport,FASTag
+T008620,POS LIFESTYLE MUMBAI,Shopping,Lifestyle
+T008622,PG Rent,Rent,PG Rent
+T008624,A2B Restaurant Restaurant,Food,A2B Restaurant
+T008630,Kirana Store Restaurant,Food,Kirana Store
+T008633,UPI-FASTag cab #368276,Transport,FASTag
+T008636,Subway Restaurant,Food,Subway
+T008638,UPI-A2BRESTAURANT-696078@ybl,Food,A2B Restaurant
+T008643,POS LIC PREMIUM KOLKATA,Bills,LIC Premium
+T008646,Booking - Air India,Transport,Air India
+T008660,ECOM FASTag ride #980150,Transport,FASTag
+T008664,UPI-BookMyShow subscription #685420,Entertainment,BookMyShow
+T008666,Groceries - Zomato,Food,Zomato
+T008667,NEFT-Subway cafe #861431,Food,Subway
+T008668,UPI-ZEPTO-220156@ybl,Food,Zepto
+T008671,LIC Premium,Bills,LIC Premium
+T008676,UPI-PANTALOONS-613237@ybl,Shopping,Pantaloons
+T008685,Lic Premium Utility,Bills,LIC Premium
+T008686,POS LENSKART HYDERABAD,Shopping,Lenskart
+T008701,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T008702,UPI-ZEPTO-695968@ybl,Food,Zepto
+T008706,POS TATA 1MG BANGALORE,Healthcare,Tata 1mg
+T008714,Nature'S Basket Food Delivery,Food,Nature's Basket
+T008722,UPI-ZEPTO-409384@ybl,Food,Zepto
+T008724,POS Zomato cafe #249047,Food,Zomato
+T008728,UPI-TEMPLEDONATION-341461@ybl,Other,Temple Donation
+T008733,FASTag fuel #260149,Transport,FASTag
+T008737,POS LENSKART BANGALORE,Shopping,Lenskart
+T008739,Lic Premium Utility,Bills,LIC Premium
+T008746,Kirana Store,Food,Kirana Store
+T008751,Nature'S Basket Cafe,Food,Nature's Basket
+T008752,POS KIRANA STORE BANGALORE,Food,Kirana Store
+T008755,Games - Smaaash,Entertainment,Smaaash
+T008762,SonyLIV movie tickets #825748,Entertainment,SonyLIV
+T008765,POS SUBWAY DELHI,Food,Subway
+T008773,Zepto Restaurant,Food,Zepto
+T008776,POS Nature's Basket order #884547,Food,Nature's Basket
+T008778,UPI-SUBWAY-406998@ybl,Food,Subway
+T008779,NEFT-Subway groceries #627916,Food,Subway
+T008780,Shell Fuel,Transport,Shell Fuel
+T008782,Practo,Healthcare,Practo
+T008784,Air India Cab,Transport,Air India
+T008785,Jio Recharge,Bills,Jio Recharge
+T008787,Bescom Electricity Recharge,Bills,BESCOM Electricity
+T008794,Subway Groceries,Food,Subway
+T008795,Meal - Zepto,Food,Zepto
+T008800,UPI-ZOMATO-723438@ybl,Food,Zomato
+T008806,ECOM A2B Restaurant restaurant #421452,Food,A2B Restaurant
+T008813,UPI-A2BRESTAURANT-117308@ybl,Food,A2B Restaurant
+T008814,Pantaloons Store,Shopping,Pantaloons
+T008818,POS ZEPTO CHENNAI,Food,Zepto
+T008820,Booking - FASTag,Transport,FASTag
+T008825,UPI-SUBWAY-301502@ybl,Food,Subway
+T008829,Ajio,Shopping,Ajio
+T008840,Travel - Air India,Transport,Air India
+T008841,Nature's Basket,Food,Nature's Basket
+T008850,UPI-ZOMATO-538784@ybl,Food,Zomato
+T008852,Reliance Digital apparel #615516,Shopping,Reliance Digital
+T008854,UPI-FASTAG-154469@ybl,Transport,FASTag
+T008856,Trip - Vogo,Transport,Vogo
+T008857,POS LIFESTYLE KOLKATA,Shopping,Lifestyle
+T008863,ECOM Subway food delivery #472805,Food,Subway
+T008864,POS Vogo ticket #176819,Transport,Vogo
+T008866,ACT Fibernet,Bills,ACT Fibernet
+T008871,Food Delivery - Zomato,Food,Zomato
+T008872,Meal - Zepto,Food,Zepto
+T008874,Lenskart Apparel,Shopping,Lenskart
+T008877,POS VOGO DELHI,Transport,Vogo
+T008889,Misc - Dry Cleaning,Other,Dry Cleaning
+T008894,POS A2B RESTAURANT KOLKATA,Food,A2B Restaurant
+T008901,ECOM A2B Restaurant restaurant #290119,Food,A2B Restaurant
+T008906,Meal - Subway,Food,Subway
+T008907,POS BLUE DART COURIER MUMBAI,Other,Blue Dart Courier
+T008909,UPI-A2BRESTAURANT-708275@ybl,Food,A2B Restaurant
+T008920,UPI-JIORECHARGE-641576@ybl,Bills,Jio Recharge
+T008921,ECOM Pantaloons online shopping #331194,Shopping,Pantaloons
+T008930,POS SMAAASH PUNE,Entertainment,Smaaash
+T008935,Subway,Food,Subway
+T008936,POS Ajio online shopping #410709,Shopping,Ajio
+T008938,Trip - FASTag,Transport,FASTag
+T008943,Restaurant - Subway,Food,Subway
+T008944,POS SUBWAY MUMBAI,Food,Subway
+T008946,Order - Subway,Food,Subway
+T008947,Reliance Digital Purchase,Shopping,Reliance Digital
+T008949,UPI-LIFESTYLE-529350@ybl,Shopping,Lifestyle
+T008950,Kirana Store,Food,Kirana Store
+T008955,UPI-VOGO-852243@ybl,Transport,Vogo
+T008964,POS FASTAG CHENNAI,Transport,FASTag
+T008966,Cafe - A2B Restaurant,Food,A2B Restaurant
+T008968,Booking - MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T008970,Order - Kirana Store,Food,Kirana Store
+T008973,Pantaloons,Shopping,Pantaloons
+T008984,Vogo Fuel,Transport,Vogo
+T008987,POS BookMyShow games #517538,Entertainment,BookMyShow
+T008997,Jio Recharge,Bills,Jio Recharge
+T009000,Meal - Zepto,Food,Zepto
+T009010,Vogo Ticket,Transport,Vogo
+T009016,UPI-SUBWAY-535073@ybl,Food,Subway
+T009017,Shell Fuel Ride,Transport,Shell Fuel
+T009029,POS KIRANA STORE BANGALORE,Food,Kirana Store
+T009031,POS VOGO BANGALORE,Transport,Vogo
+T009042,UPI-A2BRESTAURANT-237398@ybl,Food,A2B Restaurant
+T009043,POS BESCOM ELECTRICITY KOLKATA,Bills,BESCOM Electricity
+T009059,UPI-ZOMATO-796964@ybl,Food,Zomato
+T009071,ECOM Nature's Basket meal #663829,Food,Nature's Basket
+T009072,POS FASTAG BANGALORE,Transport,FASTag
+T009074,POS DRY CLEANING HYDERABAD,Other,Dry Cleaning
+T009075,Games - BookMyShow,Entertainment,BookMyShow
+T009082,UPI-VOGO-741557@ybl,Transport,Vogo
+T009083,UPI-BESCOMELECTRICITY-497077@ybl,Bills,BESCOM Electricity
+T009088,Games - BookMyShow,Entertainment,BookMyShow
+T009096,UPI-ZOMATO-965924@ybl,Food,Zomato
+T009111,Fuel - Shell Fuel,Transport,Shell Fuel
+T009119,Booking - FASTag,Transport,FASTag
+T009123,Temple Donation Payment,Other,Temple Donation
+T009124,Cafe - Subway,Food,Subway
+T009138,UPI-KIRANASTORE-728438@ybl,Food,Kirana Store
+T009139,Jio Recharge Monthly Bill,Bills,Jio Recharge
+T009144,Zomato,Food,Zomato
+T009149,UPI-BLUEDARTCOURIER-615493@ybl,Other,Blue Dart Courier
+T009150,POS ZEPTO CHENNAI,Food,Zepto
+T009153,POS ZOMATO PUNE,Food,Zomato
+T009157,SonyLIV movie tickets #503090,Entertainment,SonyLIV
+T009160,Lenskart,Shopping,Lenskart
+T009163,UPI-KIRANASTORE-133196@ybl,Food,Kirana Store
+T009167,Nature'S Basket Groceries,Food,Nature's Basket
+T009168,Consultation - Thyrocare,Healthcare,Thyrocare
+T009170,POS BOOKMYSHOW PUNE,Entertainment,BookMyShow
+T009175,Fastag Fuel,Transport,FASTag
+T009184,Shell Fuel,Transport,Shell Fuel
+T009186,BookMyShow,Entertainment,BookMyShow
+T009188,Nature's Basket groceries #168256,Food,Nature's Basket
+T009190,UPI-TEMPLEDONATION-620788@ybl,Other,Temple Donation
+T009191,UPI-Zomato restaurant #570605,Food,Zomato
+T009194,POS SMAAASH DELHI,Entertainment,Smaaash
+T009204,ACT Fibernet,Bills,ACT Fibernet
+T009205,UPI-BLUEDARTCOURIER-764879@ybl,Other,Blue Dart Courier
+T009206,POS EXAM REGISTRATION PUNE,Education,Exam Registration
+T009212,BookMyShow,Entertainment,BookMyShow
+T009213,UPI-FASTAG-356231@ybl,Transport,FASTag
+T009214,Makemytrip Flights Travel,Transport,MakeMyTrip Flights
+T009220,Nature'S Basket Groceries,Food,Nature's Basket
+T009221,UPI-ZOMATO-886912@ybl,Food,Zomato
+T009223,Temple Donation Misc,Other,Temple Donation
+T009224,POS ZEPTO MUMBAI,Food,Zepto
+T009225,A2B Restaurant Groceries,Food,A2B Restaurant
+T009230,UPI-BOOKMYSHOW-903339@ybl,Entertainment,BookMyShow
+T009231,UPI-Blue Dart Courier payment #286160,Other,Blue Dart Courier
+T009232,ACT Fibernet,Bills,ACT Fibernet
+T009234,POS KIRANA STORE DELHI,Food,Kirana Store
+T009238,Jio Recharge Autopay,Bills,Jio Recharge
+T009242,Fastag Travel,Transport,FASTag
+T009263,UPI-KIRANASTORE-247980@ybl,Food,Kirana Store
+T009264,UPI-KIRANASTORE-919366@ybl,Food,Kirana Store
+T009268,UPI-SHELLFUEL-741759@ybl,Transport,Shell Fuel
+T009269,ECOM Vogo trip #379928,Transport,Vogo
+T009274,POS DRY CLEANING PUNE,Other,Dry Cleaning
+T009276,LIC Premium,Bills,LIC Premium
+T009279,Lab Test - Practo,Healthcare,Practo
+T009294,UPI-SUBWAY-155478@ybl,Food,Subway
+T009302,NEFT-Urban Company service #116414,Other,Urban Company
+T009307,POS BOOKMYSHOW CHENNAI,Entertainment,BookMyShow
+T009308,UPI-TEMPLEDONATION-593510@ybl,Other,Temple Donation
+T009317,POS SONYLIV DELHI,Entertainment,SonyLIV
+T009327,UPI-ACTFIBERNET-104926@ybl,Bills,ACT Fibernet
+T009331,Shell Fuel Trip,Transport,Shell Fuel
+T009340,Ajio,Shopping,Ajio
+T009342,POS ZEE5 MUMBAI,Entertainment,Zee5
+T009344,POS KIRANA STORE KOLKATA,Food,Kirana Store
+T009347,ECOM MakeMyTrip Flights ride #423066,Transport,MakeMyTrip Flights
+T009358,UPI-RELIANCEDIGITAL-863564@ybl,Shopping,Reliance Digital
+T009366,Temple Donation Service,Other,Temple Donation
+T009367,Zomato Order,Food,Zomato
+T009368,UPI-SUBWAY-729675@ybl,Food,Subway
+T009370,UPI-SHELLFUEL-731022@ybl,Transport,Shell Fuel
+T009377,Cafe - Zepto,Food,Zepto
+T009378,POS ZOMATO HYDERABAD,Food,Zomato
+T009384,Subway groceries #542672,Food,Subway
+T009385,POS NATURE'S BASKET DELHI,Food,Nature's Basket
+T009394,UPI-AIRINDIA-527489@ybl,Transport,Air India
+T009395,Bookmyshow Membership,Entertainment,BookMyShow
+T009396,Dry Cleaning Payment,Other,Dry Cleaning
+T009399,UPI-ZEE5-832403@ybl,Entertainment,Zee5
+T009400,POS Jio Recharge bill payment #800879,Bills,Jio Recharge
+T009409,Nature'S Basket Cafe,Food,Nature's Basket
+T009411,Order - A2B Restaurant,Food,A2B Restaurant
+T009414,UPI-SHELLFUEL-992291@ybl,Transport,Shell Fuel
+T009420,UPI-FASTAG-785591@ybl,Transport,FASTag
+T009426,POS NATURE'S BASKET KOLKATA,Food,Nature's Basket
+T009434,POS SHELL FUEL DELHI,Transport,Shell Fuel
+T009435,Zomato Groceries,Food,Zomato
+T009440,Urban Company,Other,Urban Company
+T009441,IMPS/Nature's Basket restaurant #886585,Food,Nature's Basket
+T009445,POS BOOKMYSHOW MUMBAI,Entertainment,BookMyShow
+T009463,NEFT-Jio Recharge utility #471870,Bills,Jio Recharge
+T009466,Tata 1mg lab test #406223,Healthcare,Tata 1mg
+T009467,UPI-AJIO-397591@ybl,Shopping,Ajio
+T009474,POS AJIO BANGALORE,Shopping,Ajio
+T009475,Bookmyshow Movie Tickets,Entertainment,BookMyShow
+T009478,Urban Company Service,Other,Urban Company
+T009480,UPI-SHELLFUEL-199391@ybl,Transport,Shell Fuel
+T009481,UPI-KIRANASTORE-265261@ybl,Food,Kirana Store
+T009483,UPI-Subway meal #758980,Food,Subway
+T009486,POS LIC PREMIUM HYDERABAD,Bills,LIC Premium
+T009491,UPI-LANDLORDRENT-241586@ybl,Rent,Landlord Rent
+T009492,Lenskart,Shopping,Lenskart
+T009493,UPI-A2BRESTAURANT-109217@ybl,Food,A2B Restaurant
+T009496,Order - Zepto,Food,Zepto
+T009502,UPI-ZEPTO-840633@ybl,Food,Zepto
+T009506,Trip - FASTag,Transport,FASTag
+T009512,Dine In - Kirana Store,Food,Kirana Store
+T009521,POS BESCOM ELECTRICITY MUMBAI,Bills,BESCOM Electricity
+T009523,Dine In - Nature's Basket,Food,Nature's Basket
+T009526,Zepto,Food,Zepto
+T009527,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T009529,FASTag,Transport,FASTag
+T009533,UPI-RELIANCEDIGITAL-649525@ybl,Shopping,Reliance Digital
+T009535,POS ACT FIBERNET BANGALORE,Bills,ACT Fibernet
+T009543,Bill Payment - LIC Premium,Bills,LIC Premium
+T009545,UPI-Nature's Basket groceries #392972,Food,Nature's Basket
+T009550,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T009552,POS ACT FIBERNET PUNE,Bills,ACT Fibernet
+T009554,NEFT-Reliance Digital purchase #363924,Shopping,Reliance Digital
+T009555,FASTag,Transport,FASTag
+T009559,Groceries - Zomato,Food,Zomato
+T009561,UPI-RELIANCEDIGITAL-874425@ybl,Shopping,Reliance Digital
+T009562,POS SHELL FUEL MUMBAI,Transport,Shell Fuel
+T009565,BESCOM Electricity utility #376781,Bills,BESCOM Electricity
+T009566,A2B Restaurant,Food,A2B Restaurant
+T009572,Smaaash Streaming,Entertainment,Smaaash
+T009581,NEFT-Lifestyle electronics #808321,Shopping,Lifestyle
+T009582,POS SONYLIV DELHI,Entertainment,SonyLIV
+T009587,Zomato,Food,Zomato
+T009590,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T009597,POS SUBWAY KOLKATA,Food,Subway
+T009602,POS SUBWAY CHENNAI,Food,Subway
+T009604,Lic Premium Recharge,Bills,LIC Premium
+T009613,UPI-PANTALOONS-513208@ybl,Shopping,Pantaloons
+T009617,Utility - ACT Fibernet,Bills,ACT Fibernet
+T009619,Order - Lenskart,Shopping,Lenskart
+T009637,UPI-BESCOMELECTRICITY-628750@ybl,Bills,BESCOM Electricity
+T009639,Booking - Vogo,Transport,Vogo
+T009644,UPI-SONYLIV-958792@ybl,Entertainment,SonyLIV
+T009645,Restaurant - Zepto,Food,Zepto
+T009646,POS ZOMATO CHENNAI,Food,Zomato
+T009647,Lic Premium Bill Payment,Bills,LIC Premium
+T009656,POS ZOMATO CHENNAI,Food,Zomato
+T009664,UPI-ZOMATO-727415@ybl,Food,Zomato
+T009666,Urban Company,Other,Urban Company
+T009667,A2B Restaurant,Food,A2B Restaurant
+T009669,UPI-KIRANASTORE-307545@ybl,Food,Kirana Store
+T009671,Maintenance - PG Rent,Rent,PG Rent
+T009677,Zepto Cafe,Food,Zepto
+T009681,Subway Restaurant,Food,Subway
+T009683,Shell Fuel Ticket,Transport,Shell Fuel
+T009685,Smaaash,Entertainment,Smaaash
+T009695,Payment - Urban Company,Other,Urban Company
+T009705,POS LIC PREMIUM CHENNAI,Bills,LIC Premium
+T009706,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T009709,NEFT-Kirana Store food delivery #165402,Food,Kirana Store
+T009712,POS Zomato dine in #456605,Food,Zomato
+T009714,Zomato Groceries,Food,Zomato
+T009718,POS SUBWAY KOLKATA,Food,Subway
+T009720,UPI-SUBWAY-847334@ybl,Food,Subway
+T009729,Kirana Store Order,Food,Kirana Store
+T009731,UPI-URBANCOMPANY-106907@ybl,Other,Urban Company
+T009732,POS LANDLORD RENT MUMBAI,Rent,Landlord Rent
+T009738,POS Subway order #941810,Food,Subway
+T009741,Air India,Transport,Air India
+T009745,UPI-ZOMATO-315337@ybl,Food,Zomato
+T009749,POS FASTAG KOLKATA,Transport,FASTag
+T009750,Zepto,Food,Zepto
+T009751,Restaurant - Nature's Basket,Food,Nature's Basket
+T009756,POS MAKEMYTRIP FLIGHTS PUNE,Transport,MakeMyTrip Flights
+T009758,Dine In - Zomato,Food,Zomato
+T009761,Pantaloons,Shopping,Pantaloons
+T009770,FASTag,Transport,FASTag
+T009775,UPI-THYROCARE-110388@ybl,Healthcare,Thyrocare
+T009780,UPI-NATURE'SBASKET-256099@ybl,Food,Nature's Basket
+T009787,POS URBAN COMPANY DELHI,Other,Urban Company
+T009791,Subway cafe #699341,Food,Subway
+T009795,ECOM BYJUS tuition #724696,Education,BYJUS
+T009798,Cab - Shell Fuel,Transport,Shell Fuel
+T009800,MakeMyTrip Flights,Transport,MakeMyTrip Flights
+T009802,Exam Registration Course Fee,Education,Exam Registration
+T009804,Subway Order,Food,Subway
+T009805,IMPS/LIC Premium autopay #879055,Bills,LIC Premium
+T009810,Smaaash,Entertainment,Smaaash
+T009812,IMPS/Zomato dine in #536188,Food,Zomato
+T009820,Fastag Trip,Transport,FASTag
+T009823,Kirana Store Groceries,Food,Kirana Store
+T009824,SonyLIV subscription #440694,Entertainment,SonyLIV
+T009827,Act Fibernet Recharge,Bills,ACT Fibernet
+T009828,POS AIR INDIA CHENNAI,Transport,Air India
+T009830,Vogo,Transport,Vogo
+T009834,POS A2B RESTAURANT KOLKATA,Food,A2B Restaurant
+T009839,Nature'S Basket Restaurant,Food,Nature's Basket
+T009840,Kirana Store Restaurant,Food,Kirana Store
+T009843,POS JIO RECHARGE CHENNAI,Bills,Jio Recharge
+T009845,UPI-DRYCLEANING-910418@ybl,Other,Dry Cleaning
+T009854,Vogo Ride,Transport,Vogo
+T009858,Air India,Transport,Air India
+T009859,Recharge - ACT Fibernet,Bills,ACT Fibernet

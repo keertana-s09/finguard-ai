@@ -1,0 +1,40 @@
+{
+  "classifier_rows": 9639,
+  "classifier_classes": [
+    "Bills",
+    "Education",
+    "Entertainment",
+    "Food",
+    "Healthcare",
+    "Other",
+    "Rent",
+    "Shopping",
+    "Transport"
+  ],
+  "anomaly_rows": 9639,
+  "anomaly_contamination": 0.01,
+  "contamination_search": [
+    {
+      "contamination": 0.005,
+      "val_f1": 0.48
+    },
+    {
+      "contamination": 0.01,
+      "val_f1": 0.5517
+    },
+    {
+      "contamination": 0.02,
+      "val_f1": 0.4762
+    },
+    {
+      "contamination": 0.03,
+      "val_f1": 0.4068
+    },
+    {
+      "contamination": 0.05,
+      "val_f1": 0.2979
+    }
+  ],
+  "forecast_profiles": 6,
+  "forecast_months": 216
+}

@@ -1,0 +1,10 @@
+# FinGuard AI - free, open-source dependencies only (no API keys, no GPU).
+# Tested with: streamlit 1.65.0, pandas 3.0.6, numpy 2.5.4, scikit-learn 1.9.1,
+#              plotly 7.1.0, joblib 1.6.0, pytest 9.1.1 on Python 3.12.
+streamlit>=1.50
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+plotly>=5.24
+joblib>=1.4
+pytest>=8.0

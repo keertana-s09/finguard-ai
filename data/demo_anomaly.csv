@@ -1,0 +1,267 @@
+Transaction ID,Date,Description,Amount,Type,Category
+D00001,2026-04-01,NEFT Salary ACME Corp,55500.0,Income,Income
+D00002,2026-04-02,Maintenance - Landlord Rent,15000.0,Expense,Rent
+D00003,2026-04-02,UPI-DRYCLEANING-394451@ybl,810.0,Expense,Other
+D00004,2026-04-03,UPI-KFC-103360@ybl,605.0,Expense,
+D00005,2026-04-04,Booking - IRCTC,85.0,Expense,
+D00006,2026-04-05,NEFT-IndiGo travel #768489,205.0,Expense,
+D00007,2026-04-06,ECOM Amazon apparel #729815,2085.0,Expense,
+D00008,2026-04-06,UPI-MAKEMYTRIPFLIGHTS-291980@ybl,125.0,Expense,
+D00009,2026-04-08,IMPS/Delhi Metro cab #325899,220.0,Expense,
+D00010,2026-04-10,POS NYKAA BANGALORE,550.0,Expense,
+D00011,2026-04-10,POS UBER DELHI,250.0,Expense,
+D00012,2026-04-11,Zepto Food Delivery,175.0,Expense,Food
+D00013,2026-04-11,POS CHAAYOS CHENNAI,360.0,Expense,
+D00014,2026-04-11,UPI-INDIANOIL-281979@ybl,265.0,Expense,Transport
+D00015,2026-04-12,UPI-MEGHANAFOODS-644550@ybl,490.0,Expense,
+D00016,2026-04-13,MakeMyTrip Flights,205.0,Expense,
+D00017,2026-04-14,Air India booking #127315,345.0,Expense,
+D00018,2026-04-16,Irctc Fuel,75.0,Expense,
+D00019,2026-04-16,Bsnl Broadband Bill Payment,690.0,Expense,
+D00020,2026-04-16,MakeMyTrip Flights,215.0,Expense,
+D00021,2026-04-18,NEFT-Bank Service Charge payment #186621,575.0,Expense,
+D00022,2026-04-20,Burger King Dine In,365.0,Expense,Food
+D00023,2026-04-20,POS BEHROUZ BIRYANI HYDERABAD,145.0,Expense,
+D00024,2026-04-21,POS ASTER CLINIC MUMBAI,1845.0,Expense,
+D00025,2026-04-22,Nykaa Apparel,980.0,Expense,
+D00026,2026-04-22,UPI-Uber ticket #592871,240.0,Expense,
+D00027,2026-04-22,UPI Transfer Priya,375.0,Expense,
+D00028,2026-04-22,ECOM H&M electronics #767162,3540.0,Expense,
+D00029,2026-04-24,IMPS/McDonalds groceries #207174,350.0,Expense,Food
+D00030,2026-04-25,Delhi Metro ride #930482,235.0,Expense,
+D00031,2026-04-25,Dominos,165.0,Expense,
+D00032,2026-04-25,POS KFC HYDERABAD,320.0,Expense,
+D00033,2026-04-25,Apollo Pharmacy,2335.0,Expense,
+D00034,2026-04-26,Practo,355.0,Expense,Healthcare
+D00035,2026-04-26,POS AJIO DELHI,1945.0,Expense,
+D00036,2026-04-26,UPI-KSRTC-813720@ybl,275.0,Expense,
+D00037,2026-04-27,ECOM HP Petrol Pump fuel #877437,150.0,Expense,Transport
+D00038,2026-04-27,Cafe - BigBasket,320.0,Expense,
+D00039,2026-04-28,Pizza Hut Order,360.0,Expense,Food
+D00040,2026-04-30,Indane Gas,575.0,Expense,Bills
+D00041,2026-04-30,Zepto Order,785.0,Expense,Food
+D00042,2026-04-30,Meal - DMart,370.0,Expense,
+D00043,2026-04-30,Chaayos Food Delivery,120.0,Expense,
+D00044,2026-05-01,IMPS/IRCTC cab #508861,241.0,Expense,
+D00045,2026-05-01,UPI-LANDLORDRENT-973508@ybl,15000.0,Expense,Rent
+D00046,2026-05-01,Monthly Salary,58450.0,Income,Income
+D00047,2026-05-02,Booking - Yulu,200.0,Expense,
+D00048,2026-05-02,POS FAASOS PUNE,128.0,Expense,
+D00049,2026-05-02,NEFT-Laundry Service payment #930864,584.0,Expense,
+D00050,2026-05-03,Eye Care Centre Medicines,645.0,Expense,
+D00051,2026-05-03,Restaurant - Faasos,389.0,Expense,Food
+D00052,2026-05-03,Apparel - Pantaloons,850.0,Expense,
+D00053,2026-05-04,FASTag fuel #633904,179.0,Expense,
+D00054,2026-05-05,UPI-ZOMATO-381007@ybl,415.0,Expense,Food
+D00055,2026-05-06,SonyLIV,768.0,Expense,
+D00056,2026-05-08,UPI-UNIVERSITYFEE-271413@ybl,1854.0,Expense,
+D00057,2026-05-08,Recharge - Indane Gas,655.0,Expense,Bills
+D00058,2026-05-09,Excitel bill payment #217600,778.0,Expense,
+D00059,2026-05-09,POS LIC Premium monthly bill #791118,492.0,Expense,
+D00060,2026-05-09,Cafe Coffee Day Cafe,430.0,Expense,
+D00061,2026-05-09,POS KSRTC MUMBAI,200.0,Expense,Transport
+D00062,2026-05-09,UPI-OLA-823299@ybl,87.0,Expense,Transport
+D00063,2026-05-09,NEFT-Kirana Store restaurant #564544,389.0,Expense,
+D00064,2026-05-09,Behrouz Biryani Dine In,543.0,Expense,
+D00065,2026-05-09,Kfc Restaurant,804.0,Expense,Food
+D00066,2026-05-09,Blinkit,666.0,Expense,
+D00067,2026-05-11,A2B Restaurant,358.0,Expense,
+D00068,2026-05-11,UPI-IRCTC-927509@ybl,230.0,Expense,Transport
+D00069,2026-05-12,IMPS/Zomato meal #580447,896.0,Expense,
+D00070,2026-05-12,Faasos,282.0,Expense,Food
+D00071,2026-05-13,POS WESTSIDE PUNE,3159.0,Expense,Shopping
+D00072,2026-05-14,Fuel - Indian Oil,405.0,Expense,
+D00073,2026-05-15,UPI-BLINKIT-261433@ybl,456.0,Expense,Food
+D00074,2026-05-15,POS SHELL FUEL BANGALORE,558.0,Expense,
+D00075,2026-05-16,UPI-DMART-947816@ybl,589.0,Expense,
+D00076,2026-05-16,Order - Zepto,225.0,Expense,
+D00077,2026-05-18,FASTag,307.0,Expense,
+D00078,2026-05-19,Namma Yatri,102.0,Expense,
+D00079,2026-05-19,Dry Cleaning,748.0,Expense,
+D00080,2026-05-20,UPI-LIFESTYLE-164891@ybl,2335.0,Expense,
+D00081,2026-05-21,Nature's Basket food delivery #834000,399.0,Expense,
+D00082,2026-05-21,UPI-CAFECOFFEEDAY-129721@ybl,251.0,Expense,Food
+D00083,2026-05-22,Myntra Order,2043.0,Expense,
+D00084,2026-05-23,UPI-Yulu ticket #521802,225.0,Expense,
+D00085,2026-05-23,Cafe - Haldirams,630.0,Expense,
+D00086,2026-05-23,Zepto,159.0,Expense,Food
+D00087,2026-05-23,Zepto,56.0,Expense,
+D00088,2026-05-24,UPI-BURGERKING-528812@ybl,471.0,Expense,
+D00089,2026-05-24,Restaurant - Haldirams,369.0,Expense,Food
+D00090,2026-05-24,Meghana Foods Cafe,635.0,Expense,Food
+D00091,2026-05-26,POS ACT FIBERNET HYDERABAD,963.0,Expense,
+D00092,2026-05-26,UPI-Starbucks meal #136475,133.0,Expense,
+D00093,2026-05-27,Mcdonalds Restaurant,655.0,Expense,
+D00094,2026-05-27,Jio Recharge Utility,430.0,Expense,Bills
+D00095,2026-05-28,IMPS/Meesho online shopping #442865,2893.0,Expense,Shopping
+D00096,2026-05-29,Yulu,138.0,Expense,
+D00097,2026-05-30,Groceries - Zepto,645.0,Expense,Food
+D00098,2026-05-30,UPI-UDUPIHOTEL-928513@ybl,215.0,Expense,
+D00099,2026-05-30,IMPS/Chaayos meal #295475,200.0,Expense,Food
+D00100,2026-06-01,Salary Credit,53990.0,Income,Income
+D00101,2026-06-01,Meal - Behrouz Biryani,213.0,Expense,
+D00102,2026-06-02,NEFT-Decathlon electronics #901538,881.0,Expense,Shopping
+D00103,2026-06-02,Vi Recharge,645.0,Expense,Bills
+D00104,2026-06-04,Rent Payment - PG Rent,15000.0,Expense,
+D00105,2026-06-05,POS SUBWAY KOLKATA,366.0,Expense,
+D00106,2026-06-05,Barber Shop Transfer,427.0,Expense,Other
+D00107,2026-06-06,Burger King Cafe,306.0,Expense,Food
+D00108,2026-06-06,POS PLAYSTATION STORE MUMBAI,1132.0,Expense,Entertainment
+D00109,2026-06-06,NEFT-Barbeque Nation meal #341683,260.0,Expense,
+D00110,2026-06-06,POS CHAAYOS HYDERABAD,292.0,Expense,
+D00111,2026-06-06,Shell Fuel Ticket,204.0,Expense,
+D00112,2026-06-07,Cafe Coffee Day Order,357.0,Expense,
+D00113,2026-06-09,Meesho,849.0,Expense,
+D00114,2026-06-12,UPI-ZEPTO-561589@ybl,821.0,Expense,Food
+D00115,2026-06-12,Act Fibernet Autopay,649.0,Expense,
+D00116,2026-06-13,Utility - BWSSB Water,329.0,Expense,
+D00117,2026-06-13,Zomato,371.0,Expense,
+D00118,2026-06-13,Cafe - DMart,288.0,Expense,Food
+D00119,2026-06-14,UPI-LICPREMIUM-569547@ybl,1689.0,Expense,
+D00120,2026-06-14,Behrouz Biryani meal #440497,264.0,Expense,
+D00121,2026-06-15,UPI-DONATIONAKSHAYAPATRA-248857@ybl,705.0,Expense,
+D00122,2026-06-16,Flipkart Apparel,2732.0,Expense,
+D00123,2026-06-16,UPI-Ola booking #647287,274.0,Expense,
+D00124,2026-06-16,POS RAPIDO PUNE,209.0,Expense,
+D00125,2026-06-18,Cab - FASTag,390.0,Expense,
+D00126,2026-06-20,UPI-KIRANASTORE-794984@ybl,353.0,Expense,
+D00127,2026-06-20,YouTube Premium,1781.0,Expense,
+D00128,2026-06-22,Redbus Ticket,93.0,Expense,
+D00129,2026-06-22,POS SPOTIFY MUMBAI,399.0,Expense,
+D00130,2026-06-23,UPI-YOUTUBEPREMIUM-624453@ybl,390.0,Expense,Entertainment
+D00131,2026-06-23,UPI-IRCTC-540213@ybl,255.0,Expense,
+D00132,2026-06-24,POS TATA 1MG CHENNAI,431.0,Expense,
+D00133,2026-06-26,NEFT-SonyLIV membership #587528,362.0,Expense,
+D00134,2026-06-26,NEFT-Meghana Foods meal #699386,139.0,Expense,Food
+D00135,2026-06-30,Transfer - Gift Shop,436.0,Expense,Other
+D00136,2026-06-30,UPI-NATURE'SBASKET-863190@ybl,232.0,Expense,Food
+D00137,2026-07-01,Salary Credit,58370.0,Income,Income
+D00138,2026-07-01,POS MANIPAL HOSPITAL DELHI,1350.0,Expense,
+D00139,2026-07-02,NEFT-HP Petrol Pump fuel #357279,236.0,Expense,
+D00140,2026-07-03,POS PG RENT CHENNAI,15000.0,Expense,
+D00141,2026-07-04,Meghana Foods Cafe,825.0,Expense,Food
+D00142,2026-07-06,Hathway Broadband Utility,1972.0,Expense,
+D00143,2026-07-07,IndiGo,161.0,Expense,
+D00144,2026-07-07,POS NETFLIX CHENNAI,836.0,Expense,Entertainment
+D00145,2026-07-08,POS IRCTC KOLKATA,413.0,Expense,
+D00146,2026-07-09,UPI-KIRANASTORE-460086@ybl,241.0,Expense,Food
+D00147,2026-07-10,MakeMyTrip Flights,193.0,Expense,
+D00148,2026-07-11,Food Delivery - Faasos,488.0,Expense,Food
+D00149,2026-07-11,POS YULU PUNE,246.0,Expense,Transport
+D00150,2026-07-12,Airtel Postpaid Monthly Bill,1591.0,Expense,
+D00151,2026-07-12,POS Meghana Foods groceries #139340,386.0,Expense,
+D00152,2026-07-13,Barbeque Nation Food Delivery,386.0,Expense,Food
+D00153,2026-07-15,Food Delivery - DMart,488.0,Expense,
+D00154,2026-07-16,Excitel Recharge,1495.0,Expense,
+D00155,2026-07-17,POS BHARAT PETROLEUM CHENNAI,916.0,Expense,
+D00156,2026-07-17,Faasos food delivery #267913,890.0,Expense,
+D00157,2026-07-18,ECOM MakeMyTrip Flights trip #280270,193.0,Expense,
+D00158,2026-07-19,UPI-STARBUCKS-484735@ybl,354.0,Expense,
+D00159,2026-07-19,UPI-HPPETROLPUMP-955060@ybl,75.0,Expense,
+D00160,2026-07-21,Bigbasket Dine In,455.0,Expense,
+D00161,2026-07-21,POS INOX DELHI,348.0,Expense,
+D00162,2026-07-21,Fastag Cab,150.0,Expense,
+D00163,2026-07-21,UPI-SUBWAY-503378@ybl,354.0,Expense,Food
+D00164,2026-07-22,UPI-FASTag fuel #912526,573.0,Expense,
+D00165,2026-07-27,Subway,198.0,Expense,
+D00166,2026-07-28,NEFT-Shoppers Stop online shopping #337704,2883.0,Expense,
+D00167,2026-07-29,Meghana Foods,445.0,Expense,
+D00168,2026-07-29,UPI-SWIGGY-611731@ybl,782.0,Expense,
+D00169,2026-07-30,POS FASTAG BANGALORE,198.0,Expense,Transport
+D00170,2026-07-30,UPI-UPGRAD-835988@ybl,1393.0,Expense,Education
+D00171,2026-07-31,Travel - Delhi Metro,461.0,Expense,
+D00172,2026-07-31,Zepto meal #630907,622.0,Expense,
+D00173,2026-07-31,POS BARBEQUE NATION DELHI,246.0,Expense,
+D00174,2026-08-01,Salary Credit,55110.0,Income,Income
+D00175,2026-08-02,Groceries - DMart,608.0,Expense,
+D00176,2026-08-03,Movie Tickets - Wonderla,347.0,Expense,
+D00177,2026-08-03,DMart meal #559797,909.0,Expense,Food
+D00178,2026-08-03,Dominos,194.0,Expense,
+D00179,2026-08-04,Hp Petrol Pump Cab,128.0,Expense,
+D00180,2026-08-04,UPI-UBER-166468@ybl,128.0,Expense,Transport
+D00181,2026-08-04,Chaayos,495.0,Expense,
+D00182,2026-08-05,UPI-SPOTIFY-548669@ybl,1762.0,Expense,
+D00183,2026-08-05,POS HOSTEL RENT KOLKATA,15000.0,Expense,Rent
+D00184,2026-08-08,Behrouz Biryani,475.0,Expense,
+D00185,2026-08-08,NEFT-PlayStation Store subscription #315634,444.0,Expense,Entertainment
+D00186,2026-08-10,ECOM Lenskart purchase #808405,797.0,Expense,
+D00187,2026-08-10,Booking - FASTag,153.0,Expense,
+D00188,2026-08-11,Purchase - Nykaa,786.0,Expense,Shopping
+D00189,2026-08-12,Recharge - Jio Recharge,546.0,Expense,
+D00190,2026-08-13,Hathway Broadband Utility,541.0,Expense,
+D00191,2026-08-14,Mahanagar Gas Monthly Bill,306.0,Expense,Bills
+D00192,2026-08-15,POS PRIME VIDEO PUNE,868.0,Expense,
+D00193,2026-08-15,Flipkart Electronics,1164.0,Expense,
+D00194,2026-08-15,Starbucks,194.0,Expense,
+D00195,2026-08-15,UPI-FAASOS-948035@ybl,424.0,Expense,
+D00196,2026-08-15,Cafe Coffee Day Order,209.0,Expense,
+D00197,2026-08-15,Zepto Meal,220.0,Expense,
+D00198,2026-08-15,UPI-TATA1MG-849766@ybl,725.0,Expense,
+D00199,2026-08-16,Air India Fuel,388.0,Expense,Transport
+D00200,2026-08-17,Blinkit Restaurant,444.0,Expense,
+D00201,2026-08-18,Namma Yatri,398.0,Expense,
+D00202,2026-08-20,Burger King Restaurant,204.0,Expense,Food
+D00203,2026-08-21,POS BHARAT PETROLEUM DELHI,123.0,Expense,
+D00204,2026-08-21,Cab - RedBus,128.0,Expense,
+D00205,2026-08-22,Namma Yatri,235.0,Expense,
+D00206,2026-08-22,POS THEOBROMA DELHI,587.0,Expense,Food
+D00207,2026-08-23,IMPS/Zepto groceries #992678,546.0,Expense,
+D00208,2026-08-23,ECOM UPI Transfer Ramesh payment #910151,174.0,Expense,Other
+D00209,2026-08-24,POS AIR INDIA HYDERABAD,163.0,Expense,
+D00210,2026-08-24,IMPS/Subway groceries #675664,286.0,Expense,
+D00211,2026-08-24,Order - BigBasket,296.0,Expense,
+D00212,2026-08-25,Hp Petrol Pump Fuel,220.0,Expense,
+D00213,2026-08-29,POS Adani Electricity bill payment #178404,659.0,Expense,
+D00214,2026-08-29,Cafe - DMart,209.0,Expense,
+D00215,2026-08-29,Meal - Kirana Store,388.0,Expense,
+D00216,2026-08-31,Zepto,230.0,Expense,
+D00217,2026-09-01,NEFT Salary ACME Corp,54900.0,Income,Income
+D00218,2026-09-01,ECOM Chaayos cafe #657342,370.0,Expense,
+D00219,2026-09-02,POS UPI Transfer Friend misc #539744,649.0,Expense,Other
+D00220,2026-09-02,Apartment Maintenance,15000.0,Expense,
+D00221,2026-09-03,UPI-FASTAG-100534@ybl,279.0,Expense,
+D00222,2026-09-04,ECOM Behrouz Biryani food delivery #660484,639.0,Expense,Food
+D00223,2026-09-04,Nykaa Online Shopping,1869.0,Expense,
+D00224,2026-09-04,Burger King Restaurant,370.0,Expense,Food
+D00225,2026-09-04,POS WESTSIDE KOLKATA,524.0,Expense,
+D00226,2026-09-05,IMPS/Dominos restaurant #874134,855.0,Expense,
+D00227,2026-09-05,UPI-EXCITEL-516206@ybl,231.0,Expense,Bills
+D00228,2026-09-06,Pantaloons Purchase,2105.0,Expense,
+D00229,2026-09-07,UPI-LIFESTYLE-943642@ybl,1254.0,Expense,Shopping
+D00230,2026-09-08,Faasos food delivery #737242,1538.0,Expense,
+D00231,2026-09-09,UPI-NAMMAYATRI-839538@ybl,303.0,Expense,
+D00232,2026-09-10,Act Fibernet Autopay,1071.0,Expense,Bills
+D00233,2026-09-10,Fastag Trip,240.0,Expense,
+D00234,2026-09-11,Indian Oil Trip,1182.0,Expense,
+D00235,2026-09-11,Yulu travel #811646,524.0,Expense,
+D00236,2026-09-12,Pizza Hut meal #730730,293.0,Expense,
+D00237,2026-09-12,Meal - Faasos,629.0,Expense,
+D00238,2026-09-12,Burger King,375.0,Expense,
+D00239,2026-09-12,POS VI RECHARGE DELHI,1485.0,Expense,
+D00240,2026-09-12,Order - BigBasket,533.0,Expense,
+D00241,2026-09-14,UPI-BSNLBROADBAND-296042@ybl,1379.0,Expense,
+D00242,2026-09-14,Restaurant - Swiggy,197.0,Expense,
+D00243,2026-09-15,Dine In - Chaayos,86.0,Expense,Food
+D00244,2026-09-16,Bill Payment - Airtel Postpaid,413.0,Expense,
+D00245,2026-09-16,UPI-KIRANASTORE-676739@ybl,721.0,Expense,
+D00246,2026-09-18,UPI-ACTFIBERNET-376737@ybl,697.0,Expense,
+D00247,2026-09-18,Zomato Order - Party Catering,6800.0,Expense,Food
+D00248,2026-09-19,Uber,48.0,Expense,
+D00249,2026-09-19,Air India travel #949527,77.0,Expense,
+D00250,2026-09-19,UPI-ZOMATO-592102@ybl,226.0,Expense,Food
+D00251,2026-09-19,Meghana Foods,668.0,Expense,
+D00252,2026-09-20,Bsnl Broadband Autopay,764.0,Expense,
+D00253,2026-09-21,UPI-UBER-440543@ybl,91.0,Expense,
+D00254,2026-09-22,A2B Restaurant,634.0,Expense,
+D00255,2026-09-23,Ola booking #106951,245.0,Expense,
+D00256,2026-09-23,POS CROMA ELECTRONICS BANGALORE,38500.0,Expense,Shopping
+D00257,2026-09-24,POS PRIME VIDEO KOLKATA,596.0,Expense,
+D00258,2026-09-24,POS Adani Electricity utility #817848,456.0,Expense,
+D00259,2026-09-24,ECOM Udupi Hotel dine in #355635,365.0,Expense,
+D00260,2026-09-24,POS Zepto order #753288,356.0,Expense,
+D00261,2026-09-24,Theobroma,202.0,Expense,
+D00262,2026-09-25,Zepto,432.0,Expense,
+D00263,2026-09-26,POS THEOBROMA DELHI,341.0,Expense,
+D00264,2026-09-26,UPI-UDUPIHOTEL-513957@ybl,389.0,Expense,
+D00265,2026-09-26,DMart,610.0,Expense,
+D00266,2026-09-28,Certification - Crossword Books,2181.0,Expense,
