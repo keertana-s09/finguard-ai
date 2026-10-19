@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 finguard.db
+
+frontend/node_modules/
+frontend/dist/
+.DS_Store
