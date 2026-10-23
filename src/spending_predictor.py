@@ -71,9 +71,12 @@ class ForecastResult:
     history: pd.DataFrame = field(default_factory=pd.DataFrame)  # month, actual, predicted
 
     def to_dict(self):
+        # Months without a backtest prediction are NaN; turn them into None so the
+        # result is valid JSON (FastAPI and other strict JSON consumers reject NaN).
+        hist = self.history.assign(month=self.history["month"].astype(str))
         return {"target_month": self.target_month, "predicted": self.predicted, "method": self.method,
                 "note": self.note,
-                "history": self.history.assign(month=self.history["month"].astype(str)).to_dict("records")
+                "history": hist.astype(object).where(hist.notna(), None).to_dict("records")
                 if not self.history.empty else []}
 
 
