@@ -2,3 +2,5 @@
 fastapi>=0.110
 uvicorn[standard]>=0.29
 python-multipart>=0.0.9
+# only needed to run tests/test_api.py (FastAPI's TestClient)
+httpx2>=2.16

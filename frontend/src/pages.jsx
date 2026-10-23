@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import { Badge, Card, NeedData, Table, get, inr, send, useGet } from './ui.jsx';
+import { Badge, Card, NeedData, Table, inr, request, send, useGet } from './ui.jsx';
 
 const post = (p, body) => send('POST', p, body);
 const axis = { stroke: 'var(--mute)', fontSize: 12 };
@@ -23,10 +23,15 @@ function ForecastChart({ fc }) {
 }
 
 // ------------------------------------------------------------------ 1. Home
-export function Home({ ov }) {
-  const [alerts] = useGet('/alerts?status=ACTIVE', ov.n_active_alerts);
+export function Home({ ov, tick }) {
+  const [alerts] = useGet('/alerts?status=ACTIVE', tick);
+  // The saved run is a snapshot taken BEFORE the response engine flags transactions,
+  // so read the current review status from the database instead.
+  const [flagged] = useGet('/transactions?flagged=true', tick);
   if (!ov.run) return <><h2>Home Dashboard</h2><NeedData /></>;
   const { state: s, assessment: a, plan, forecast: fc } = ov.run;
+  const liveStatus = Object.fromEntries((flagged || []).map((t) => [t.id, t.review_status]));
+  const anomalies = s.anomalies.map((x) => ({ ...x, review_status: liveStatus[x.id] ?? x.review_status }));
   const pct = Math.min(100, Math.max(0, (plan.expected_savings / (s.savings_goal || 1)) * 100));
   return (
     <>
@@ -57,8 +62,8 @@ export function Home({ ov }) {
         <div><h3>Active alerts ({alerts?.length ?? 0})</h3>
           <div className="panel">{alerts?.length ? alerts.slice(0, 4).map((x) => <div key={x.id}><span className={'tag ' + x.severity}>{x.severity}</span>{x.title}</div>) : <span className="muted">No active alerts.</span>}</div></div>
       </div>
-      {s.anomalies.length > 0 && <><h3>Unusually high transactions</h3>
-        <Table rows={s.anomalies} cols={['date', 'description', 'category', 'amount', 'typical_amount', 'anomaly_score', 'review_status'].map((key) => ({ key }))} /></>}
+      {anomalies.length > 0 && <><h3>Unusually high transactions</h3>
+        <Table rows={anomalies} cols={['date', 'description', 'category', 'amount', 'typical_amount', 'anomaly_score', 'review_status'].map((key) => ({ key }))} /></>}
     </>
   );
 }
@@ -73,9 +78,7 @@ export function Upload({ ov, act, busy, tick }) {
 
   const doUpload = () => act(async () => {
     const fd = new FormData(); fd.append('file', file); fd.append('replace', replace);
-    const r = await fetch('/api/upload', { method: 'POST', body: fd });
-    if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || 'Upload failed');
-    const out = await r.json(); setResult(out);
+    const out = await request('/upload', { method: 'POST', body: fd }); setResult(out);
     if (!out.ok) throw new Error(out.errors.join(' '));
   }, 'CSV imported and analysed.');
 
@@ -220,7 +223,7 @@ export function Advisor({ ov, act, busy, tick }) {
           <h3>1 · Perceive: current financial state</h3>
           <div className="grid">
             <Card label="Income" value={inr(s.income)} sub={s.income_source} /><Card label={`Spent in ${s.current_month}`} value={inr(s.current_spending)} />
-            <Card label={`Predicted ${s.forecast_month}`} value={inr(s.predicted_spending)} sub={s.forecast_method} />
+            <Card label={`Predicted ${s.forecast_month}`} value={inr(s.predicted_spending)} sub={{ ml_ridge: 'ML (Ridge)', rule_average: 'rule-based fallback' }[s.forecast_method] ?? s.forecast_method} />
             <Card label="Savings goal" value={inr(s.savings_goal)} /><Card label="Unusually high txns" value={s.anomalies.length} />
           </div>
           <h3>2 · Evaluate goals</h3>

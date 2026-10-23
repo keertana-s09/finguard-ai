@@ -73,4 +73,4 @@ No, it is synthetic and reproducible. Results show the pipeline works; they do n
 Each alert has a unique key (type + month or transaction). Same key and same message → UNCHANGED. The DB enforces UNIQUE on the key.
 
 **Q23. How many tests and what do they cover?**
-46 pytest tests covering preprocessing, ML, agent, response engine, end-to-end scenarios, and a headless start-up of the Streamlit app.
+55 pytest tests covering preprocessing, ML, agent, response engine, end-to-end scenarios, a headless start-up of the Streamlit app, and the FastAPI layer used by the optional React frontend.

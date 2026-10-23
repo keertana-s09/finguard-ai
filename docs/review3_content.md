@@ -47,7 +47,7 @@ See [team_contributions.md](team_contributions.md). On a slide, show one row per
 | T11 | Alerts → Acknowledge | Status ACKNOWLEDGED; it stays acknowledged after re-run |
 | T12 | Export → Download report | Markdown report with summary, plan, alerts |
 
-Automated: `python -m pytest -v` → 46 tests (all 13 required scenarios; mapping in README §6).
+Automated: `python -m pytest -v` → 55 tests (all 13 required scenarios; mapping in README §6).
 
 ## 5. Final documentation checklist
 README · architecture · workflow · ML explanation · data dictionary · literature survey · team contributions · user manual · viva Q&A · poster · evaluation report · screenshots (`docs/screenshots/`).
