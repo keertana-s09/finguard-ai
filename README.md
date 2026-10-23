@@ -44,6 +44,8 @@ macOS / Linux: identical, except activate with `source .venv/bin/activate`.
 
 Steps 3–5 are already done in the delivered folder (CSV files, `models/*.joblib`, `reports/`), but re-running them is recommended after installing, because scikit-learn model files should be created by the same scikit-learn version that loads them. If the models are missing or cannot be loaded, the app trains them automatically on first start.
 
+**Optional React frontend.** A second UI (React + FastAPI) shows the same results. It needs Node.js 18+ and two terminals; see [frontend/README.md](frontend/README.md). The Streamlit app above remains the main demo.
+
 ## 2. Demo walkthrough (about 5 minutes)
 
 1. `streamlit run app.py` → sidebar **📤 Upload Transactions**.
@@ -128,14 +130,14 @@ finguard-ai/
 │   ├── charts.py               Plotly charts                       (Member 4)
 │   └── reports.py              Markdown / CSV export               (Member 4)
 ├── scripts/  generate_dataset.py · train_models.py · evaluate_models.py
-├── tests/    46 pytest tests (preprocessing, ML, agent, response, integration + app start-up)
+├── tests/    55 pytest tests (preprocessing, ML, agent, response, integration, app start-up, API)
 └── docs/     architecture, workflow, ML explanation, literature survey, data dictionary,
               team contributions, Review 1/2/3 content, user manual, viva Q&A, poster, screenshots/
 ```
 
 ## 6. Tests
 
-`python -m pytest -v` → **46 passed** (verified on Linux, Python 3.12). The 13 required scenarios map to tests as follows:
+`python -m pytest -v` → **55 passed** (verified on Linux, Python 3.12). Without the optional API packages from `requirements-api.txt`, `tests/test_api.py` is skipped (pytest reports 48 passed, 1 skipped). The 13 required scenarios map to tests as follows:
 
 | # | Requirement | Test(s) |
 |---|---|---|

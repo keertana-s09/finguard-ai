@@ -2,25 +2,47 @@ import { useEffect, useState } from 'react';
 
 export const inr = (n) => '₹' + Math.round(Number(n) || 0).toLocaleString('en-IN');
 
-const parse = async (r) => {
-  if (!r.ok) {
-    const b = await r.json().catch(() => ({}));
-    throw new Error(typeof b.detail === 'string' ? b.detail : r.statusText);
+/** Error with `unreachable` = true when the API server is not running. */
+export class ApiError extends Error {
+  constructor(message, { status = 0, unreachable = false } = {}) {
+    super(message);
+    this.status = status;
+    this.unreachable = unreachable;
   }
-  return r.json();
-};
-export const get = (p) => fetch('/api' + p).then(parse);
-export const send = (method, p, body) =>
-  fetch('/api' + p, { method, headers: { 'Content-Type': 'application/json' }, body: body ? JSON.stringify(body) : undefined }).then(parse);
+}
 
-/** GET a path; reloads when `dep` changes. Returns [data, error]. */
+const parse = async (r) => {
+  if (r.ok) return r.json();
+  const text = await r.text().catch(() => '');
+  // The Vite dev proxy answers 5xx with an empty body when uvicorn is not running;
+  // FastAPI's own errors always have a body.
+  if (r.status >= 500 && !text) throw new ApiError('API not reachable', { status: r.status, unreachable: true });
+  let message = text || r.statusText;
+  try {
+    const { detail } = JSON.parse(text);
+    if (typeof detail === 'string') message = detail;
+    else if (Array.isArray(detail)) message = detail.map((d) => `${d.loc?.at(-1) ?? ''}: ${d.msg}`).join('; ');
+  } catch { /* plain-text body, keep it */ }
+  throw new ApiError(message, { status: r.status });
+};
+
+/** fetch() itself rejects (TypeError) when there is no server at all, e.g. a production build. */
+const call = (p, init) =>
+  fetch('/api' + p, init).catch(() => { throw new ApiError('API not reachable', { unreachable: true }); }).then(parse);
+export const get = (p) => call(p);
+/** Raw request (e.g. multipart upload) with the same error handling. */
+export const request = call;
+export const send = (method, p, body) =>
+  call(p, { method, headers: { 'Content-Type': 'application/json' }, body: body ? JSON.stringify(body) : undefined });
+
+/** GET a path; reloads when `dep` changes. Returns [data, error] where error is an ApiError. */
 export function useGet(path, dep) {
   const [data, setData] = useState(null);
   const [err, setErr] = useState(null);
   useEffect(() => {
     let live = true;
     setErr(null);
-    get(path).then((d) => live && setData(d)).catch((e) => live && setErr(e.message));
+    get(path).then((d) => live && setData(d)).catch((e) => live && setErr(e));
     return () => { live = false; };
   }, [path, dep]);
   return [data, err];

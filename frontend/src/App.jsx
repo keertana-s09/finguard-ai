@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Badge, useGet } from './ui.jsx';
+import { Badge, send, useGet } from './ui.jsx';
 import { Home, Upload, Classification, Anomalies, Prediction, Advisor, Alerts } from './pages.jsx';
 
 const PAGES = [
@@ -41,7 +41,7 @@ export default function App() {
             <div>Active alerts: <b>{ov.n_active_alerts}</b></div>
             {run && <div style={{ marginTop: 6 }}><Badge status={run.assessment.status} /></div>}
             <button className="btn ghost" style={{ marginTop: 10 }} disabled={busy || !ov.n_transactions}
-                    onClick={() => act(() => fetch('/api/analysis/run', { method: 'POST' }), 'Analysis updated.')}>
+                    onClick={() => act(() => send('POST', '/analysis/run'), 'Analysis updated.')}>
               🔄 Re-run analysis
             </button>
           </div>
@@ -49,7 +49,9 @@ export default function App() {
       </nav>
       <main>
         {flash && <div className={'flash' + (flash.error ? ' err' : '')} role="status">{flash.text}</div>}
-        {err && <div className="flash err">Cannot reach the API ({err}). Is <code>uvicorn api:app --port 8000</code> running?</div>}
+        {err && (err.unreachable
+          ? <div className="flash err">Cannot reach the API. Is <code>uvicorn api:app --port 8000</code> running?</div>
+          : <div className="flash err">The API returned an error ({err.status}: {err.message}). Check the uvicorn terminal for details.</div>)}
         {busy && <p className="muted">Running classifier → Isolation Forest → forecast → agent → automated response…</p>}
         {ov && <Page ov={ov} act={act} busy={busy} tick={tick} />}
       </main>

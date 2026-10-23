@@ -8,7 +8,7 @@ nav h1{font-size:20px;margin:0 6px 2px}nav .sub{color:var(--mute);font-size:12px
 nav button.item{display:block;width:100%;text-align:left;border:0;background:none;color:var(--ink);font:inherit;padding:8px 10px;border-radius:8px;cursor:pointer}
 nav button.item[aria-current=page]{background:var(--brand);color:var(--bg);font-weight:600}
 nav .stats{margin:16px 6px;font-size:13px;color:var(--mute)}
-main{padding:24px;max-width:1150px;width:100%}
+main{padding:24px;max-width:1150px;width:100%;min-width:0} /* min-width:0 lets wide tables scroll inside .tbl instead of stretching the page */
 h2{margin:0 0 4px;font-size:26px}h3{margin:22px 0 10px;font-size:17px}
 .muted{color:var(--mute)}
 .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}

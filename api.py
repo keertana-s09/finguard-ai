@@ -16,7 +16,7 @@ import pandas as pd
 from fastapi import FastAPI, File, Form, HTTPException, Query, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse, Response
-from pydantic import BaseModel
+from pydantic import BaseModel, Field, field_validator
 
 from src.config import DEFAULT_DB_PATH, EXPENSE_CATEGORIES, REPORTS_DIR
 from src.pipeline import DEMO_SCENARIOS, FinGuardPipeline
@@ -160,10 +160,16 @@ class CategoryBody(BaseModel):
     category: str
 
 
+def require_transaction(pk: int):
+    if pipe.db.get_review_status(pk) is None:
+        raise HTTPException(404, f"Transaction {pk} not found")
+
+
 @app.post("/api/transactions/{pk}/category")
 def correct_category(pk: int, body: CategoryBody):
     if body.category not in EXPENSE_CATEGORIES:
         raise HTTPException(400, "Unknown category")
+    require_transaction(pk)
     pipe.db.correct_category(pk, body.category)
     return rerun()
 
@@ -174,6 +180,7 @@ class ReviewBody(BaseModel):
 
 @app.post("/api/transactions/{pk}/review")
 def review(pk: int, body: ReviewBody):
+    require_transaction(pk)
     if body.reviewed:
         pipe.db.set_review_status(pk, "REVIEWED", "Confirmed by user")
     else:
@@ -182,10 +189,19 @@ def review(pk: int, body: ReviewBody):
 
 
 class SettingsBody(BaseModel):
-    monthly_income: float = 0.0
-    savings_goal: float = 0.0
-    monthly_budget: float = 0.0
+    # Same limits as the Streamlit form: amounts cannot be negative.
+    monthly_income: float = Field(0.0, ge=0)
+    savings_goal: float = Field(0.0, ge=0)
+    monthly_budget: float = Field(0.0, ge=0)
     essential_categories: list[str]
+
+    @field_validator("essential_categories")
+    @classmethod
+    def known_categories(cls, value: list[str]) -> list[str]:
+        unknown = sorted(set(value) - set(EXPENSE_CATEGORIES))
+        if unknown:
+            raise ValueError(f"unknown categories: {', '.join(unknown)}")
+        return value
 
 
 @app.put("/api/settings")
@@ -196,11 +212,21 @@ def save_settings(body: SettingsBody):
 
 @app.post("/api/alerts/{alert_key:path}/acknowledge")
 def acknowledge(alert_key: str):
+    alert = pipe.db.get_alert(alert_key)
+    if alert is None:
+        raise HTTPException(404, f"Alert '{alert_key}' not found")
+    if alert["status"] != "ACTIVE":
+        raise HTTPException(409, f"Only ACTIVE alerts can be acknowledged (this one is {alert['status']})")
     pipe.db.update_alert(alert_key, status="ACKNOWLEDGED")
     return {"ok": True}
 
 
 @app.post("/api/proposals/{pid}/accept")
 def accept_proposal(pid: int):
+    if pid not in set(pipe.db.list_proposals()["id"]):
+        raise HTTPException(404, f"Proposal {pid} not found")
+    latest = pipe.db.latest_proposal()
+    if latest is None or latest["id"] != pid or latest["status"] != "PROPOSED":
+        raise HTTPException(409, "Only the latest PROPOSED budget proposal can be accepted")
     pipe.db.set_proposal_status(pid, "ACCEPTED")
     return {"ok": True}
