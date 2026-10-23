@@ -172,7 +172,7 @@ def generate_profile_transactions(profile: dict, start: str, months: int, rng: n
                     day = int(rng.integers(1, days + 1))
                     if category in ("Food", "Entertainment") and rng.random() < 0.3:
                         d = month_start + pd.Timedelta(days=day - 1)
-                        day = min(days, day + (5 - d.dayofweek) % 7)
+                        day = min(days, day + (5 - d.day_of_week) % 7)
                 date = month_start + pd.Timedelta(days=day - 1)
                 amount = _amount(category, scale, mult, rng, profile["rent"])
                 if category != "Rent":   # rent is a fixed contract amount

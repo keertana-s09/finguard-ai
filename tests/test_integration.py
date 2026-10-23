@@ -1,5 +1,6 @@
 """Test 13: end-to-end workflow and application startup."""
 import io
+import json
 import os
 
 
@@ -76,6 +77,12 @@ def test_upload_flow_end_to_end(pipeline):
     assert out["ok"]
     assert out["forecast"]["method"] == "rule_average"          # only 2 months -> honest fallback
     assert pipeline.db.latest_run()["run_id"] == out["run_id"]
+
+
+def test_saved_analysis_run_is_strict_json(pipeline):
+    """The stored run is served as JSON (e.g. by an API), so it must not contain NaN."""
+    pipeline.load_demo("anomaly")
+    json.dumps(pipeline.db.latest_run(), allow_nan=False)
 
 
 def test_streamlit_app_starts_and_all_pages_render(tmp_path):

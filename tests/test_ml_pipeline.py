@@ -1,4 +1,6 @@
 """Tests 4-6: category prediction, unusual transaction detection, forecasting."""
+import json
+
 import pandas as pd
 
 from src.expense_classifier import KeywordBaselineClassifier
@@ -91,6 +93,14 @@ def test_rule_based_fallback_with_short_history(models):
     assert res.method == "rule_average"
     assert res.predicted == 32000
     assert "RULE-BASED" in res.note
+
+
+def test_forecast_dict_is_strict_json(models):
+    """Months without a backtest prediction must be null, not NaN (NaN is invalid JSON)."""
+    out = models["forecaster"].forecast(_tx_for_months([30000, 32000, 31000, 33000])).to_dict()
+    assert out["history"][0]["predicted"] is None
+    assert out["history"][-1]["predicted"] is not None
+    json.dumps(out, allow_nan=False)
 
 
 def test_one_off_anomalies_are_excluded_from_forecast_inputs(models):

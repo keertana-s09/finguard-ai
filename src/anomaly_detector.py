@@ -62,7 +62,7 @@ def build_feature_matrix(df: pd.DataFrame, use_category_onehot: bool = False) ->
     X["log_amount"] = np.log1p(df["amount"].astype(float))
     ratio = df["amount"].astype(float) / df["typical_amount"].astype(float)
     X["excess_over_typical"] = np.log(ratio).clip(lower=0)
-    X["day_of_week"] = dt.dt.dayofweek
+    X["day_of_week"] = dt.dt.day_of_week
     if use_category_onehot:
         for cat in EXPENSE_CATEGORIES:
             X[f"cat_{cat}"] = (df["category"] == cat).astype(int)
