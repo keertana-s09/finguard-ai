@@ -4,6 +4,8 @@ Skipped automatically when the optional API packages are not installed
 (pip install -r requirements-api.txt).
 """
 import pytest
+from datetime import date, timedelta
+from uuid import uuid4
 
 pytest.importorskip("fastapi")
 # The test client needs an HTTP client package (httpx2 on current Starlette, httpx on older ones).
@@ -78,3 +80,24 @@ def test_confirming_anomaly_resolves_its_alert(client):
     assert client.post(f"/api/transactions/{croma['id']}/review", json={"reviewed": True}).status_code == 200
     alerts = {a["alert_key"]: a["status"] for a in client.get("/api/alerts").json()}
     assert alerts[f"UNUSUAL_TRANSACTION:{croma['txn_id']}"] == "RESOLVED"
+
+
+def test_manual_expense_and_retry_update_overview(client):
+    client.put("/api/settings", json={"monthly_income": 30000, "savings_goal": 7000,
+                                      "essential_categories": ["Rent"]})
+    entry = {"date": date.today().isoformat(), "description": "Lunch", "amount": 100,
+             "category": "Food", "entry_id": str(uuid4())}
+    result = client.post("/api/expenses", json=entry)
+    assert result.status_code == 201 and result.json()["analysis_ok"]
+    assert client.post("/api/expenses", json=entry).json()["inserted"] == 0
+    ov = client.get("/api/overview").json()
+    assert ov["n_transactions"] == 1 and ov["monthly_budget"]["remaining"] == 22900
+
+
+def test_manual_api_rejects_invalid_entries(client):
+    valid = {"date": date.today().isoformat(), "description": "Lunch", "amount": 100,
+             "entry_id": str(uuid4())}
+    for bad in [{"amount": -1}, {"description": "   "}, {"category": "Crypto"},
+                {"date": (date.today() + timedelta(days=1)).isoformat()}]:
+        assert client.post("/api/expenses", json={**valid, **bad}).status_code == 422
+    assert client.get("/api/overview").json()["n_transactions"] == 0

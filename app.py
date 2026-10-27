@@ -4,6 +4,8 @@ Run from the project root:
     streamlit run app.py
 """
 import json
+import uuid
+from datetime import date
 
 import pandas as pd
 import streamlit as st
@@ -11,6 +13,7 @@ import streamlit as st
 from src import charts
 from src.config import DATA_DIR, DEFAULT_DB_PATH, EXPENSE_CATEGORIES, REPORTS_DIR
 from src.pipeline import DEMO_SCENARIOS, FinGuardPipeline
+from src.daily_budget import format_daily_amount
 from src.reports import markdown_report, transactions_csv
 from src.utils import format_inr
 
@@ -66,7 +69,7 @@ def status_badge(status):
 
 def need_data() -> bool:
     if db.count_transactions() == 0 or not (db.latest_run() or {}).get("ok"):
-        st.info("No analysed data yet. Go to **Upload Transactions** and load a demo scenario or upload a CSV.")
+        st.info("No analysed data yet. Add an expense on Home Dashboard, or import past transactions on Upload Transactions.")
         return True
     return False
 
@@ -74,6 +77,46 @@ def need_data() -> bool:
 def load_eval_metrics():
     path = REPORTS_DIR / "metrics.json"
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+
+
+def daily_expenses():
+    st.subheader("Add a daily expense")
+    epoch = st.session_state.get("expense_form_epoch", 0)
+    token = st.session_state.setdefault("expense_entry_id", str(uuid.uuid4()))
+    with st.form(f"daily_expense_{epoch}"):
+        c = st.columns(2)
+        day = c[0].date_input("Expense date", value=date.today(), max_value=date.today())
+        amount = c[1].number_input("Expense amount (₹)", min_value=0.0, value=0.0, step=1.0, format="%.2f")
+        description = st.text_input("Expense description", max_chars=500, placeholder="e.g. Lunch at college")
+        category = st.selectbox("Expense category", ["Predict automatically"] + list(EXPENSE_CATEGORIES))
+        if st.form_submit_button("Save expense", type="primary"):
+            with st.spinner("Saving expense and updating analysis..."):
+                result = pipe.add_expense(day.isoformat(), description, amount,
+                                           None if category == "Predict automatically" else category, token)
+            if not result["ok"]:
+                for error in result["errors"]:
+                    st.error(error)
+            else:
+                st.session_state["expense_entry_id"] = str(uuid.uuid4())
+                st.session_state["expense_form_epoch"] = epoch + 1
+                st.session_state["flash"] = "Expense saved. Your remaining monthly budget is updated."
+                if not result["analysis_ok"]:
+                    st.session_state["expense_analysis_warning"] = True
+                st.rerun()
+    if st.session_state.pop("expense_analysis_warning", False):
+        st.warning("Your expense was saved, but analysis could not refresh. Use Re-run AI analysis; do not enter it again.")
+    daily = pipe.monthly_budget_summary()
+    st.subheader(f"Remaining monthly budget ({daily['month']})")
+    c = st.columns(3)
+    c[0].metric("Monthly spending limit", format_daily_amount(daily["spending_limit"]) if daily["spending_limit"] is not None else "Not set")
+    c[1].metric("Recorded expenses this month", format_daily_amount(daily["spent"]))
+    c[2].metric("Remaining budget", format_daily_amount(daily["remaining"]) if daily["remaining"] is not None else "Not set")
+    if daily["remaining"] is not None and daily["remaining"] < 0:
+        st.warning(daily["recommendation"])
+    else:
+        st.info(daily["recommendation"])
+    for suggestion in daily["suggestions"]:
+        st.write(suggestion)
 
 
 # ====================================================================== sidebar
@@ -110,6 +153,7 @@ run = db.latest_run()
 # ====================================================================== 1. HOME
 if page == PAGES[0]:
     st.title("Home Dashboard")
+    daily_expenses()
     if not need_data():
         tx = db.get_transactions()
         s, a, plan, fc = run["state"], run["assessment"], run["plan"], run["forecast"]
@@ -155,6 +199,7 @@ if page == PAGES[0]:
 # ====================================================================== 2. UPLOAD
 elif page == PAGES[1]:
     st.title("Upload Transactions")
+    daily_expenses()
     st.markdown("#### Option A - Demonstration scenarios")
     st.caption("Each scenario resets the database, imports its CSV and runs the full pipeline. "
                "Only the input file and user settings are predefined; every output is computed live.")
