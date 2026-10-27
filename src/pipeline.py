@@ -9,15 +9,18 @@ class, so the demo shows exactly what the real code does.
 from __future__ import annotations
 
 import uuid
+import math
+from datetime import date
 
 import pandas as pd
 
 from src.anomaly_detector import high_side_anomalies
 from src.automated_response import AutomatedResponseEngine
-from src.config import DATA_DIR, DEFAULT_DB_PATH, DEFAULT_ESSENTIAL_CATEGORIES
+from src.config import DATA_DIR, DEFAULT_DB_PATH, DEFAULT_ESSENTIAL_CATEGORIES, EXPENSE_CATEGORIES
 from src.database import FinanceDB
+from src.daily_budget import remaining_monthly_budget
 from src.financial_agent import AgentSettings, FinancialDecisionAgent
-from src.preprocessing import load_csv
+from src.preprocessing import load_csv, validate_transactions
 from src.training import load_models
 from src.utils import now_iso
 
@@ -64,6 +67,52 @@ class FinGuardPipeline:
         self.db.save_settings(values)
 
     # ---------------------------------------------------------------- ingestion
+    def monthly_budget_summary(self, as_of=None) -> dict:
+        return remaining_monthly_budget(self.db.get_transactions(), self.get_settings(), as_of)
+
+    def add_expense(self, expense_date, description, amount, category=None, entry_id=None) -> dict:
+        """Save one manual expense, then refresh analysis. Retry IDs prevent double saves."""
+        try:
+            day = date.fromisoformat(str(expense_date))
+            if day > date.today():
+                raise ValueError("Expense date cannot be in the future.")
+            value = float(amount)
+            if not math.isfinite(value) or value <= 0 or round(value, 2) <= 0:
+                raise ValueError("Amount must be a positive, finite value of at least ₹0.01.")
+            description = str(description or "").strip()
+            if not description or len(description) > 500:
+                raise ValueError("Enter a description between 1 and 500 characters.")
+            if category and category not in EXPENSE_CATEGORIES:
+                raise ValueError("Choose a valid expense category.")
+            token = str(uuid.UUID(str(entry_id))) if entry_id else str(uuid.uuid4())
+        except (ValueError, TypeError) as exc:
+            return {"ok": False, "errors": [str(exc)], "inserted": 0}
+        txn_id = f"MANUAL-{token}"
+        rows = pd.DataFrame([{"txn_id": txn_id, "date": day.isoformat(),
+                              "description": description, "amount": value,
+                              "type": "Expense", "category": category}])
+        validated = validate_transactions(rows)
+        if not validated.ok:
+            return {"ok": False, "errors": validated.errors + validated.warnings, "inserted": 0}
+        existing = self.db.get_transactions()
+        same_id = existing[existing["txn_id"] == txn_id]
+        if not same_id.empty:
+            previous = same_id.iloc[0]
+            if (previous["date"] != day.isoformat() or previous["description"] != description
+                    or float(previous["amount"]) != round(value, 2)):
+                return {"ok": False, "errors": ["This entry ID already belongs to a different expense."],
+                        "inserted": 0}
+        inserted, _ = self.db.insert_transactions(validated.data)
+        result = {"ok": True, "inserted": inserted, "errors": []}
+        try:
+            analysis = self.run_analysis()
+            result["analysis_ok"] = bool(analysis.get("ok"))
+        except Exception:
+            # The expense is already saved. Do not invite the user to enter it again.
+            result["analysis_ok"] = False
+        result["monthly_budget"] = self.monthly_budget_summary()
+        return result
+
     def import_csv(self, source) -> dict:
         result = load_csv(source)
         if not result.ok:
@@ -131,7 +180,15 @@ class FinGuardPipeline:
         agent = FinancialDecisionAgent(AgentSettings(
             savings_goal=float(s["savings_goal"]), monthly_income=float(s["monthly_income"]),
             monthly_budget=float(s["monthly_budget"]), essential_categories=list(s["essential_categories"])))
-        decision = agent.run(tx, forecast, scored, engine=self.engine, run_id=run_id)
+        decision = agent.run(tx, forecast, scored)
+        daily = remaining_monthly_budget(tx, s)
+        if daily["spending_limit"] is not None:
+            decision["plan"]["actions"].append({
+                "action": "CREATE_RECOMMENDATION", "key": f"MONTHLY_REMAINING:{daily['month']}",
+                "kind": "MONTHLY_REMAINING", "amount": daily["remaining"],
+                "message": daily["recommendation"] + " " + " ".join(daily["suggestions"]),
+            })
+        decision["action_results"] = self.engine.execute(decision["plan"]["actions"], run_id=run_id)
 
         result = {
             "run_id": run_id, "ok": True, "created_at": now_iso(),
@@ -140,6 +197,7 @@ class FinGuardPipeline:
             "n_low_confidence": int(tx["needs_review"].fillna(0).astype(int).sum()),
             "forecast": forecast,
             "settings": s,
+            "monthly_budget": daily,
             **decision,
         }
         self.db.save_run(run_id, result)

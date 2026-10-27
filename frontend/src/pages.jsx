@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { Badge, Card, NeedData, Table, inr, request, send, useGet } from './ui.jsx';
+import DailyExpenses from './DailyExpenses.jsx';
 
 const post = (p, body) => send('POST', p, body);
 const axis = { stroke: 'var(--mute)', fontSize: 12 };
@@ -23,12 +24,12 @@ function ForecastChart({ fc }) {
 }
 
 // ------------------------------------------------------------------ 1. Home
-export function Home({ ov, tick }) {
+export function Home({ ov, tick, act, busy }) {
   const [alerts] = useGet('/alerts?status=ACTIVE', tick);
   // The saved run is a snapshot taken BEFORE the response engine flags transactions,
   // so read the current review status from the database instead.
   const [flagged] = useGet('/transactions?flagged=true', tick);
-  if (!ov.run) return <><h2>Home Dashboard</h2><NeedData /></>;
+  if (!ov.run) return <><h2>Home Dashboard</h2><DailyExpenses ov={ov} act={act} busy={busy} /><NeedData /></>;
   const { state: s, assessment: a, plan, forecast: fc } = ov.run;
   const liveStatus = Object.fromEntries((flagged || []).map((t) => [t.id, t.review_status]));
   const anomalies = s.anomalies.map((x) => ({ ...x, review_status: liveStatus[x.id] ?? x.review_status }));
@@ -36,6 +37,7 @@ export function Home({ ov, tick }) {
   return (
     <>
       <h2>Home Dashboard</h2>
+      <DailyExpenses ov={ov} act={act} busy={busy} />
       <p className="muted">Latest month: <b>{s.current_month}</b> · Forecast month: <b>{fc.target_month}</b> · Decision: <Badge status={a.status} /></p>
       <div className="grid">
         <Card label="Monthly income" value={inr(s.income)} sub={s.income_source} />
@@ -85,6 +87,7 @@ export function Upload({ ov, act, busy, tick }) {
   return (
     <>
       <h2>Upload Transactions</h2>
+      <DailyExpenses ov={ov} act={act} busy={busy} />
       <h3>Option A: demonstration scenarios</h3>
       <p className="muted">Each scenario resets the database, imports its CSV and runs the full pipeline. Every output is computed live.</p>
       <div className="grid2">{meta && Object.entries(meta.scenarios).map(([key, sc]) => (

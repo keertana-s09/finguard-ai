@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import io
 import json
+from datetime import date
+from uuid import UUID
 from contextlib import asynccontextmanager
 
 import pandas as pd
@@ -70,6 +72,7 @@ def overview():
         c = t[(t["type"] == "Expense") & (t["month"] == cur)].groupby("category")["amount"].sum()
         cats = [{"category": k, "amount": float(v)} for k, v in c.sort_values(ascending=False).items()]
     return {"n_transactions": int(len(tx)), "n_active_alerts": int(len(db.list_alerts("ACTIVE"))),
+            "monthly_budget": pipe.monthly_budget_summary(),
             "run": run if run and run.get("ok") else None, "monthly": monthly, "categories": cats}
 
 
@@ -127,6 +130,23 @@ def transactions_download():
 
 
 # ------------------------------------------------------------------ actions
+class ExpenseBody(BaseModel):
+    date: date
+    description: str = Field(min_length=1, max_length=500)
+    amount: float = Field(gt=0, allow_inf_nan=False)
+    category: str | None = None
+    entry_id: UUID
+
+
+@app.post("/api/expenses", status_code=201)
+def add_expense(body: ExpenseBody):
+    result = pipe.add_expense(body.date.isoformat(), body.description, body.amount,
+                              body.category, str(body.entry_id))
+    if not result["ok"]:
+        raise HTTPException(422, "; ".join(result["errors"]))
+    return result
+
+
 @app.post("/api/scenarios/{key}")
 def load_scenario(key: str):
     if key not in DEMO_SCENARIOS:

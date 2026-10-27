@@ -74,4 +74,4 @@ export function Table({ rows, cols }) {
   );
 }
 
-export const NeedData = () => <div className="empty">No analysed data yet. Open <b>Upload Transactions</b> and load a demo scenario or a CSV.</div>;
+export const NeedData = () => <div className="empty">No analysed data yet. Add an expense on <b>Home Dashboard</b>, or import past transactions on <b>Upload Transactions</b>.</div>;

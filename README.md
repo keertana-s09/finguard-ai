@@ -48,6 +48,28 @@ Steps 3–5 are already done in the delivered folder (CSV files, `models/*.jobli
 
 ## 2. Demo walkthrough (about 5 minutes)
 
+### Daily expense entry
+
+On **Home Dashboard** or **Upload Transactions**, use **Add a daily expense**.
+Enter the date, description and amount, and optionally choose a category.
+Saving runs the existing analysis immediately. The **Remaining monthly budget**
+section shows the spending limit, recorded expenses and amount left for the rest
+of the current calendar month, plus updated recommendations.
+
+Set monthly income and the savings goal in **AI Financial Advisor**. The spending
+limit is income minus the savings goal, reduced by an optional spending cap.
+Without an income setting, the daily summary uses the latest three recorded
+income months. A spending cap also works on its own, but cannot establish whether
+the savings goal is affordable without income. Every expense counts toward the
+remaining budget, including unusually large purchases. Only expenses dated up
+to today in this calendar month count. Unrecorded bills are not reserved automatically.
+
+Both Streamlit and the optional React frontend support the same form. CSV import,
+models, demo scenarios and next-month budget planning remain available as before.
+The forecast remains an estimate of regular spending next month; the new daily
+summary tracks actual remaining budget this month. Saved recommendations refresh
+when analysis runs, including after every manual save.
+
 1. `streamlit run app.py` → sidebar **📤 Upload Transactions**.
 2. Click **Load scenario** on a card. Each card resets the database, imports a CSV from `data/` and runs the whole pipeline. Only the CSV file and the user settings are predefined; every output is computed live.
 
